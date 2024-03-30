@@ -1,0 +1,11 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/services": "pages/services.js",
+  "/cloud-voice": "pages/cloud-voice.js",
+  "/": "pages/index.js",
+  "/case-studies-2": "pages/case-studies-2.js",
+  "/contacts": "pages/contacts.js",
+  "/tele-calling-solutions": "pages/tele-calling-solutions.js"
+}

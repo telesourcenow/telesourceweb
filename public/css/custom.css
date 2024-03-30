@@ -1,0 +1,20 @@
+
+
+ 
+  
+
+  .cloud-voice .inner-section{
+    margin: 10px;
+    padding: 10px;
+    transition: .2s ease-in-out;
+  }
+
+  .cloud-voice .inner-section:hover{
+    background-color: #FFF;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+
+ 
