@@ -1,5 +1,8 @@
 import Layout from "@/components/layout/Layout"
 import About1 from "@/components/sections/About1"
+import HomeOurProducts from "@/components/sections/HomeOurProducts"
+import HomeServices from "@/components/sections/HomeServices"
+import HomeBusiness from "@/components/sections/HomeBusiness"
 import Brands1 from "@/components/sections/Brands1"
 import Content2 from "@/components/sections/Content2"
 import Content4 from "@/components/sections/Content4"
@@ -15,17 +18,25 @@ import Services2 from "@/components/sections/Services2"
 import Services4 from "@/components/sections/Services4"
 import Statistic3 from "@/components/sections/Statistic3"
 import Video3 from "@/components/sections/Video3"
+import PricingCommon from "@/components/sections/PricingCommon"
+import HomeAbout from "@/components/sections/HomeAbout"
+
+
 export default function Home1() {
 
     return (
         <>
             <Layout headerStyle={1} footerStyle={2} headerCls="tra-menu navbar-light" seoBtn>
                 <Hero1 />
-                <About1 cls="bg-lightgrey" style={1}/>
-                <Services2 />
+                <HomeAbout />
+                {/* <About1 cls="bg-lightgrey" style={1}/> */}
+                <HomeOurProducts />
+                {/* <Services2 /> */}
                 <Content4 cls={"bg-primary bg-map pt-100"} />
-                <Services4 />
-                <Projects1 />
+                {/* <Services4 /> */}
+                <HomeServices />
+                {/* <Projects1 /> */}
+                <HomeBusiness />
                 <Content2 cls={"bg-lightgrey wide-60"} />
                 <Statistic3 />
                 {/* <Brands1 cls={"bg-purple bg-pattern "} style={1} /> */}
@@ -35,7 +46,8 @@ export default function Home1() {
                 {/* <Pricing1 /> */}
                 <Reviews3 />
                 <Faqs1 />
-                <Cta6 cls={"bg-purple bg-pattern "} />
+                {/* <Cta6 cls={"bg-purple bg-pattern "} /> */}
+                <PricingCommon />
             </Layout>
         </>
     )

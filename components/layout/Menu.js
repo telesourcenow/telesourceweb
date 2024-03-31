@@ -115,7 +115,7 @@ export default function Menu({ seoBtn }) {
                                         <Link href="/about-us">E-Commerce </Link>
                                     </li>
                                     <li>
-                                        <Link href="/services">Insurance</Link>
+                                        <Link href="/insurance">Insurance</Link>
                                     </li>
                                     <li>
                                         <Link href="/services">Travel & Hospitality</Link>
