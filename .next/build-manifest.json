@@ -25,10 +25,30 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about-us": [
+    "/crm-solutions": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/about-us.js"
+      "static/chunks/pages/crm-solutions.js"
+    ],
+    "/erp": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/erp.js"
+    ],
+    "/gen-ai-chatbot": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/gen-ai-chatbot.js"
+    ],
+    "/sms": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/sms.js"
+    ],
+    "/whatsapp-api": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/whatsapp-api.js"
     ]
   },
   "ampFirstPages": []

@@ -39,28 +39,29 @@ export default function Menu({ seoBtn }) {
                                     <li>
                                         <Link href="/cloud-voice">Cloud Voice</Link>
                                     </li>
+                                    
                                     <li>
-                                        <Link href="/cloud-voice">Gen-AI Chatbot</Link>
+                                        <Link href="/whatsapp-api">Whatsapp API</Link>
                                     </li>
                                     <li>
-                                        <Link href="/cloud-voice">Whatsapp API</Link>
+                                        <Link href="/sms">SMS</Link>
                                     </li>
                                     <li>
-                                        <Link href="/cloud-voice">Web Mail </Link>
+                                        <Link href="/erp">ERP</Link>
                                     </li>
-
                                 </ul>
                                 {/* Links */}
                                 <ul className="col-lg-6 col-md-12 col-xs-12 link-list">
                                     <li>
-                                        <Link href="/cloud-voice">SMS</Link>
+                                        <Link href="/gen-ai-chatbot">Gen-AI Chatbot</Link>
                                     </li>
                                     <li>
-                                        <Link href="/cloud-voice">CRM solution</Link>
+                                        <Link href="/web-mail">Web Mail </Link>
                                     </li>
                                     <li>
-                                        <Link href="/cloud-voice">ERP</Link>
+                                        <Link href="/crm-solutions">CRM solutions</Link>
                                     </li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -78,22 +79,25 @@ export default function Menu({ seoBtn }) {
                                 {/* Links */}
                                 <ul className="col-lg-6 col-md-12 col-xs-12 link-list">
                                     <li>
-                                        <Link href="/tele-calling-solutions">Tele-Calling Solutions</Link></li>
+                                        <Link href="/tele-calling-solutions">Tele-Calling Solutions</Link>
+                                    </li>
                                     <li>
-                                        <Link href="/tele-calling-solutions">Managed Sales Process</Link></li>
+                                        <Link href="/ecommerce-plugin">Ecommerce-PlugIn</Link>
+                                    </li>
                                     <li>
-                                        <Link href="/tele-calling-solutions">Ecommerce-PlugIn</Link></li>
+                                        <Link href="/resource-augmentation">Resource Augmentation</Link>
+                                    </li>
                                 </ul>
                                 {/* Links */}
                                 <ul className="col-lg-6 col-md-12 col-xs-12 link-list">
                                     <li>
-                                        <Link href="/tele-calling-solutions">Retail Merchandising & Audit </Link>
+                                        <Link href="/managed-sales-process">Managed Sales Process</Link>
                                     </li>
                                     <li>
-                                        <Link href="/tele-calling-solutions">Resource Augmentation</Link>
+                                        <Link href="/retail-merchandising-audit">Retail Merchandising & Audit </Link>
                                     </li>
                                     <li>
-                                        <Link href="/tele-calling-solutions">Cloud Services</Link>
+                                        <Link href="/cloud-transformation">Cloud Transformation</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -112,43 +116,44 @@ export default function Menu({ seoBtn }) {
                                 {/* Links */}
                                 <ul className="col-lg-6 col-md-12 col-xs-12 link-list">
                                     <li>
-                                        <Link href="/about-us">E-Commerce </Link>
+                                        <Link href="/ecommerce">E-Commerce </Link>
                                     </li>
                                     <li>
-                                        <Link href="/insurance">Insurance</Link>
+                                        <Link href="/travel-hospitality">Travel & Hospitality</Link>
                                     </li>
                                     <li>
-                                        <Link href="/services">Travel & Hospitality</Link>
+                                        <Link href="/financial-services">Financial Services</Link>
                                     </li>
                                     <li>
-                                        <Link href="/services">Healthcare</Link>
+                                        <Link href="/telecommunication">Telecommunication</Link>
                                     </li>
                                     <li>
-                                        <Link href="/services">Fintech & BFSI </Link>
+                                       <Link href="/automotive">Automotive</Link>
                                     </li>
                                     <li>
-                                        <Link href="/services">Financial Services</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/resources">Media</Link>
+                                        <Link href="/government">Government</Link>
                                     </li>
                                 </ul>
                                 {/* Links */}
                                 <ul className="col-lg-6 col-md-12 col-xs-12 link-list">
-    
+                                    
                                     <li>
-                                        <Link href="/pricing">Telecommunication</Link>
+                                        <Link href="/insurance">Insurance</Link>
                                     </li>
                                     <li>
-                                        <Link href="/team">Technologies</Link></li>
+                                        <Link href="/healthcare">Healthcare</Link>
+                                    </li>
                                     <li>
-                                        <Link href="/faqs">Automotive</Link></li>
+                                        <Link href="/media">Media</Link>
+                                    </li>
                                     <li>
-                                        <Link href="/blog-listing">Renewable Power</Link></li>
+                                        <Link href="/technologies">Technologies</Link></li>
+                                    
                                     <li>
-                                        <Link href="/single-post">Government</Link></li>
+                                        <Link href="/renewable-power">Renewable Power</Link></li>
                                     <li>
-                                        <Link href="/contats">Real Estate & Infrastructure</Link></li>
+                                        <Link href="/real-estate-infrastructure">Real Estate & Infrastructure</Link>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -157,7 +162,7 @@ export default function Menu({ seoBtn }) {
 
                 {/* SIMPLE NAVIGATION LINK */}
                 <li className="nl-simple" aria-haspopup="true">
-                    <Link href="/services">Insights</Link></li>
+                    <Link href="/insights">Insights</Link></li>
                 {/* MEGAMENU */}
 
                 {/* <li aria-haspopup="true">
@@ -242,7 +247,7 @@ export default function Menu({ seoBtn }) {
                 {/* END MEGAMENU */}
                 {/* SIMPLE NAVIGATION LINK */}
                 <li className="nl-simple" aria-haspopup="true">
-                    <Link href="/case-studies-2">
+                    <Link href="/join-team">
                         Join Team
                     </Link>
                 </li>

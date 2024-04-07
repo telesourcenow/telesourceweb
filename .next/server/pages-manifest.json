@@ -2,5 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/about-us": "pages/about-us.js"
+  "/gen-ai-chatbot": "pages/gen-ai-chatbot.js",
+  "/crm-solutions": "pages/crm-solutions.js",
+  "/erp": "pages/erp.js",
+  "/sms": "pages/sms.js",
+  "/whatsapp-api": "pages/whatsapp-api.js"
 }
