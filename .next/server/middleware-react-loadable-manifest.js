@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={}
+self.__REACT_LOADABLE_MANIFEST={"../components/sections/Content4.js -> ../elements/CounterUp":{"id":"../components/sections/Content4.js -> ../elements/CounterUp","files":["static/chunks/components_elements_CounterUp_js.js"]}}

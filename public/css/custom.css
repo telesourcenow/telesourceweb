@@ -1,20 +1,78 @@
 
+/* cloud voice */
+.first-cloud-service-row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 
- 
-  
+.first-cloud-service-row .sbox-2 {
+    background-color: #6936f5;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
 
-  .cloud-voice .inner-section{
-    margin: 10px;
-    padding: 10px;
-    transition: .2s ease-in-out;
-  }
+.first-cloud-service-row .sbox-2:hover {
+  background-color: #6936f5e6;
+  color: #FFF;
+}
+/* first-end */
+.second-cloud-service-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.second-cloud-service-row .sbox-2 {
+  background-color: #6936f5;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+.second-cloud-service-row .sbox-2:hover {
+  background-color: #6936f5e6;
+  color: #FFF;
+}
+/* second end */
 
-  .cloud-voice .inner-section:hover{
-    background-color: #FFF;
-    cursor: pointer;
-    margin: 10px;
-    padding: 10px;
-  }
-  
+
+.third-cloud-service-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.third-cloud-service-row .sbox-2 {
+  background-color: #6936f5;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+.third-cloud-service-row .sbox-2:hover {
+  background-color: #6936f5e6;
+  color: #FFF;
+}
+/* third-end */
+
+.fourth-cloud-service-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.fourth-cloud-service-row .sbox-2 {
+  background-color: #6936f5;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+}
+.fourth-cloud-service-row .sbox-2:hover {
+  background-color: #6936f5e6;
+  color: #FFF;
+}
+
+/* cloud voice end */
+
+
 
  
