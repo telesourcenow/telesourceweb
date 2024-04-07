@@ -35,7 +35,7 @@ export default function HomeInsight () {
                                         volutpat egestas</span></li>
                                 </ul>
                                 {/* Button */}
-                                <Link href="#cta-6" className="btn btn-md btn-primary tra-black-hover">Read More...</Link>
+                                <Link href="/insights" className="btn btn-md btn-primary tra-black-hover">Read More...</Link>
                             </div>
                         </div> {/* END TEXT BLOCK */}
                     </div> {/* End row */}

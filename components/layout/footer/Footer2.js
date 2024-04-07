@@ -73,7 +73,7 @@ export default function Footer2() {
                                         <p>© Copyright TelesourceNow {new Date().getFullYear()}</p>
                                     </li>
                                     <li>
-                                        <p><a href="tel:8080876443">8080876443</a></p>
+                                        <p><a href="tel:+918080876443">+91-8080876443</a></p>
                                     </li>
                                     <li>
                                         <p className="last-li">
