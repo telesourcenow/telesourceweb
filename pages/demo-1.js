@@ -28,7 +28,7 @@ export default function Home1() {
         <>
             <Layout headerStyle={1} footerStyle={2} headerCls="tra-menu navbar-light" seoBtn>
                 <Hero1 />
-                <HomeAbout />
+                <HomeAbout cls="bg-lightgrey" style={1} />
                 {/* <About1 cls="bg-lightgrey" style={1}/> */}
                 <HomeOurProducts />
                 {/* <Services2 /> */}
