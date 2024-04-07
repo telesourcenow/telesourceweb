@@ -18,6 +18,35 @@
   background-color: #6936f5e6;
   color: #FFF;
 }
+
+
+/* Adjust styles for small screens (up to 576px) */
+@media (max-width: 576px) {
+  .first-cloud-service-row .sbox-2 {
+    height: 380px; /* Reset height for smaller screens */
+  }
+}
+
+/* Adjust styles for medium screens (576px - 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .first-cloud-service-row .sbox-2 {
+    height: 380px; /* Example height for medium screens */
+  }
+}
+
+/* Adjust styles for large screens (768px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .first-cloud-service-row .sbox-2 {
+    height: 300px; /* Example height for large screens */
+  }
+}
+
+/* Adjust styles for extra large screens (992px and above) */
+@media (min-width: 993px) {
+  .first-cloud-service-row .sbox-2 {
+    height: 300px; /* Example height for extra large screens */
+  }
+}
 /* first-end */
 .second-cloud-service-row {
   display: flex;
@@ -33,6 +62,35 @@
 .second-cloud-service-row .sbox-2:hover {
   background-color: #6936f5e6;
   color: #FFF;
+}
+
+
+/* Adjust styles for small screens (up to 576px) */
+@media (max-width: 576px) {
+  .second-cloud-service-row .sbox-2 {
+    height: 350px; /* Reset height for smaller screens */
+  }
+}
+
+/* Adjust styles for medium screens (576px - 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .second-cloud-service-row .sbox-2 {
+    height: 350px; /* Example height for medium screens */
+  }
+}
+
+/* Adjust styles for large screens (768px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .second-cloud-service-row .sbox-2 {
+    height: 300px; /* Example height for large screens */
+  }
+}
+
+/* Adjust styles for extra large screens (992px and above) */
+@media (min-width: 993px) {
+  .second-cloud-service-row .sbox-2 {
+    height: 300px; /* Example height for extra large screens */
+  }
 }
 /* second end */
 
@@ -53,6 +111,34 @@
   background-color: #6936f5e6;
   color: #FFF;
 }
+
+/* Adjust styles for small screens (up to 576px) */
+@media (max-width: 576px) {
+  .third-cloud-service-row .sbox-2 {
+    height: 520px; /* Reset height for smaller screens */
+  }
+}
+
+/* Adjust styles for medium screens (576px - 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .third-cloud-service-row .sbox-2 {
+    height: 520px; /* Example height for medium screens */
+  }
+}
+
+/* Adjust styles for large screens (768px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .third-cloud-service-row .sbox-2 {
+    height: 400px; /* Example height for large screens */
+  }
+}
+
+/* Adjust styles for extra large screens (992px and above) */
+@media (min-width: 993px) {
+  .third-cloud-service-row .sbox-2 {
+    height: 400px; /* Example height for extra large screens */
+  }
+}
 /* third-end */
 
 .fourth-cloud-service-row {
@@ -71,6 +157,34 @@
   color: #FFF;
 }
 
+
+/* Adjust styles for small screens (up to 576px) */
+@media (max-width: 576px) {
+  .fourth-cloud-service-row .sbox-2 {
+    height: 1350px; /* Reset height for smaller screens */
+  }
+}
+
+/* Adjust styles for medium screens (576px - 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .fourth-cloud-service-row .sbox-2 {
+    height: 1350px; /* Example height for medium screens */
+  }
+}
+
+/* Adjust styles for large screens (768px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .fourth-cloud-service-row .sbox-2 {
+    height: 950px; /* Example height for large screens */
+  }
+}
+
+/* Adjust styles for extra large screens (992px and above) */
+@media (min-width: 993px) {
+  .fourth-cloud-service-row .sbox-2 {
+    height: 950px; /* Example height for extra large screens */
+  }
+}
 /* cloud voice end */
 
 
