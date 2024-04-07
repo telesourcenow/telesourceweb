@@ -28,7 +28,7 @@ export default function Home1() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={2} headerCls="tra-menu navbar-light" seoBtn>
+            <Layout headerStyle={1} footerStyle={2} eaderCls="white-menu navbar-dark" seoBtn>
                 <Hero1 />
                 <HomeAbout cls="bg-lightgrey" style={1} />
                 {/* <About1 cls="bg-lightgrey" style={1}/> */}

@@ -22,7 +22,7 @@ export default function Sidebar() {
 
     return (
         <>
-            <ul className="wsmenu-list">
+            <ul className="wsmenu-list" style={{ height: '500px', overflowY: 'auto'}}>
                 {/* SIMPLE NAVIGATION LINK */}
                 <li className="nl-simple" aria-haspopup="true">
                     <Link href="/">Home</Link>
