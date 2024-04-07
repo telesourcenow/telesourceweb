@@ -12,7 +12,7 @@ const HomeAbout = ({cls, style}) => {
                         <div className="row d-flex align-items-center">
  
                             <div className="col-md-7 col-lg-6">
-                                <div className="txt-block pc-25 mb-40 wow fadeInRight" data-wow-delay="0.4s">
+                                <div className="txt-block pc-25 mb-40">
                                     {/* Section SubTitle */}
                                     <span className="section-subtitle bluestone-color">About Us</span>
                                     {/* Title */}
@@ -33,7 +33,7 @@ const HomeAbout = ({cls, style}) => {
 
                             {/* ABOUT IMAGE */}
                             <div className="col-md-5 col-lg-6">
-                                <div className="img-block pr-25 mb-40 wow fadeInLeft" data-wow-delay="0.6s">
+                                <div className="img-block pr-25 mb-40">
                                     <img className="img-fluid" style={{ borderRadius: '40px'}} src="/images/home-about.webp" alt="about-image" />
                                 </div>
                             </div>
