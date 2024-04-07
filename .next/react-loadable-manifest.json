@@ -1,12 +1,12 @@
 {
-  "../components/sections/About2.js -> ../elements/CounterUp": {
-    "id": "../components/sections/About2.js -> ../elements/CounterUp",
+  "../components/sections/Content4.js -> ../elements/CounterUp": {
+    "id": "../components/sections/Content4.js -> ../elements/CounterUp",
     "files": [
       "static/chunks/components_elements_CounterUp_js.js"
     ]
   },
-  "../components/sections/Statistic1.js -> ../elements/CounterUp": {
-    "id": "../components/sections/Statistic1.js -> ../elements/CounterUp",
+  "../components/sections/Statistic3.js -> ../elements/CounterUp": {
+    "id": "../components/sections/Statistic3.js -> ../elements/CounterUp",
     "files": [
       "static/chunks/components_elements_CounterUp_js.js"
     ]

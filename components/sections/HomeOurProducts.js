@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const HomeOurProducts = () => {
   return (
-    <div>
+    <>
       <section>
                 <div className="container">
                     {/* SECTION TITLE */}
@@ -122,7 +122,7 @@ const HomeOurProducts = () => {
                     </div> {/* END SERVICE BOXES */}
                 </div> {/* End container */}
             </section>
-    </div>
+    </>
   )
 }
 
