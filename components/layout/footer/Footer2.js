@@ -2,7 +2,7 @@
 export default function Footer2() {
     return (
         <>
-            <footer id="footer-2" className="pt-100 footer division">
+            <footer id="footer-2" className="pt-100 footer division mt-5">
                 <div className="container">
                     {/* FOOTER CONTENT */}
                     <div className="row">

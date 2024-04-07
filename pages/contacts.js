@@ -30,8 +30,12 @@ export default function Contacts() {
                                         </div>
                                         {/* Email */}
                                         <div className="contact-box">
-                                            <p className="grey-color"><strong>Email :</strong> sales@telesourcenow.com</p>
-                                            <p className="grey-color"><strong>Phone :</strong> +91 8080876443</p>
+                                            <p className="grey-color"><strong>Email :</strong>
+                                                <a href="mailto:sales@telesourcenow.com">sales@telesourcenow.com</a>
+                                             </p>
+                                            <p className="grey-color"><strong>Phone :</strong>
+                                                <a href="tel:+918080876443">+91 8080876443</a> 
+                                             </p>
                                         </div>
                                     </div>
                                 </div>	

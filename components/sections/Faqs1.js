@@ -21,7 +21,7 @@ export default function Faqs1() {
     }
     return (
         <>
-            <section>
+            <section className='mb-5'>
                 <div className="container">
                     {/* SECTION TITLE */}
                     <div className="row">
