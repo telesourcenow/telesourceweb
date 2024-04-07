@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from "next/link"
 
 const HomeAbout = ({cls, style}) => {
   return (
@@ -21,6 +22,11 @@ const HomeAbout = ({cls, style}) => {
                                         brands, in optimizing their operations in sustainable ways all with the aim of achieving their
                                         business objectives.
                                         </p>
+
+                                        {/* Button */}
+                                        <Link href="/about-us" className="btn btn-md btn-primary tra-black-hover">
+                                            About Us
+                                        </Link>
                                     </div>
                                 </div>
                             </div> 

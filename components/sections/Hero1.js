@@ -15,7 +15,7 @@ export default function Hero1({ cls }) {
                                 {/* Text */}
                                 <p>Empowering Enterprises.</p>
                                 {/* Button */}
-                                <Link href="/case-studies-2" className="btn btn-md btn-primary tra-white-hover">
+                                <Link href="/about-us" className="btn btn-md btn-primary tra-white-hover">
                                     About Us
                                 </Link>
                             </div>

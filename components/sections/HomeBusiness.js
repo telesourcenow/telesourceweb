@@ -21,155 +21,143 @@ const HomeBusiness = () => {
                     {/* PROJECTS IMAGES HOLDER */}
                     <div className="row">
                         {/* IMAGE #1 */}
-                        <div class="col-md-6 col-lg-4 text-center align-items-center justify-content-center">
+                        <div class="col-md-3 col-lg-3 text-center align-items-center justify-content-center">
                             <div className="project-1">
-                                <Link href="/project-details">
+                                <Link href="/ecommerce">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
                                     {/* Category */}
                                     <p>E-Commerce </p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/ecommerce" style={{ color: 'purple'}}> Read More...</Link>
                                 </Link>
                             </div>
                         </div> 
                         {/* END IMAGE #1 */}
 
                         {/* IMAGE #2 */}
-                        <div className="col-md-6 col-lg-4">
+                        <div className="col-md-3 col-lg-3">
                             <div className="project-1">
-                            <Link href="/project-details">
+                            <Link href="/insurance">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
                                     {/* Category */}
                                     <p>Insurance </p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/tinsurance" style={{ color: 'purple'}}> Read More...</Link>
                                 </Link>
                             </div>
                         </div> 
                         {/* END IMAGE #2 */}
 
                         {/* IMAGE #3 */}
-                        <div className="col-md-6 col-lg-4">
+                        <div className="col-md-3 col-lg-3">
                             <div className="project-1">
-                            <Link href="/project-details">
+                            <Link href="/travel-hospitality">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
                                     {/* Category */}
                                     <p>Travel & Hospitality </p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/travel-hospitality" style={{ color: 'purple'}}> Read More...</Link>
                                 </Link>
                             </div>
                         </div> {/* END IMAGE #3 */}
                         {/* IMAGE #4 */}
-                        <div className="col-md-6 col-lg-4">
+                        <div className="col-md-3 col-lg-3">
                             <div className="project-1">
-                            <Link href="/project-details">
+                            <Link href="/healthcare">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
                                     {/* Category */}
                                     <p>Healthcare </p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/healthcare" style={{ color: 'purple'}}> Read More...</Link>
                                 </Link>
                             </div>
                         </div> {/* END IMAGE #4 */}
-                        {/* IMAGE #5 */}
-                        <div className="col-md-6 col-lg-4">
-                            <div className="project-1">
-                            <Link href="/project-details">
-                                    {/* Brand Logo */}
-                                    <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
-                                    {/* Category */}
-                                    <p>Fintech & BFSI  </p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
-                                </Link>
-                            </div>
-                        </div> {/* END IMAGE #5 */}
                         {/* IMAGE #6 */}
-                        <div className="col-md-6 col-lg-4">
+                        <div className="col-md-3 col-lg-3">
                             <div className="project-1">
-                            <Link href="/project-details">
+                            <Link href="/financial-services">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
                                     {/* Category */}
                                     <p>Financial Services </p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/financial-services" style={{ color: 'purple'}}> Read More...</Link>
                                 </Link>
                             </div>
                         </div> 
-                        <div className="col-md-6 col-lg-4">
+                        <div className="col-md-3 col-lg-3">
                             <div className="project-1">
-                            <Link href="/project-details">
+                            <Link href="/media">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
                                     {/* Category */}
                                     <p>Media </p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/media" style={{ color: 'purple'}}> Read More...</Link>
                                 </Link>
                             </div>
                         </div> 
-                        <div className="col-md-6 col-lg-4">
+                        <div className="col-md-3 col-lg-3">
                             <div className="project-1">
-                            <Link href="/project-details">
+                            <Link href="/telecommunication">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
                                     {/* Category */}
                                     <p>Telecommunication </p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/telecommunication" style={{ color: 'purple'}}> Read More...</Link>
                                 </Link>
                             </div>
                         </div> 
-                        <div className="col-md-6 col-lg-4">
+                        <div className="col-md-3 col-lg-3">
                             <div className="project-1">
-                            <Link href="/project-details">
+                            <Link href="/technologies">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
                                     {/* Category */}
                                     <p>Technologies </p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/technologies" style={{ color: 'purple'}}> Read More...</Link>
                                 </Link>
                             </div>
                         </div> 
-                        <div className="col-md-6 col-lg-3">
+                        <div className="col-md-3 col-lg-3">
                             <div className="project-1">
-                            <Link href="/project-details">
+                            <Link href="/automotive">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
                                     {/* Category */}
                                     <p>Automotive </p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/automotive" style={{ color: 'purple'}}> Read More...</Link>
                                 </Link>
                             </div>
                         </div> 
-                        <div className="col-md-6 col-lg-3">
+                        <div className="col-md-3 col-lg-3">
                             <div className="project-1">
-                            <Link href="/project-details">
+                            <Link href="/renewable-power">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
                                     {/* Category */}
                                     <p>Renewable Power </p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/renewable-power" style={{ color: 'purple'}}> Read More...</Link>
                                 </Link>
                             </div>
                         </div>
-                        <div className="col-md-6 col-lg-3">
+                        <div className="col-md-3 col-lg-3">
                             <div className="project-1">
-                            <Link href="/project-details">
+                            <Link href="/government">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
                                     {/* Category */}
                                     <p>Government </p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/government" style={{ color: 'purple'}}> Read More...</Link>
                                 </Link>
                             </div>
                         </div>
-                        <div className="col-md-6 col-lg-3">
+                        <div className="col-md-3 col-lg-3">
                             <div className="project-1">
-                            <Link href="/project-details">
+                            <Link href="/real-estate-infrastructure">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
                                     {/* Category */}
                                     <p>Real Estate & Infrastructure </p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/real-estate-infrastructure" style={{ color: 'purple'}}> Read More...</Link>
                                 </Link>
                             </div>
                         </div>

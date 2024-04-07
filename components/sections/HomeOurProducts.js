@@ -31,13 +31,13 @@ const HomeOurProducts = () => {
                                     <h5 className="h5-md">Cloud Voice</h5>
                                     {/* Text */}
                                     <p className="p-sm grey-color">AI enabled Call Management System</p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/cloud-voice" style={{ color: 'purple'}}> Read More...</Link>
                                 </div>
                             </Link>
                         </div>
                         {/* SERVICE BOX #2 */}
                         <div className="col-sm-6 col-lg-3">
-                            <Link href="/cloud-voice">
+                            <Link href="/gen-ai-chatbot">
                                 <div className="sbox-2">
                                     {/* Icon  */}
                                     <img className="img-85" src="/images/icons/online-shop-1.png" alt="feature-icon" />
@@ -45,13 +45,13 @@ const HomeOurProducts = () => {
                                     <h5 className="h5-md">Gen-AI Chatbot</h5>
                                     {/* Text */}
                                     <p className="p-sm grey-color">Customer Messaging Tools to Improve Customer Experience</p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/gen-ai-chatbot" style={{ color: 'purple'}}> Read More...</Link>
                                 </div>
                             </Link>
                         </div>
                         {/* SERVICE BOX #3 */}
                         <div className="col-sm-6 col-lg-3">
-                            <Link href="/cloud-voice">
+                            <Link href="/whatsapp-api">
                                 <div className="sbox-2 ">
                                     {/* Icon  */}
                                     <img className="img-85" src="/images/icons/pie-chart.png" alt="feature-icon" />
@@ -59,13 +59,13 @@ const HomeOurProducts = () => {
                                     <h5 className="h5-md">Whatsapp API</h5>
                                     {/* Text */}
                                     <p className="p-sm grey-color">Connect, Converse, Engage, Sell & offer Support  -WhatsApp Business API</p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/whatsapp-api" style={{ color: 'purple'}}> Read More...</Link>
                                 </div>
                             </Link>
                         </div>
                         {/* SERVICE BOX #4 */}
                         <div className="col-sm-6 col-lg-3">
-                            <Link href="/cloud-voice">
+                            <Link href="/web-mail">
                                 <div className="sbox-2">
                                     {/* Icon  */}
                                     <img className="img-85" src="/images/icons/pay-per-click-2.png" alt="feature-icon" />
@@ -73,13 +73,13 @@ const HomeOurProducts = () => {
                                     <h5 className="h5-md">Web Mail </h5>
                                     {/* Text */}
                                     <p className="p-sm grey-color">Best Email Service for strong communication</p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/web-mail" style={{ color: 'purple'}}> Read More...</Link>
                                 </div>
                             </Link>
                         </div>
                         {/* SERVICE BOX #5 */}
                         <div className="col-sm-6 col-lg-4">
-                            <Link href="/cloud-voice">
+                            <Link href="/sms">
                                 <div className="sbox-2">
                                     {/* Icon  */}
                                     <img className="img-85" src="/images/icons/pay-per-click-2.png" alt="feature-icon" />
@@ -87,13 +87,13 @@ const HomeOurProducts = () => {
                                     <h5 className="h5-md">SMS </h5>
                                     {/* Text */}
                                     <p className="p-sm grey-color">Enterprise SMS Provider</p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/sms" style={{ color: 'purple'}}> Read More...</Link>
                                 </div>
                             </Link>
                         </div>
                         {/* SERVICE BOX #6 */}
                         <div className="col-sm-6 col-lg-4">
-                            <Link href="/cloud-voice">
+                            <Link href="/crm-solutions">
                                 <div className="sbox-2">
                                     {/* Icon  */}
                                     <img className="img-85" src="/images/icons/pay-per-click-2.png" alt="feature-icon" />
@@ -101,13 +101,13 @@ const HomeOurProducts = () => {
                                     <h5 className="h5-md">CRM solution </h5>
                                     {/* Text */}
                                     <p className="p-sm grey-color">Unified Customer Experience Platform:</p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/crm-solutions" style={{ color: 'purple'}}> Read More...</Link>
                                 </div>
                             </Link>
                         </div>
                         {/* SERVICE BOX #7 */}
                         <div className="col-sm-6 col-lg-4">
-                            <Link href="/cloud-voice">
+                            <Link href="/erp">
                                 <div className="sbox-2">
                                     {/* Icon  */}
                                     <img className="img-85" src="/images/icons/pay-per-click-2.png" alt="feature-icon" />
@@ -115,7 +115,7 @@ const HomeOurProducts = () => {
                                     <h5 className="h5-md">ERP </h5>
                                     {/* Text */}
                                     <p className="p-sm grey-color">Streamline Your Operations and Skyrocket Sales with a Custom ERP</p>
-                                    <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                    <Link href="/erp" style={{ color: 'purple'}}> Read More...</Link>
                                 </div>
                             </Link>
                         </div>

@@ -120,7 +120,7 @@ export default function CloudVoice() {
                     <Faqs1 />	{/* END FAQs-1 */}
                     {/* CALL TO ACTION-4
 				============================================= */}
-<PricingCommon />
+                    <PricingCommon />
                 </div>
 
             </Layout>

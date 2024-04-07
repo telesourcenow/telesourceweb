@@ -10,7 +10,7 @@ export default function TeleCallingSolutions() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={2} headerCls="white-menu navbar-dark">
+            <Layout headerStyle={1} footerStyle={2} headerCls="white-menu navbar-dark" breadcrumbTitle={"Tele-Calling Solutions"}>
                 <div>
                     {/* CONTENT-1
 				============================================= */}

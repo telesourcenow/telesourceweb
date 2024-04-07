@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout"
+import PricingCommon from "@/components/sections/PricingCommon"
 
 export default function AboutUs() {
 
@@ -7,7 +8,7 @@ export default function AboutUs() {
             <Layout headerStyle={1} footerStyle={2} headerCls="white-menu navbar-dark" breadcrumbTitle={"About Us"}>
                 <div>
                     <section>
-                        <div className="container">
+                        <div className="container mt-5">
                             <div className="row">
                                 <div className="col-md-12 col-lg-12">
                                     <div className="mb-40">
@@ -93,6 +94,7 @@ export default function AboutUs() {
                             </div>	
                         </div>	   
                     </section>	
+                    {/* <PricingCommon /> */}
                 </div>	
             </Layout>
         </>

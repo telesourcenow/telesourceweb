@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout"
+import PricingCommon from "@/components/sections/PricingCommon"
 export default function Contacts() {
 
     return (
@@ -83,8 +84,8 @@ export default function Contacts() {
                             </div>	  {/* End row */}
                         </div>	   {/* End container */}
                     </section>	{/* END CONTACTS-1 */}
+                    <PricingCommon />
                 </div>
-
             </Layout>
         </>
     )

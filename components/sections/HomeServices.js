@@ -45,7 +45,7 @@ const HomeServices = () => {
                             </div>
                             {/* SERVICE BOX #2 */}
                             <div className="col-md-6">
-                            <Link href="/tele-calling-solutions">
+                            <Link href="/managed-sales-process">
                             <div className="sbox-4 icon-md">
                                     {/* Icon */}
                                     <img className="img-65" src="/images/icons/email-1.png" alt="feature-icon" />
@@ -57,14 +57,14 @@ const HomeServices = () => {
                                         <p className="grey-color">
                                         Amplify Your Sales Team, with Telesourcenows Ready Made Teams.
                                         </p>
-                                        <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                        <Link href="/managed-sales-process" style={{ color: 'purple'}}> Read More...</Link>
                                     </div>
                                 </div>
                             </Link>
                             </div>
                             {/* SERVICE BOX #3 */}
                             <div className="col-md-6">
-                            <Link href="/tele-calling-solutions">
+                            <Link href="/ecommerce-plugin">
                             <div className="sbox-4 icon-md">
                                     {/* Icon */}
                                     <img className="img-65" src="/images/icons/video-player-1.png" alt="feature-icon" />
@@ -77,14 +77,14 @@ const HomeServices = () => {
                                         Our experts are skilled with developing first e-commerce store or modifying an 
                                         existing website for our clients.
                                         </p>
-                                        <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                        <Link href="/ecommerce-plugin" style={{ color: 'purple'}}> Read More...</Link>
                                     </div>
                                 </div>
                             </Link>
                             </div>
                             {/* SERVICE BOX #4 */}
                             <div className="col-md-6">
-                            <Link href="/tele-calling-solutions">
+                            <Link href="/retail-merchandising-audit">
                             <div className="sbox-4 icon-md">
                                     {/* Icon */}
                                     <img className="img-65" src="/images/icons/price-tag.png" alt="feature-icon" />
@@ -96,14 +96,14 @@ const HomeServices = () => {
                                         <p className="grey-color">
                                         Unleash the Power of Retail Merchandising & Audits with Telesourcenow
                                         </p>
-                                        <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                        <Link href="/retail-merchandising-audit" style={{ color: 'purple'}}> Read More...</Link>
                                     </div>
                                 </div>
                             </Link>
                             </div>
                             {/* SERVICE BOX #5 */}
                             <div className="col-md-6">
-                            <Link href="/tele-calling-solutions">
+                            <Link href="/resource-augmentation">
                             <div className="sbox-4 icon-md">
                                     {/* Icon */}
                                     <img className="img-65" src="/images/icons/pay-per-click-3.png" alt="feature-icon" />
@@ -115,14 +115,14 @@ const HomeServices = () => {
                                         <p className="grey-color">
                                         Boost Agility and Expertise with Resource Augmentation by Telesourcenow
                                         </p>
-                                        <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                        <Link href="/resource-augmentation" style={{ color: 'purple'}}> Read More...</Link>
                                     </div>
                                 </div>
                             </Link>
                             </div>
                             {/* SERVICE BOX #6 */}
                             <div className="col-md-6">
-                            <Link href="/tele-calling-solutions">
+                            <Link href="/cloud-transformation">
                             <div className="sbox-4 icon-md">
                                     {/* Icon */}
                                     <img className="img-65" src="/images/icons/chat.png" alt="feature-icon" />
@@ -134,7 +134,7 @@ const HomeServices = () => {
                                         <p className="grey-color">
                                         Cloud is the bedrock on which digital innovation is taking flight.    
                                         </p>
-                                        <Link href="/tele-calling-solutions" style={{ color: 'purple'}}> Read More...</Link>
+                                        <Link href="/cloud-transformation" style={{ color: 'purple'}}> Read More...</Link>
                                     </div>
                                 </div>
                             </Link>

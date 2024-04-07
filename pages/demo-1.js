@@ -28,27 +28,33 @@ export default function Home1() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={2} eaderCls="white-menu navbar-dark" seoBtn>
+            <Layout headerStyle={1} footerStyle={2} headerCls="white-menu navbar-dark" seoBtn>
                 <Hero1 />
                 <HomeAbout cls="bg-lightgrey" style={1} />
                 {/* <About1 cls="bg-lightgrey" style={1}/> */}
+                <Content4 cls={"bg-primary bg-map pt-100"} />
                 <HomeOurProducts />
                 {/* <Services2 /> */}
                 <Content4 cls={"bg-primary bg-map pt-100"} />
                 {/* <Services4 /> */}
                 <HomeServices />
                 {/* <Projects1 /> */}
+                <Content4 cls={"bg-primary bg-map pt-100"} />
                 <HomeBusiness />
+                <Content4 cls={"bg-primary bg-map pt-100"} />
                 <HomeInsight/>
                 {/* <Content2 cls={"bg-lightgrey wide-60"} /> */}
                 {/* <Statistic3 /> */}
+                <Content4 cls={"bg-primary bg-map pt-100"} />
                 <HomeCounter />
                 {/* <Brands1 cls={"bg-purple bg-pattern "} style={1} /> */}
                 {/* <Content5  style={1}/> */}
                 {/* <Content6 style={1}/> */}
                 {/* <Video3 cls={"bg-lightdark"}/> */}
                 {/* <Pricing1 /> */}
+                <Content4 cls={"bg-primary bg-map pt-100"} />
                 <Reviews3 />
+                <Content4 cls={"bg-primary bg-map pt-100"} />
                 <Faqs1 />
                 {/* <Cta6 cls={"bg-purple bg-pattern "} /> */}
                 <PricingCommon />
