@@ -7,7 +7,7 @@ const HomeBusiness = () => {
                 <div className="container">
                     {/* SECTION TITLE */}
                     <div className="row">
-                        <div className="col-lg-10 offset-lg-1 section-title wow fadeInUp" data-wow-delay="0.2s">
+                        <div className="col-lg-10 offset-lg-1 section-title">
                             {/* Section SubTitle */}
                             <span className="section-subtitle bluestone-color">We Deliver Results</span>
                             {/* Title 	*/}

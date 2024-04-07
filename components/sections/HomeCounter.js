@@ -10,7 +10,7 @@ export default function HomeCounter () {
             <div className="container">
                     {/* SECTION TITLE */}
                     <div className="row">
-                        <div className="col-lg-10 offset-lg-1 section-title wow fadeInUp" data-wow-delay="0.2s">
+                        <div className="col-lg-10 offset-lg-1 section-title">
                             {/* Section SubTitle */}
                             <span className="section-subtitle bluestone-color">Plannig For The Future</span>
                             {/* Title */}
@@ -27,7 +27,7 @@ export default function HomeCounter () {
                             <div className="row">
                                 {/* STATISTIC BLOCK #1 */}
                                 <div className="col-md-4">
-                                    <div className="statistic-block wow fadeInUp" data-wow-delay="0.4s">
+                                    <div className="statistic-block">
                                         {/* Statistic Digit */}
                                         <h5 className="statistic-number primary-color">3,<span className="count-element"><CounterUp count={485} time={1} /></span>
                                         </h5>
@@ -38,7 +38,7 @@ export default function HomeCounter () {
                                 </div>
                                 {/* STATISTIC BLOCK #2 */}
                                 <div className="col-md-4">
-                                    <div className="statistic-block wow fadeInUp" data-wow-delay="0.6s">
+                                    <div className="statistic-block">
                                         {/* Statistic Digit */}
                                         <h5 className="statistic-number primary-color">2,<span className="count-element"><CounterUp count={287} time={1} /></span>
                                         </h5>
@@ -49,7 +49,7 @@ export default function HomeCounter () {
                                 </div>
                                 {/* STATISTIC BLOCK #3 */}
                                 <div className="col-md-4">
-                                    <div className="statistic-block wow fadeInUp" data-wow-delay="0.8s">
+                                    <div className="statistic-block">
                                         {/* Statistic Digit */}
                                         <h5 className="statistic-number primary-color">4,<span className="count-element"><CounterUp count={379} time={1} /></span>
                                         </h5>
