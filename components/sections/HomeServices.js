@@ -8,7 +8,7 @@ const HomeServices = () => {
                 <div className="container">
                     {/* SECTION TITLE */}
                     <div className="row">
-                        <div className="col-lg-10 offset-lg-1 section-title wow fadeInUp" data-wow-delay="0.2s">
+                        <div className="col-lg-10 offset-lg-1 section-title">
                             {/* Section SubTitle */}
                             <span className="section-subtitle bluestone-color">Explore Our Services</span>
                             {/* Title 	*/}
@@ -25,7 +25,7 @@ const HomeServices = () => {
                             {/* SERVICE BOX #1 */}
                             <div className="col-md-6">
                             <Link href="/tele-calling-solutions">
-                            <div className="sbox-4 icon-md wow fadeInUp" data-wow-delay="0.4s">
+                            <div className="sbox-4 icon-md">
                                     {/* Icon */}
                                     <img className="img-65" src="/images/icons/analytics-2.png" alt="feature-icon" />
                                     {/* Text */}
@@ -46,7 +46,7 @@ const HomeServices = () => {
                             {/* SERVICE BOX #2 */}
                             <div className="col-md-6">
                             <Link href="/tele-calling-solutions">
-                            <div className="sbox-4 icon-md wow fadeInUp" data-wow-delay="0.6s">
+                            <div className="sbox-4 icon-md">
                                     {/* Icon */}
                                     <img className="img-65" src="/images/icons/email-1.png" alt="feature-icon" />
                                     {/* Text */}
@@ -65,7 +65,7 @@ const HomeServices = () => {
                             {/* SERVICE BOX #3 */}
                             <div className="col-md-6">
                             <Link href="/tele-calling-solutions">
-                            <div className="sbox-4 icon-md wow fadeInUp" data-wow-delay="0.8s">
+                            <div className="sbox-4 icon-md">
                                     {/* Icon */}
                                     <img className="img-65" src="/images/icons/video-player-1.png" alt="feature-icon" />
                                     {/* Text */}
@@ -85,7 +85,7 @@ const HomeServices = () => {
                             {/* SERVICE BOX #4 */}
                             <div className="col-md-6">
                             <Link href="/tele-calling-solutions">
-                            <div className="sbox-4 icon-md wow fadeInUp" data-wow-delay="1s">
+                            <div className="sbox-4 icon-md">
                                     {/* Icon */}
                                     <img className="img-65" src="/images/icons/price-tag.png" alt="feature-icon" />
                                     {/* Text */}
@@ -104,7 +104,7 @@ const HomeServices = () => {
                             {/* SERVICE BOX #5 */}
                             <div className="col-md-6">
                             <Link href="/tele-calling-solutions">
-                            <div className="sbox-4 icon-md wow fadeInUp" data-wow-delay="1.2s">
+                            <div className="sbox-4 icon-md">
                                     {/* Icon */}
                                     <img className="img-65" src="/images/icons/pay-per-click-3.png" alt="feature-icon" />
                                     {/* Text */}
@@ -123,7 +123,7 @@ const HomeServices = () => {
                             {/* SERVICE BOX #6 */}
                             <div className="col-md-6">
                             <Link href="/tele-calling-solutions">
-                            <div className="sbox-4 icon-md wow fadeInUp" data-wow-delay="1.4s">
+                            <div className="sbox-4 icon-md">
                                     {/* Icon */}
                                     <img className="img-65" src="/images/icons/chat.png" alt="feature-icon" />
                                     {/* Text */}

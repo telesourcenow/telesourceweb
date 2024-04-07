@@ -20,6 +20,8 @@ import Statistic3 from "@/components/sections/Statistic3"
 import Video3 from "@/components/sections/Video3"
 import PricingCommon from "@/components/sections/PricingCommon"
 import HomeAbout from "@/components/sections/HomeAbout"
+import HomeInsight from "@/components/sections/HomeInsight"
+import HomeCounter from "@/components/sections/HomeCounter"
 
 
 export default function Home1() {
@@ -37,8 +39,10 @@ export default function Home1() {
                 <HomeServices />
                 {/* <Projects1 /> */}
                 <HomeBusiness />
-                <Content2 cls={"bg-lightgrey wide-60"} />
-                <Statistic3 />
+                <HomeInsight/>
+                {/* <Content2 cls={"bg-lightgrey wide-60"} /> */}
+                {/* <Statistic3 /> */}
+                <HomeCounter />
                 {/* <Brands1 cls={"bg-purple bg-pattern "} style={1} /> */}
                 {/* <Content5  style={1}/> */}
                 {/* <Content6 style={1}/> */}

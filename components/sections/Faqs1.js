@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function Faqs1({ cls }) {
+export default function Faqs1() {
 
     const [isActive, setIsActive] = useState({
         status: false,
@@ -21,11 +21,11 @@ export default function Faqs1({ cls }) {
     }
     return (
         <>
-            <section id="faqs-1" className={`wide-100 faqs-section division ${cls ? cls : ""}`}>
+            <section>
                 <div className="container">
                     {/* SECTION TITLE */}
                     <div className="row">
-                        <div className="col-lg-10 offset-lg-1 section-title wow fadeInUp" data-wow-delay="0.2s">
+                        <div className="col-lg-10 offset-lg-1 section-title">
                             {/* Section SubTitle */}
                             <span className="section-subtitle bluestone-color">Have Questions? Look Here</span>
                             {/* Title */}
@@ -41,7 +41,7 @@ export default function Faqs1({ cls }) {
                         <div className="col-lg-10 offset-lg-1">
                             <div id="accordion" role="tablist">
                                 {/* QUESTION #1 */}
-                                <div className="card wow fadeInUp" data-wow-delay="0.4s">
+                                <div className="card">
                                     {/* Question */}
                                     <div className="card-header" role="tab">
                                         <h5 className="h5-sm" onClick={() => handleToggle(1)}>
@@ -68,7 +68,7 @@ export default function Faqs1({ cls }) {
                                     </div>
                                 </div> {/* END QUESTION #1 */}
                                 {/* QUESTION #2 */}
-                                <div className="card wow fadeInUp" data-wow-delay="0.6s">
+                                <div className="card">
                                     {/* Question */}
                                     <div className="card-header" role="tab">
                                         <h5 className="h5-sm" onClick={() => handleToggle(2)}>
@@ -92,7 +92,7 @@ export default function Faqs1({ cls }) {
                                     </div>
                                 </div> {/* END QUESTION #2 */}
                                 {/* QUESTION #3 */}
-                                <div className="card wow fadeInUp" data-wow-delay="0.8s">
+                                <div className="card">
                                     {/* Question */}
                                     <div className="card-header" role="tab">
                                         <h5 className="h5-sm" onClick={() => handleToggle(3)}>
@@ -127,7 +127,7 @@ export default function Faqs1({ cls }) {
                                     </div>
                                 </div> {/* END QUESTION #3 */}
                                 {/* QUESTION #4 */}
-                                <div className="card wow fadeInUp" data-wow-delay="1s">
+                                <div className="card">
                                     {/* Question */}
                                     <div className="card-header" role="tab">
                                         <h5 className="h5-sm" onClick={() => handleToggle(4)}>
@@ -151,7 +151,7 @@ export default function Faqs1({ cls }) {
                                     </div>
                                 </div> {/* END QUESTION #4 */}
                                 {/* QUESTION #5 */}
-                                <div className="card wow fadeInUp" data-wow-delay="1.2s">
+                                <div className="card">
                                     {/* Question */}
                                     <div className="card-header" role="tab">
                                         <h5 className="h5-sm" onClick={() => handleToggle(5)}>

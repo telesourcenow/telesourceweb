@@ -22,7 +22,7 @@ const HomeBusiness = () => {
                     <div className="row">
                         {/* IMAGE #1 */}
                         <div class="col-md-6 col-lg-4 text-center align-items-center justify-content-center">
-                            <div className="project-1 wow fadeInUp" data-wow-delay="0.4s">
+                            <div className="project-1">
                                 <Link href="/project-details">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
@@ -36,7 +36,7 @@ const HomeBusiness = () => {
 
                         {/* IMAGE #2 */}
                         <div className="col-md-6 col-lg-4">
-                            <div className="project-1 wow fadeInUp" data-wow-delay="0.6s">
+                            <div className="project-1">
                             <Link href="/project-details">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
@@ -50,7 +50,7 @@ const HomeBusiness = () => {
 
                         {/* IMAGE #3 */}
                         <div className="col-md-6 col-lg-4">
-                            <div className="project-1 wow fadeInUp" data-wow-delay="0.8s">
+                            <div className="project-1">
                             <Link href="/project-details">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
@@ -62,7 +62,7 @@ const HomeBusiness = () => {
                         </div> {/* END IMAGE #3 */}
                         {/* IMAGE #4 */}
                         <div className="col-md-6 col-lg-4">
-                            <div className="project-1 wow fadeInUp" data-wow-delay="1s">
+                            <div className="project-1">
                             <Link href="/project-details">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
@@ -74,7 +74,7 @@ const HomeBusiness = () => {
                         </div> {/* END IMAGE #4 */}
                         {/* IMAGE #5 */}
                         <div className="col-md-6 col-lg-4">
-                            <div className="project-1 wow fadeInUp" data-wow-delay="1.2s">
+                            <div className="project-1">
                             <Link href="/project-details">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
@@ -86,7 +86,7 @@ const HomeBusiness = () => {
                         </div> {/* END IMAGE #5 */}
                         {/* IMAGE #6 */}
                         <div className="col-md-6 col-lg-4">
-                            <div className="project-1 wow fadeInUp" data-wow-delay="1.4s">
+                            <div className="project-1">
                             <Link href="/project-details">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
@@ -97,7 +97,7 @@ const HomeBusiness = () => {
                             </div>
                         </div> 
                         <div className="col-md-6 col-lg-4">
-                            <div className="project-1 wow fadeInUp" data-wow-delay="1.4s">
+                            <div className="project-1">
                             <Link href="/project-details">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
@@ -108,7 +108,7 @@ const HomeBusiness = () => {
                             </div>
                         </div> 
                         <div className="col-md-6 col-lg-4">
-                            <div className="project-1 wow fadeInUp" data-wow-delay="1.4s">
+                            <div className="project-1">
                             <Link href="/project-details">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
@@ -119,7 +119,7 @@ const HomeBusiness = () => {
                             </div>
                         </div> 
                         <div className="col-md-6 col-lg-4">
-                            <div className="project-1 wow fadeInUp" data-wow-delay="1.4s">
+                            <div className="project-1">
                             <Link href="/project-details">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
@@ -130,7 +130,7 @@ const HomeBusiness = () => {
                             </div>
                         </div> 
                         <div className="col-md-6 col-lg-3">
-                            <div className="project-1 wow fadeInUp" data-wow-delay="1.4s">
+                            <div className="project-1">
                             <Link href="/project-details">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
@@ -141,7 +141,7 @@ const HomeBusiness = () => {
                             </div>
                         </div> 
                         <div className="col-md-6 col-lg-3">
-                            <div className="project-1 wow fadeInUp" data-wow-delay="1.4s">
+                            <div className="project-1">
                             <Link href="/project-details">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
@@ -152,7 +152,7 @@ const HomeBusiness = () => {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3">
-                            <div className="project-1 wow fadeInUp" data-wow-delay="1.4s">
+                            <div className="project-1">
                             <Link href="/project-details">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />
@@ -163,7 +163,7 @@ const HomeBusiness = () => {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3">
-                            <div className="project-1 wow fadeInUp" data-wow-delay="1.4s">
+                            <div className="project-1">
                             <Link href="/project-details">
                                     {/* Brand Logo */}
                                     <img className="img-fluid" src="/images/ecommerce.webp" alt="project-logo" />

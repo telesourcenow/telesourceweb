@@ -8,7 +8,7 @@ const HomeOurProducts = () => {
                 <div className="container">
                     {/* SECTION TITLE */}
                     <div className="row">
-                        <div className="col-lg-10 offset-lg-1 section-title wow fadeInUp" data-wow-delay="0.2s">
+                        <div className="col-lg-10 offset-lg-1 section-title">
                             {/* Section SubTitle */}
                             <span className="section-subtitle bluestone-color">Knowledge Of The Market</span>
                             {/* Title 	*/}
@@ -24,7 +24,7 @@ const HomeOurProducts = () => {
                         {/* SERVICE BOX #1 */}
                         <div className="col-sm-6 col-lg-3" >
                             <Link href="/cloud-voice">
-                                <div className="sbox-2 wow fadeInUp" data-wow-delay="0.4s">
+                                <div className="sbox-2">
                                     {/* Icon  */}
                                     <img className="img-85" src="/images/icons/placeholder-1.png" alt="feature-icon" />
                                     {/* Title */}
@@ -38,7 +38,7 @@ const HomeOurProducts = () => {
                         {/* SERVICE BOX #2 */}
                         <div className="col-sm-6 col-lg-3">
                             <Link href="/cloud-voice">
-                                <div className="sbox-2 wow fadeInUp" data-wow-delay="0.6s">
+                                <div className="sbox-2">
                                     {/* Icon  */}
                                     <img className="img-85" src="/images/icons/online-shop-1.png" alt="feature-icon" />
                                     {/* Title */}
@@ -52,7 +52,7 @@ const HomeOurProducts = () => {
                         {/* SERVICE BOX #3 */}
                         <div className="col-sm-6 col-lg-3">
                             <Link href="/cloud-voice">
-                                <div className="sbox-2 wow fadeInUp" data-wow-delay="0.8s">
+                                <div className="sbox-2 ">
                                     {/* Icon  */}
                                     <img className="img-85" src="/images/icons/pie-chart.png" alt="feature-icon" />
                                     {/* Title */}
@@ -66,7 +66,7 @@ const HomeOurProducts = () => {
                         {/* SERVICE BOX #4 */}
                         <div className="col-sm-6 col-lg-3">
                             <Link href="/cloud-voice">
-                                <div className="sbox-2 wow fadeInUp" data-wow-delay="1s">
+                                <div className="sbox-2">
                                     {/* Icon  */}
                                     <img className="img-85" src="/images/icons/pay-per-click-2.png" alt="feature-icon" />
                                     {/* Title */}
@@ -80,7 +80,7 @@ const HomeOurProducts = () => {
                         {/* SERVICE BOX #5 */}
                         <div className="col-sm-6 col-lg-4">
                             <Link href="/cloud-voice">
-                                <div className="sbox-2 wow fadeInUp" data-wow-delay="1s">
+                                <div className="sbox-2">
                                     {/* Icon  */}
                                     <img className="img-85" src="/images/icons/pay-per-click-2.png" alt="feature-icon" />
                                     {/* Title */}
@@ -94,7 +94,7 @@ const HomeOurProducts = () => {
                         {/* SERVICE BOX #6 */}
                         <div className="col-sm-6 col-lg-4">
                             <Link href="/cloud-voice">
-                                <div className="sbox-2 wow fadeInUp" data-wow-delay="1s">
+                                <div className="sbox-2">
                                     {/* Icon  */}
                                     <img className="img-85" src="/images/icons/pay-per-click-2.png" alt="feature-icon" />
                                     {/* Title */}
@@ -108,7 +108,7 @@ const HomeOurProducts = () => {
                         {/* SERVICE BOX #7 */}
                         <div className="col-sm-6 col-lg-4">
                             <Link href="/cloud-voice">
-                                <div className="sbox-2 wow fadeInUp" data-wow-delay="1s">
+                                <div className="sbox-2">
                                     {/* Icon  */}
                                     <img className="img-85" src="/images/icons/pay-per-click-2.png" alt="feature-icon" />
                                     {/* Title */}

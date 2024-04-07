@@ -5,6 +5,12 @@
       "static/chunks/components_elements_CounterUp_js.js"
     ]
   },
+  "../components/sections/HomeCounter.js -> ../elements/CounterUp": {
+    "id": "../components/sections/HomeCounter.js -> ../elements/CounterUp",
+    "files": [
+      "static/chunks/components_elements_CounterUp_js.js"
+    ]
+  },
   "../components/sections/Statistic3.js -> ../elements/CounterUp": {
     "id": "../components/sections/Statistic3.js -> ../elements/CounterUp",
     "files": [
