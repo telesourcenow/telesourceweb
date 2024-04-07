@@ -12,10 +12,11 @@
     display: flex;
     flex-direction: column;
     height: 300px;
+    border-radius: 30px;
 }
 
 .first-cloud-service-row .sbox-2:hover {
-  background-color: #6936f5e6;
+  background-color: #ef3f54;
   color: #FFF;
 }
 
@@ -23,7 +24,7 @@
 /* Adjust styles for small screens (up to 576px) */
 @media (max-width: 576px) {
   .first-cloud-service-row .sbox-2 {
-    height: 380px; /* Reset height for smaller screens */
+    height: auto; /* Reset height for smaller screens */
   }
 }
 
@@ -57,10 +58,11 @@
   color: #FFF;
   display: flex;
   flex-direction: column;
-  height: 300px;
+  height: 250px;
+  border-radius: 30px;
 }
 .second-cloud-service-row .sbox-2:hover {
-  background-color: #6936f5e6;
+  background-color: #ef3f54;
   color: #FFF;
 }
 
@@ -68,7 +70,7 @@
 /* Adjust styles for small screens (up to 576px) */
 @media (max-width: 576px) {
   .second-cloud-service-row .sbox-2 {
-    height: 350px; /* Reset height for smaller screens */
+    height: auto; /* Reset height for smaller screens */
   }
 }
 
@@ -82,14 +84,14 @@
 /* Adjust styles for large screens (768px - 992px) */
 @media (min-width: 769px) and (max-width: 992px) {
   .second-cloud-service-row .sbox-2 {
-    height: 300px; /* Example height for large screens */
+    height: 250px; /* Example height for large screens */
   }
 }
 
 /* Adjust styles for extra large screens (992px and above) */
 @media (min-width: 993px) {
   .second-cloud-service-row .sbox-2 {
-    height: 300px; /* Example height for extra large screens */
+    height: 250px; /* Example height for extra large screens */
   }
 }
 /* second end */
@@ -105,17 +107,18 @@
   color: #FFF;
   display: flex;
   flex-direction: column;
-  height: 400px;
+  height: 350px;
+  border-radius: 30px;
 }
 .third-cloud-service-row .sbox-2:hover {
-  background-color: #6936f5e6;
+  background-color: #ef3f54;
   color: #FFF;
 }
 
 /* Adjust styles for small screens (up to 576px) */
 @media (max-width: 576px) {
   .third-cloud-service-row .sbox-2 {
-    height: 520px; /* Reset height for smaller screens */
+    height: auto; /* Reset height for smaller screens */
   }
 }
 
@@ -129,14 +132,14 @@
 /* Adjust styles for large screens (768px - 992px) */
 @media (min-width: 769px) and (max-width: 992px) {
   .third-cloud-service-row .sbox-2 {
-    height: 400px; /* Example height for large screens */
+    height: 350px; /* Example height for large screens */
   }
 }
 
 /* Adjust styles for extra large screens (992px and above) */
 @media (min-width: 993px) {
   .third-cloud-service-row .sbox-2 {
-    height: 400px; /* Example height for extra large screens */
+    height: 350px; /* Example height for extra large screens */
   }
 }
 /* third-end */
@@ -150,10 +153,11 @@
   color: #FFF;
   display: flex;
   flex-direction: column;
-  height: 1000px;
+  height: 900px;
+  border-radius: 30px;
 }
 .fourth-cloud-service-row .sbox-2:hover {
-  background-color: #6936f5e6;
+  background-color: #ef3f54;
   color: #FFF;
 }
 
@@ -161,7 +165,7 @@
 /* Adjust styles for small screens (up to 576px) */
 @media (max-width: 576px) {
   .fourth-cloud-service-row .sbox-2 {
-    height: 1350px; /* Reset height for smaller screens */
+    height: auto; /* Reset height for smaller screens */
   }
 }
 
@@ -175,17 +179,73 @@
 /* Adjust styles for large screens (768px - 992px) */
 @media (min-width: 769px) and (max-width: 992px) {
   .fourth-cloud-service-row .sbox-2 {
-    height: 950px; /* Example height for large screens */
+    height: 900px; /* Example height for large screens */
   }
 }
 
 /* Adjust styles for extra large screens (992px and above) */
 @media (min-width: 993px) {
   .fourth-cloud-service-row .sbox-2 {
-    height: 950px; /* Example height for extra large screens */
+    height: 900px; /* Example height for extra large screens */
   }
 }
 /* cloud voice end */
+
+
+
+/* ###########################################################  */
+/* gen-ai-chatbot-start */
+.first-gen-ai-chatbot-row {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.first-gen-ai-chatbot-row .sbox-2 {
+  background-color: #6936f5;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.first-gen-ai-chatbot-row .sbox-2:hover {
+background-color: #ef3f54;
+color: #FFF;
+}
+
+
+/* Adjust styles for small screens (up to 576px) */
+@media (max-width: 576px) {
+.first-gen-ai-chatbot-row .sbox-2 {
+    height: auto; /* Reset height for smaller screens */
+  }
+}
+
+/* Adjust styles for medium screens (576px - 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+.first-gen-ai-chatbot-row .sbox-2 {
+    height: 340px; /* Example height for medium screens */
+  }
+}
+
+/* Adjust styles for large screens (768px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+.first-gen-ai-chatbot-row .sbox-2 {
+    height: 300px; /* Example height for large screens */
+  }
+}
+
+/* Adjust styles for extra large screens (992px and above) */
+@media (min-width: 993px) {
+.first-gen-ai-chatbot-row .sbox-2 {
+    height: 300px; /* Example height for extra large screens */
+  }
+}
+/* end-first */
+
+/* gen-ai-chatbot-end */
 
 
 

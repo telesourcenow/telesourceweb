@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/cloud-voice": [
+    "/gen-ai-chatbot": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/cloud-voice.js"
+      "static/chunks/pages/gen-ai-chatbot.js"
     ]
   },
   "ampFirstPages": []
