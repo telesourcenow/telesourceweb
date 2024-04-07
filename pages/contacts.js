@@ -13,23 +13,23 @@ export default function Contacts() {
                                 <div className="col-lg-7">
                                     <div className="contacts-info pc-25">
                                         {/* LOCATION */}
-                                        <div className="contact-box wow fadeInUp" data-wow-delay="0.4s">
+                                        <div className="contact-box">
                                             <h5 className="h5-sm">Pune Address:</h5>
                                             <p className="grey-color">Office No: 102BB, Turning Point NX S.No: 206/3, 
                                             Plot No: 17, behind Phoenix Marketcity, Viman Nagar, Pune - 411014</p>
                                         </div>
-                                        <div className="contact-box wow fadeInUp" data-wow-delay="0.4s">
+                                        <div className="contact-box">
                                             <h5 className="h5-sm">Bangalore Address:</h5>
                                             <p className="grey-color">Office no. 404A Arvind Shambabhin Devrachikenhalli Sennappa 
                                             Layout Bommanahalli Bangalore - 560068</p>
                                         </div>
-                                        <div className="contact-box wow fadeInUp" data-wow-delay="0.4s">
+                                        <div className="contact-box">
                                             <h5 className="h5-sm">Gurugram Address:</h5>
                                             <p className="grey-color">Office no.201, New Office Bajghera Road, Ward No.7, Rajendra Park, 
                                             Palam Vihar, Gurugram, Haryana 122006</p>
                                         </div>
                                         {/* Email */}
-                                        <div className="contact-box wow fadeInUp" data-wow-delay="0.6s">
+                                        <div className="contact-box">
                                             <p className="grey-color"><strong>Email :</strong> sales@telesourcenow.com</p>
                                             <p className="grey-color"><strong>Phone :</strong> +91 8080876443</p>
                                         </div>

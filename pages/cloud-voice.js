@@ -15,11 +15,11 @@ export default function CloudVoice() {
             <Layout headerStyle={1} footerStyle={2} headerCls="white-menu navbar-dark" breadcrumbTitle={"Cloud Voice"}>
                 <div>
 
-                <section id="content-1" className="wide-60 content-section division">
+                <section>
                         <div className="container">
                             <div className="row d-flex align-items-center">
                               <div className="col-md-12 col-lg-12 text-center">
-                                    <div className="txt-block pc-25 mb-40 wow fadeInLeft" data-wow-delay="0.4s">
+                                    <div className="txt-block pc-25 mb-40">
                                         {/* Title */}
                                         <h4 className="h4-xl">AI enabled Call Management System</h4>
                                         {/* Text */}
@@ -33,27 +33,29 @@ export default function CloudVoice() {
                         </div>    
                 </section>
 
-                <section  className="pt-80 pb-30 services-section division">
+                <section>
                         <div className="container">
-                            <div className="row">
-                                <div className="col-sm-12 col-lg-12">
-                                        <div className="sbox-2 wow fadeInUp" data-wow-delay="1s">
-                                            <h5 className="h5-md">AI Enabled Call Management System</h5>
-                                            <p className="p-sm grey-color">
-                                                Boost your business with a custom AI enabled call management solution, from Telesourcenow. 
-                                                Simplify call records, recordings and voice prompts seamlessly by teaming up with us.
-                                            </p>
-                                        </div>
-                                </div>
+                            <div className="row d-flex align-items-center">
+                              <div className="col-md-12 col-lg-12 text-center">
+                                    <div className="txt-block pc-25 mb-40">
+                                        {/* Title */}
+                                        <h4 className="h4-xl">AI enabled Call Management System</h4>
+                                        {/* Text */}
+                                        <p className="grey-color">
+                                            Boost your business with a custom AI enabled call management solution, from Telesourcenow. 
+                                            Simplify call records, recordings and voice prompts seamlessly by teaming up with us.
+                                        </p>
+                                    </div>
+                              </div>
                             </div>	  
-                        </div>	   
-                    </section>	
+                        </div>    
+                </section>
 
                 <section  className="pt-80 pb-30 services-section division">
                         <div className="container">
                             <div className="row">
                                 <div className="col-sm-12 col-lg-4">
-                                        <div className="sbox-2 wow fadeInUp" data-wow-delay="0.4s">
+                                        <div className="sbox-2">
                                             <h5 className="h5-md">Outbound Calling</h5>
                                             <p className="p-sm grey-color">
                                                 Our platform enables you to easily connect with customers and investors via outbound calls
@@ -63,7 +65,7 @@ export default function CloudVoice() {
                                         </div>
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
-                                        <div className="sbox-2 wow fadeInUp" data-wow-delay="0.6s">
+                                        <div className="sbox-2">
                                             <h5 className="h5-md">Toll Free Number</h5>
                                             <p className="p-sm grey-color">
                                                 Contact Telesourcenow to acquire toll numbers and be listed as 1800 in directories. 
@@ -74,7 +76,7 @@ export default function CloudVoice() {
                                         </div>
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
-                                        <div className="sbox-2 wow fadeInUp" data-wow-delay="0.8s">
+                                        <div className="sbox-2">
                                             <h5 className="h5-md">Intractiv Voice Record</h5>
                                             <p className="p-sm grey-color">
                                                 Enhancing caller satisfaction can be achieved by incorporating cloud based IVR services 
@@ -83,7 +85,7 @@ export default function CloudVoice() {
                                         </div>
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
-                                        <div className="sbox-2 wow fadeInUp" data-wow-delay="1s">
+                                        <div className="sbox-2">
                                             <h5 className="h5-md">Virtual Number</h5>
                                             <p className="p-sm grey-color">
                                                 Using Virtual Number enables you to effortlessly stay connected, with your customers 
@@ -93,7 +95,7 @@ export default function CloudVoice() {
                                         </div>
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
-                                        <div className="sbox-2 wow fadeInUp" data-wow-delay="1s">
+                                        <div className="sbox-2">
                                             <h5 className="h5-md">Click To Call</h5>
                                             <p className="p-sm grey-color">
                                                 Providing clients with the option to ask for a callback can lead to a notable boost, 
@@ -102,7 +104,7 @@ export default function CloudVoice() {
                                         </div>
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
-                                        <div className="sbox-2 wow fadeInUp" data-wow-delay="1s">
+                                        <div className="sbox-2">
                                             <h5 className="h5-md">Campaigns Framing</h5>
                                             <p className="p-sm grey-color">
                                                 Unlock the advantages of campaigns using Telesourcenow, which offers customer feedback 

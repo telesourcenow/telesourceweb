@@ -11,7 +11,7 @@ export default function Insurance() {
                         <div className="container">
                             <div className="row">
                                 <div className="col-sm-12 col-lg-6">
-                                        <div className="sbox-2 wow fadeInUp" data-wow-delay="0.4s">
+                                        <div className="sbox-2">
                                             <h5 className="h5-md">Policy Sales:</h5>
                                             <p className="p-sm grey-color">
                                                 Telecalling is crucial for selling insurance policies, explaining coverage options, 
@@ -20,7 +20,7 @@ export default function Insurance() {
                                         </div>
                                 </div>
                                 <div className="col-sm-12 col-lg-6">
-                                        <div className="sbox-2 wow fadeInUp" data-wow-delay="0.6s">
+                                        <div className="sbox-2">
                                             <h5 className="h5-md">Claims Assistance</h5>
                                             <p className="p-sm grey-color">
                                                 Telecalling provides support during the claims process, helping customers understand 
@@ -29,7 +29,7 @@ export default function Insurance() {
                                         </div>
                                 </div>
                                 <div className="col-sm-12 col-lg-6">
-                                        <div className="sbox-2 wow fadeInUp" data-wow-delay="0.8s">
+                                        <div className="sbox-2">
                                             <h5 className="h5-md">Customer Retention</h5>
                                             <p className="p-sm grey-color">
                                                 Telecalling helps in retaining customers by offering 
@@ -38,7 +38,7 @@ export default function Insurance() {
                                         </div>
                                 </div>
                                 <div className="col-sm-12 col-lg-6">
-                                        <div className="sbox-2 wow fadeInUp" data-wow-delay="1s">
+                                        <div className="sbox-2">
                                             <h5 className="h5-md">Cross-selling and Up-selling</h5>
                                             <p className="p-sm grey-color">
                                                 Telecalling is used to promote additional insurance products or coverage options 
