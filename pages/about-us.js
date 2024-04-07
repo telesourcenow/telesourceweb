@@ -36,7 +36,7 @@ export default function AboutUs() {
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-12 text-center">
-                                    <p className="p-lg grey-color"> INTEGRATIONS </p>
+                                    <h3 className="p-lg color-black bold"> INTEGRATIONS </h3>
                                     <ul className="brands-list">
                                         <li className="brand-logo">
                                             <img className="img-fluid" src="/images/airtable.svg" alt="brand-logo" />
