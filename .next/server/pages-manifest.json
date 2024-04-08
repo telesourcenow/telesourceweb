@@ -2,5 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/gen-ai-chatbot": "pages/gen-ai-chatbot.js"
+  "/erp": "pages/erp.js"
 }
