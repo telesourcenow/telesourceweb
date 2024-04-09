@@ -10,57 +10,26 @@ export default function CloudVoice() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={2} headerCls="white-menu navbar-dark" breadcrumbTitle={"Cloud Voice"}>
+            <Layout headerStyle={1} footerStyle={2} headerCls="white-menu navbar-dark">
                 <div>
 
-                <section>
-                        <div className="container">
-                            <div className="row d-flex align-items-center mt-5">
-                              <div className="col-md-12 col-lg-12 text-center">
-                                    <div className="txt-block pc-25 mb-40">
-                                        {/* Title */}
-                                        <h4 className="h4-xl">AI enabled Call Management System</h4>
-                                        {/* Text */}
-                                        <p>
-                                            Revamp your communication approach, with our cutting edge AI enabled voice 
-                                            control system that raises the bar for interaction.
-                                        </p>
-                                    </div>
-                              </div>
-                            </div>	  
-                        </div>    
-                </section>
-
-                <section>
-                        <div className="container">
-                            <div className="row d-flex align-items-center mt-5">
-                              <div className="col-md-12 col-lg-12 text-center">
-                                    <div className="txt-block pc-25 mb-40">
-                                        {/* Title */}
-                                        <h4 className="h4-xl">AI enabled Call Management System</h4>
-                                        {/* Text */}
-                                        <p>
-                                            Revamp your communication approach, with our cutting edge AI enabled voice 
-                                            control system that raises the bar for interaction.
-                                        </p>
-                                    </div>
-                              </div>
-                            </div>	  
-                        </div>    
-                </section>
-
-                <section>
-                        <div className="container">
+                <section style={{ background: '#6936f5'}}>
+                        <div className="container pt-5">
                             <div className="row d-flex align-items-center">
-                              <div className="col-md-12 col-lg-12 text-center">
+                              <div className="col-md-6 col-lg-6 col-sm-12 text-center pt-5">
                                     <div className="txt-block pc-25 mb-40">
                                         {/* Title */}
-                                        <h4 className="h4-xl">AI enabled Call Management System</h4>
+                                        <h4 className="h4-xl pt-5 text-white">AI enabled Call Management System</h4>
                                         {/* Text */}
-                                        <p>
+                                        <p className="text-white">
                                             Boost your business with a custom AI enabled call management solution, from Telesourcenow. 
                                             Simplify call records, recordings and voice prompts seamlessly by teaming up with us.
                                         </p>
+                                    </div>
+                              </div>
+                              <div className="col-md-6 col-lg-6 col-sm-12 text-center pt-5">
+                                    <div className="txt-block pc-25 mb-40 pt-4">
+                                        <img className="img-fluid" style={{ borderRadius: '40px'}} src="/images/home-about.webp" alt="about-image" />
                                     </div>
                               </div>
                             </div>	  
