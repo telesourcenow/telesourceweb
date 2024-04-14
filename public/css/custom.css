@@ -11,8 +11,10 @@
     color: #FFF;
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 250px;;
     border-radius: 30px;
+    padding: 0px 20px !important;
+    text-align: left;
 }
 
 .first-cloud-service-row .sbox-2:hover {
@@ -45,7 +47,7 @@
 /* Adjust styles for extra large screens (992px and above) */
 @media (min-width: 993px) {
   .first-cloud-service-row .sbox-2 {
-    height: 300px; /* Example height for extra large screens */
+    height: 250px; /* Example height for extra large screens */
   }
 }
 /* first-end */
@@ -60,6 +62,7 @@
   flex-direction: column;
   height: 250px;
   border-radius: 30px;
+  padding: 0px 20px !important;
 }
 .second-cloud-service-row .sbox-2:hover {
   background-color: #ef3f54;
@@ -109,6 +112,7 @@
   flex-direction: column;
   height: 350px;
   border-radius: 30px;
+  padding: 0px 20px !important;
 }
 .third-cloud-service-row .sbox-2:hover {
   background-color: #ef3f54;
@@ -153,8 +157,9 @@
   color: #FFF;
   display: flex;
   flex-direction: column;
-  height: 900px;
+  height: 500px;
   border-radius: 30px;
+  padding: 0px 20px !important;
 }
 .fourth-cloud-service-row .sbox-2:hover {
   background-color: #ef3f54;
@@ -186,7 +191,7 @@
 /* Adjust styles for extra large screens (992px and above) */
 @media (min-width: 993px) {
   .fourth-cloud-service-row .sbox-2 {
-    height: 900px; /* Example height for extra large screens */
+    height: 500px; /* Example height for extra large screens */
   }
 }
 /* cloud voice end */
