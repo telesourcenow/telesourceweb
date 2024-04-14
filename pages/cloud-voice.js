@@ -121,10 +121,7 @@ export default function CloudVoice() {
                                         <div className="sbox-2">
                                             <h5 className="h5-md text-white">Deeper Insight Data</h5>
                                             <p className="p-sm">
-                                                Telesourcenow's proprietary software integrates cutting-edge Natural Language Processing 
-                                                (NLP) technology, facilitating robust and precise multi-level reporting capabilities. 
-                                                Leveraging advanced algorithms, this software empowers users to extract valuable insights 
-                                                from diverse data sources, irrespective of their format or complexity.
+                                            Telesourcenow's NLP software facilitates precise multi-level reporting by leveraging advanced algorithms to extract valuable insights from diverse data formats, empowering users with robust analysis capabilities regardless of complexity.
                                             </p>
                                         </div>
                                 </div>
@@ -132,12 +129,8 @@ export default function CloudVoice() {
                                         <div className="sbox-2">
                                             <h5 className="h5-md text-white">Authentication services</h5>
                                             <p className="p-sm">
-                                                Telesourcenow offers a comprehensive solution for secure and user-friendly authentication 
-                                                through its innovative Auto Authentication and One-Time Password (OTP) via Interactive 
-                                                Voice Response (IVR) technology. This cutting-edge system ensures that users can access 
-                                                their accounts and services with confidence while maintaining a seamless and 
-                                                hassle-free experience.
-                                            </p>
+                                                Telesourcenow provides a secure authentication solution via Auto Authentication and OTP through IVR technology, ensuring users access accounts and services confidently with a seamless, hassle-free experience.
+                                            </p>                                        
                                         </div>
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
@@ -156,42 +149,23 @@ export default function CloudVoice() {
 
                                 <div className="row first-cloud-service-row">
 
-                                    <div className="col-sm-12 col-lg-12">
+                                    <div className="col-sm-12 col-lg-4">
                                             <div className="sbox-2">
                                                 <h5 className="text-white ">Progressive & Predictive Dialer</h5>
                                                 <p className="">
-                                                    Telesourcenow's seems to be offering a good solution for outbound call centers by providing both 
-                                                    progressive and predictive dialers.Here's a breakdown of their offerings:
-                                                </p>
-                                                <h6 className="text-white mt-3 ">Progressive Dialer: </h6>
-                                                <p className="">
-                                                    This software focuses on efficiency. It automatically dials the next number on your list 
-                                                    as soon as an agent is available, eliminating wasted time between calls. This is ideal 
-                                                    for situations where calls are similar and agents benefit from having a steady stream of calls.
-                                                </p>
-                                                <h6 className="text-white mt-3 ">Predictive Dialer:</h6>
-                                                <p className="">
-                                                    This solution prioritizes maximizing agent productivity through automation. It uses 
-                                                    algorithms to predict when an agent will be available and dials multiple numbers at 
-                                                    once, connecting the agent to the first answered call. This is best for high-volume 
-                                                    outbound calling where the focus is on reaching as many contacts as possible.
+                                                    Telesourcenow offers progressive and predictive dialers for outbound call 
+                                                    centers. Progressive ensures efficiency by dialing automatically, while 
+                                                    predictive maximizes productivity by dialing multiple numbers.  
                                                 </p>
                                             </div>
                                     </div>
-                                    <div className="col-sm-12 col-lg-12">
+                                    <div className="col-sm-12 col-lg-4">
                                             <div className="sbox-2">
                                                 <h5 className="h5-md text-white">IP Phone</h5>
                                                 <p className="p-sm">
-                                                    Telesourcenow is currently offering complimentary IP phones along with a connected 
-                                                    calling gateway to enhance your communication experience. This offer provides customers 
-                                                    with the latest technology in communication tools, enabling seamless connectivity and 
-                                                    improved productivity for businesses and individuals alike. IP phones utilize internet 
-                                                    protocol to transmit voice calls, offering better audio quality and more features 
-                                                    compared to traditional analog phones. Additionally, the connected calling gateway 
-                                                    ensures smooth integration with existing phone systems and enables advanced calling 
-                                                    features such as call routing, voicemail, and conferencing. Take advantage of this 
-                                                    offer from Telesourcenow to upgrade your communication infrastructure and streamline 
-                                                    your operations.
+                                                Telesourcenow offers complimentary IP phones and a calling gateway, enhancing 
+                                                communication with advanced features like call routing and voicemail, boosting 
+                                                productivity for businesses and individuals.
                                                 </p>
                                         </div>
                                     </div>
@@ -199,35 +173,11 @@ export default function CloudVoice() {
                                             <div className="sbox-2">
                                                 <h5 className="h5-md text-white">Cloud Call Centre</h5>
                                                 <p className="p-sm">
-                                                    Telesourcenow's offers a comprehensive cloud contact center solution that caters to 
-                                                    both inbound and outbound customer interactions. This can be a great benefit for 
-                                                    businesses looking to centralize their communication channels and improve overall 
-                                                    efficiency.
-                                                    <br />
-                                                    By implementing a cloud-based contact center solution like Telesourcenow's CCC,
-                                                    businesses can potentially experience several benefits, including:
-                                                </p>
-                                                <h6 className="text-white mt-3">Increased Efficiency:</h6>
-                                            <p className="p-sm">
-                                                    Streamlined workflows and centralized communication can lead to faster call 
-                                                    resolution times and improved agent productivity.
-                                                </p>
-                                                <h6 className="text-white mt-3">Enhanced Customer Service: </h6>
-                                            <p className="p-sm">
-                                                    Features like call routing and real-time reporting can help deliver a more positive 
-                                                    customer experience.
-                                                </p>
-                                                <h6 className="text-white mt-3">Improved Scalability:</h6>
-                                            <p className="p-sm">
-                                                    Cloud-based solutions are easily scalable, allowing you to adapt your contact center 
-                                                    operations to meet changing business needs.
+                                                    Telesourcenow's cloud contact center solution enhances efficiency, customer 
+                                                    service, scalability, and cost-effectiveness for businesses by centralizing 
+                                                    communication channels and streamlining workflows.
                                                 </p>
                                                 
-                                                <h6 className="text-white mt-3">Reduced Costs:</h6>
-                                            <p className="p-sm">
-                                                    Cloud solutions often eliminate the need for expensive hardware and software 
-                                                    infrastructure, potentially leading to cost savings.
-                                                </p>
                                             </div>
                                     </div>
                                 </div>
