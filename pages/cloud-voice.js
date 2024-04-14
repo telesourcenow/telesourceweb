@@ -1,6 +1,6 @@
 import Layout from "@/components/layout/Layout"
-import Faqs1 from "@/components/sections/Faqs1"
 import PricingCommon from "@/components/sections/PricingCommon"
+import CloudVoiceFaqs from "@/components/sections/cloud-voice-faqs"
 
 export default function CloudVoice() {
 
@@ -187,7 +187,7 @@ export default function CloudVoice() {
                             </div>	  
                     </section>
 
-                    <Faqs1 />	{/* END FAQs-1 */}
+                    <CloudVoiceFaqs />	{/* END FAQs-1 */}
                     {/* CALL TO ACTION-4
 				============================================= */}
                     <PricingCommon />
