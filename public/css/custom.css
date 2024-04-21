@@ -17,6 +17,15 @@
     text-align: left;
 }
 
+.first-cloud-service-row .sbox-2 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.first-cloud-service-row .sbox-2 ul li {
+  text-align: left;
+}
+
 .first-cloud-service-row .sbox-2:hover {
   background-color: #ef3f54;
   color: #FFF;
@@ -51,50 +60,50 @@
   }
 }
 /* first-end */
-.second-cloud-service-row {
+
+.whatsapp-business {
   display: flex;
   flex-wrap: wrap;
 }
-.second-cloud-service-row .sbox-2 {
-  background-color: #6936f5;
-  color: #FFF;
+.whatsapp-business .sbox-2 {
+  background-color: #FFF;
+  color: #000;
   display: flex;
   flex-direction: column;
-  height: 250px;
-  border-radius: 30px;
+  height: 190px;
   padding: 0px 20px !important;
 }
-.second-cloud-service-row .sbox-2:hover {
-  background-color: #ef3f54;
-  color: #FFF;
+.whatsapp-business .sbox-2:hover {
+  background-color: #FFF;
+  color: #000;
 }
 
 
 /* Adjust styles for small screens (up to 576px) */
 @media (max-width: 576px) {
-  .second-cloud-service-row .sbox-2 {
+  .whatsapp-business .sbox-2 {
     height: auto; /* Reset height for smaller screens */
   }
 }
 
 /* Adjust styles for medium screens (576px - 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
-  .second-cloud-service-row .sbox-2 {
-    height: 350px; /* Example height for medium screens */
+  .whatsapp-business .sbox-2 {
+    height: 250px; /* Example height for medium screens */
   }
 }
 
 /* Adjust styles for large screens (768px - 992px) */
 @media (min-width: 769px) and (max-width: 992px) {
-  .second-cloud-service-row .sbox-2 {
-    height: 250px; /* Example height for large screens */
+  .whatsapp-business .sbox-2 {
+    height: 190px; /* Example height for large screens */
   }
 }
 
 /* Adjust styles for extra large screens (992px and above) */
 @media (min-width: 993px) {
-  .second-cloud-service-row .sbox-2 {
-    height: 250px; /* Example height for extra large screens */
+  .whatsapp-business .sbox-2 {
+    height: 190px; /* Example height for extra large screens */
   }
 }
 /* second end */
@@ -200,51 +209,50 @@
 
 /* ###########################################################  */
 /* gen-ai-chatbot-start */
-.first-gen-ai-chatbot-row {
+.gen-ai-chatbot-row-detail {
   display: flex;
   flex-wrap: wrap;
   
 }
 
-.first-gen-ai-chatbot-row .sbox-2 {
-  background-color: #6936f5;
-  color: #FFF;
+.gen-ai-chatbot-row-detail .sbox-2 {
+  background-color: #FFF;
+  color: #000;
   display: flex;
   flex-direction: column;
   height: 300px;
-  border-radius: 30px;
 }
 
-.first-gen-ai-chatbot-row .sbox-2:hover {
-background-color: #ef3f54;
-color: #FFF;
+.gen-ai-chatbot-row-detail .sbox-2:hover {
+  background-color: #ef3f54;
+  color: #FFF !important;
 }
 
 
 /* Adjust styles for small screens (up to 576px) */
 @media (max-width: 576px) {
-.first-gen-ai-chatbot-row .sbox-2 {
+.gen-ai-chatbot-row-detail .sbox-2 {
     height: auto; /* Reset height for smaller screens */
   }
 }
 
 /* Adjust styles for medium screens (576px - 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
-.first-gen-ai-chatbot-row .sbox-2 {
+.gen-ai-chatbot-row-detail .sbox-2 {
     height: 340px; /* Example height for medium screens */
   }
 }
 
 /* Adjust styles for large screens (768px - 992px) */
 @media (min-width: 769px) and (max-width: 992px) {
-.first-gen-ai-chatbot-row .sbox-2 {
+.gen-ai-chatbot-row-detail .sbox-2 {
     height: 300px; /* Example height for large screens */
   }
 }
 
 /* Adjust styles for extra large screens (992px and above) */
 @media (min-width: 993px) {
-.first-gen-ai-chatbot-row .sbox-2 {
+.gen-ai-chatbot-row-detail .sbox-2 {
     height: 300px; /* Example height for extra large screens */
   }
 }
@@ -253,5 +261,81 @@ color: #FFF;
 /* gen-ai-chatbot-end */
 
 
+ /* Style for the caret icon */
+.caret-icon {
+  margin-left: 8px; /* Adjust the margin as needed */
+  font-size: 16px; /* Adjust the font size as needed */
+}
 
+/* Optional: Styling for the collapsed state */
+.collapsed .caret-icon {
+  transform: rotate(90deg); /* Rotate the caret for collapsed state */
+}
+
+
+
+
+
+/* CRM start */
+
+.crm-solutions-service-row {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.crm-solutions-service-row .sbox-2 {
+  background-color: #FFF;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  height: 550px;;
+  padding: 0px 20px !important;
+  text-align: left;
+}
+
+.crm-solutions-service-row .sbox-2 ul {
+list-style-type: none;
+padding: 0;
+}
+
+.crm-solutions-service-row .sbox-2 ul li {
+text-align: left;
+}
+
+.crm-solutions-service-row .sbox-2:hover {
+background-color: #FFF;
+color: #000;
+}
+
+
+/* Adjust styles for small screens (up to 576px) */
+@media (max-width: 576px) {
+.crm-solutions-service-row .sbox-2 {
+  height: auto; /* Reset height for smaller screens */
+}
+}
+
+/* Adjust styles for medium screens (576px - 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+.crm-solutions-service-row .sbox-2 {
+  height: 570px; /* Example height for medium screens */
+}
+}
+
+/* Adjust styles for large screens (768px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+.crm-solutions-service-row .sbox-2 {
+  height: 570px; /* Example height for large screens */
+}
+}
+
+/* Adjust styles for extra large screens (992px and above) */
+@media (min-width: 993px) {
+.crm-solutions-service-row .sbox-2 {
+  height: 550px; /* Example height for extra large screens */
+}
+}
+
+/* CRM END */
  

@@ -61,44 +61,44 @@ export default function Brands1({ cls,style }) {
                             {/* Title */}
                             <p className="p-lg lightgrey-color">Used by startups, e-stores, web designers, and teams including:
                             </p>
-                            <Swiper {...swiperOptions} className=" brands-carousel">
+                            <Swiper {...swiperOptions} className="brands-carousel">
 
                                 {style === 1 &&
                                     <>
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" src="/images/airtable.svg" alt="brand-logo" />
+                                            <img className="img-fluid" src="/images/whatsapp-api.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" src="/images/airtable.svg" alt="brand-logo" />
+                                            <img className="img-fluid" src="/images/whatsapp-api.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" src="/images/airtable.svg" alt="brand-logo" />
+                                            <img className="img-fluid" src="/images/whatsapp-api.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" src="/images/airtable.svg" alt="brand-logo" />
+                                            <img className="img-fluid" src="/images/whatsapp-api.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" src="/images/airtable.svg" alt="brand-logo" />
+                                            <img className="img-fluid" src="/images/whatsapp-api.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" src="/images/airtable.svg" alt="brand-logo" />
+                                            <img className="img-fluid" src="/images/whatsapp-api.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" src="/images/airtable.svg" alt="brand-logo" />
+                                            <img className="img-fluid" src="/images/whatsapp-api.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" src="/images/airtable.svg" alt="brand-logo" />
+                                            <img className="img-fluid" src="/images/whatsapp-api.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" src="/images/airtable.svg" alt="brand-logo" />
+                                            <img className="img-fluid" src="/images/whatsapp-api.webp" alt="brand-logo" />
                                         </SwiperSlide>
                                     </>
                                 }

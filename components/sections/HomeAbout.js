@@ -32,7 +32,7 @@ const HomeAbout = ({cls, style}) => {
                             </div> 
                             <div className="col-md-5 col-lg-6">
                                 <div className="img-block pr-25 mb-40">
-                                    <img className="img-fluid" style={{ borderRadius: '40px'}} src="/images/home-about.webp" alt="about-image" />
+                                    <img className="img-fluid" style={{ borderRadius: '40px'}} src="/images/home-banner.jpg" alt="about-image" />
                                 </div>
                             </div>
                         </div>

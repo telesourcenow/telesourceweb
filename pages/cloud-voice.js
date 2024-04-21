@@ -185,7 +185,7 @@ export default function CloudVoice() {
 
 
                             </div>	  
-                    </section>
+                </section>
 
                     <CloudVoiceFaqs />	{/* END FAQs-1 */}
                     {/* CALL TO ACTION-4

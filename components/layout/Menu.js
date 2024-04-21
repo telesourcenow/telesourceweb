@@ -46,9 +46,6 @@ export default function Menu({ seoBtn }) {
                                     <li>
                                         <Link href="/sms">SMS</Link>
                                     </li>
-                                    <li>
-                                        <Link href="/erp">ERP</Link>
-                                    </li>
                                 </ul>
                                 {/* Links */}
                                 <ul className="col-lg-6 col-md-12 col-xs-12 link-list">
@@ -82,10 +79,10 @@ export default function Menu({ seoBtn }) {
                                         <Link href="/tele-calling-solutions">Tele-Calling Solutions</Link>
                                     </li>
                                     <li>
-                                        <Link href="/ecommerce-plugin">Ecommerce-PlugIn</Link>
+                                        <Link href="/ecommerce-plugin">Integrated Marketing <br /> Solutions</Link>
                                     </li>
                                     <li>
-                                        <Link href="/resource-augmentation">Resource Augmentation</Link>
+                                        <Link href="/retail-merchandising-audit">Ecommerce-PlugIn Content</Link>
                                     </li>
                                 </ul>
                                 {/* Links */}
@@ -93,11 +90,12 @@ export default function Menu({ seoBtn }) {
                                     <li>
                                         <Link href="/managed-sales-process">Managed Sales Process</Link>
                                     </li>
+                                    
                                     <li>
-                                        <Link href="/retail-merchandising-audit">Retail Merchandising & Audit </Link>
+                                        <Link href="/resource-augmentation">Retail Merchandising <br /> & Audit</Link>
                                     </li>
                                     <li>
-                                        <Link href="/cloud-transformation">Cloud Transformation</Link>
+                                        <Link href="/cloud-transformation">Resource Augmentation</Link>
                                     </li>
                                 </ul>
                             </div>

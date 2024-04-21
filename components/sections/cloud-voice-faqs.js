@@ -5,20 +5,24 @@ export default function CloudVoiceFaqs() {
     const [isActive, setIsActive] = useState({
         status: false,
         key: "",
-    })
+    });
 
     const handleToggle = (key) => {
         if (isActive.key === key) {
             setIsActive({
                 status: false,
-            })
+                key: "",
+            });
         } else {
             setIsActive({
                 status: true,
-                key,
-            })
+                key: key,
+            });
         }
-    }
+    };
+
+    
+
     return (
         <>
             <section className='mb-5'>
@@ -44,29 +48,32 @@ export default function CloudVoiceFaqs() {
                                 <div className="card">
                                     {/* Question */}
                                     <div className="card-header" role="tab">
-                                        <h5 className="h5-sm" onClick={() => handleToggle(1)}>
-                                            <a className={isActive.key == 1 ? "collapsed" : ""} data-toggle="collapsed" role="button" aria-expanded="true" >
-                                            What services does Telesourcenow offer for outbound communication?
+                                    <h5 className="h5-sm" onClick={() => handleToggle(1)} style={{ display: 'flex', justifyContent: 'space-between' }}>
+                                        <span>
+                                            <a className={isActive.key === 1 ? "" : "collapsed"} data-toggle="collapsed" role="button" aria-expanded={isActive.key === 1 ? "true" : "false"} >
+                                                What services does Telesourcenow offer for outbound communication?
                                             </a>
-                                        </h5>
+                                        </span>
+                                        <span className="caret-icon">{isActive.key === 1 ? '▼' : '▶'}</span>
+                                    </h5>
                                     </div>
                                     {/* Answer */}
-                                    <div className={isActive.key == 1 ? "collapse show" : "collapse"} role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-                                        <div className="card-body">
-                                            {/* Text */}
-                                            <p>
-                                                Telesourcenow provides outbound call services, toll-free numbers, IVR solutions, virtual numbers, click-to-call options, and campaign framing to connect with customers and investors efficiently.
-                                            </p>
-                                        </div>
+                                    <div className={isActive.key === 1 ? "collapse show" : "collapse"} role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div className="card-body">
+                                        {/* Text */}
+                                        <p>
+                                            Telesourcenow provides outbound call services, toll-free numbers, IVR solutions, virtual numbers, click-to-call options, and campaign framing to connect with customers and investors efficiently.
+                                        </p>
                                     </div>
+                                </div>
                                 </div> {/* END QUESTION #1 */}
                                 {/* QUESTION #2 */}
                                 <div className="card">
                                     {/* Question */}
                                     <div className="card-header" role="tab">
-                                        <h5 className="h5-sm" onClick={() => handleToggle(2)}>
-                                            <a className={isActive.key == 2 ? "collapsed" : ""} >
-                                                How does Telesourcenow enhance caller satisfaction?
+                                        <h5 className="h5-sm" onClick={() => handleToggle(2)} style={{ cursor: 'pointer'}}>
+                                            <a className={isActive.key == 2 ? "collapsed" : ""} data-toggle="collapsed" role="button" aria-expanded="true" >
+                                            <span className="caret-icon">{isActive.key == 2 ? '▼' : '▶'} </span> How does Telesourcenow enhance caller satisfaction?
                                             </a>
                                         </h5>
                                     </div>
@@ -83,9 +90,9 @@ export default function CloudVoiceFaqs() {
                                 <div className="card">
                                     {/* Question */}
                                     <div className="card-header" role="tab">
-                                        <h5 className="h5-sm" onClick={() => handleToggle(3)}>
-                                            <a className={isActive.key == 3 ? "collapsed" : ""} >
-                                                What insights can businesses gain from Telesourcenow's NLP software?
+                                        <h5 className="h5-sm" onClick={() => handleToggle(3)} style={{ cursor: 'pointer'}}>
+                                        <a className={isActive.key == 3 ? "collapsed" : ""} data-toggle="collapsed" role="button" aria-expanded="true" >
+                                            <span className="caret-icon">{isActive.key == 3 ? '▼' : '▶'} </span> What insights can businesses gain from Telesourcenow's NLP software?
                                             </a>
                                         </h5>
                                     </div>
@@ -104,9 +111,9 @@ export default function CloudVoiceFaqs() {
                                 <div className="card">
                                     {/* Question */}
                                     <div className="card-header" role="tab">
-                                        <h5 className="h5-sm" onClick={() => handleToggle(4)}>
-                                            <a className={isActive.key == 4 ? "collapsed" : ""} >
-                                            How does Telesourcenow ensure secure access to accounts and services?
+                                        <h5 className="h5-sm" onClick={() => handleToggle(4)} style={{ cursor: 'pointer'}}>
+                                        <a className={isActive.key == 4 ? "collapsed" : ""} data-toggle="collapsed" role="button" aria-expanded="true" >
+                                            <span className="caret-icon">{isActive.key == 4 ? '▼' : '▶'} </span>How does Telesourcenow ensure secure access to accounts and services?
                                             </a>
                                         </h5>
                                     </div>
@@ -124,9 +131,9 @@ export default function CloudVoiceFaqs() {
                                 <div className="card">
                                     {/* Question */}
                                     <div className="card-header" role="tab">
-                                        <h5 className="h5-sm" onClick={() => handleToggle(5)}>
-                                            <a className={isActive.key == 5 ? "collapsed" : ""} >
-                                             How can businesses integrate Telesourcenow's services into their existing systems?
+                                        <h5 className="h5-sm" onClick={() => handleToggle(5)} style={{ cursor: 'pointer'}}>
+                                        <a className={isActive.key == 5 ? "collapsed" : ""} data-toggle="collapsed" role="button" aria-expanded="true" >
+                                            <span className="caret-icon">{isActive.key == 5 ? '▼' : '▶'} </span> How can businesses integrate Telesourcenow's services into their existing systems?
                                             </a>
                                         </h5>
                                     </div>
@@ -135,7 +142,9 @@ export default function CloudVoiceFaqs() {
                                         <div className="card-body">
                                             {/* List */}
                                            <p>
-                                                Telesourcenow offers API integration for automated sending and receiving of calls, access to SMS APIs with sample codes in multiple programming languages, and complimentary IP phones and calling gateway for seamless communication integration with CRM and ERP systems.
+                                                Telesourcenow offers API integration for automated sending and receiving of calls, access to SMS APIs 
+                                                with sample codes in multiple programming languages, and complimentary IP phones and calling gateway 
+                                                for seamless communication integration with CRM and ERP systems.
                                            </p>
                                         </div>
                                     </div>

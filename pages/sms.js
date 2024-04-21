@@ -1,31 +1,47 @@
 import Layout from "@/components/layout/Layout"
-import Content4 from "@/components/sections/Content4"
-import Faqs1 from "@/components/sections/Faqs1"
 import PricingCommon from "@/components/sections/PricingCommon"
-import Reviews3 from "@/components/sections/Reviews3"
-import Link from "next/link"
-import CloudVoiceBreadCrumb from "@/components/sections/CloudVoiceBreadCrumb"
 
 export default function SMS() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={2} headerCls="white-menu navbar-dark" breadcrumbTitle={"SMS"}>
+            <Layout headerStyle={1} footerStyle={2} headerCls="white-menu navbar-dark">
                 <div>
 
-                <section>
-                        <div className="container">
-                            <div className="row d-flex align-items-center mt-5">
-                              <div className="col-md-12 col-lg-12 text-center">
+                <section style={{ background: '#6936f5'}}>
+                        <div className="container-fluid pt-5">
+                            <div className="row d-flex align-items-center">
+                              <div className="col-md-6 col-lg-6 col-sm-12 text-center pt-4">
                                     <div className="txt-block pc-25 mb-40">
+                                        <h4 className="h4-xl pt-2 text-white">Grow Your Business with Conversational SMS</h4>
+                                        <p className="text-white">
+                                            Maximize the value of your marketing efforts, whether you’re new to text messaging or 
+                                            transitioning from another SMS service.
+                                        </p>
+                                    </div>
+                              </div>
+                              <div className="col-md-6 col-lg-6 col-sm-12 text-center pt-5">
+                                    <div className="txt-block pc-25 mb-40 pt-4">
+                                        <img className="img-fluid" style={{ borderRadius: '40px'}} src="/images/sms-banner.jpg" alt="about-image" />
+                                    </div>
+                              </div>
+                            </div>	  
+                        </div>    
+                </section>
+
+                <section>
+                        <div className="container-fluid">
+                            <div className="row d-flex align-items-center justify-content-center">
+                              <div className="col-md-offset-7 col-md-7 col-sm-12 text-center">
+                                    <div className="txt-block">
                                         {/* Title */}
-                                        <h4 className="h4-xl">
-                                            Instant Communication
+                                        <h4 className="h4-xl pt-4 text-dark">
+                                            Unlock SMS Marketing's Power with Personalized Messages
                                         </h4>
                                         {/* Text */}
-                                        <p>
-                                            Efficiently convey messages in real-time with SMS, ensuring swift and reliable 
-                                            communication anytime, anywhere.
+                                        <p className="text-dark">
+                                            Streamlined Communication: Reach your audience with targeted messaging through our 
+                                            intuitive platform. Unleash the power of SMS marketing.
                                         </p>
                                     </div>
                               </div>
@@ -36,59 +52,11 @@ export default function SMS() {
                 <section style={{ background: '#6936f5'}}>
                 <div className="container mt-5 pt-5" style={{ background: '#6936f5'}}>
                                 <div className="row first-gen-ai-chatbot-row text-justify">
-                                    <div className="col-sm-12 col-lg-6">
-                                        <div className="sbox-2">
-                                        <h5 className="h5-md text-white">Enterprise SMS Provider</h5>
-                                            <p className="h5-md text-white text-justify">
-                                                Streamlined Communication: Reach your audience with targeted messaging 
-                                                through our intuitive platform. Unleash the power of SMS marketing.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="col-sm-12 col-lg-6">
-                                        <div className="sbox-2">
-                                        <h5 className="h5-md text-white">Simplified SMS Campaign Approval: Streamline your workflow with Telesourcenow's effortless scheduling and approval process.</h5>
-                                            <p className="h5-md text-white text-justify">
-                                                Effortless Engagement for Your Sales Team: Telesourcenow's user-friendly platform 
-                                                empowers agents to schedule and approve personalized SMS campaigns, driving 
-                                                stronger customer connections. Telesourcenow prioritizes data security and 
-                                                compliance, ensuring your campaigns reach the right audience while adhering 
-                                                to industry regulations.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="col-sm-12 col-lg-6">
-                                        <div className="sbox-2">
-                                        <h5 className="h5-md text-white">Measure What Matters: Track SMS link clicks with Telesourcenow and gain actionable data to refine your marketing strategies.</h5>
-                                            <p className="h5-md text-white text-justify">
-                                                Telesourcenow: Effortless Shortlink Tracking for Powerful SMS Marketing: 
-                                                Our user-friendly platform empowers you to effortlessly track SMS link 
-                                                clicks with unmatched precision. Gain real-time insights into campaign 
-                                                performance, optimize your strategy on the fly, and unlock maximum ROI. 
-                                                Make data-driven decisions and fuel business growth with Telesourcenow's 
-                                                actionable click tracking and campaign monitoring.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="col-sm-12 col-lg-6">
-                                        <div className="sbox-2">
-                                        <h5 className="h5-md text-white">Put the Power in Your Customers' Hands: Effortlessly connect and engage with your customers through two-way SMS</h5>
-                                            <p className="h5-md text-white text-justify">
-                                                <strong>Unlock the Efficiency of Two-Way SMS:</strong>  Seamlessly communicate 
-                                                with your customers through real-time conversations and swift problem-solving. 
-                                                Our user-friendly platform empowers you to manage SMS interactions, 
-                                                track conversation history, and personalize messages – all to build stronger 
-                                                customer relationships. Elevate your customer experience and streamline 
-                                                communication with Telesourcenow's Two-Way SMS.
-                                            </p>
-                                        </div>
-                                    </div>
-
-
-                                    <div className="col-sm-12 col-lg-12 text-center mt-4 mb-5" style={{ background: '#ef3f54'}}>
+                                    
+                                    <div className="col-sm-12 col-lg-12 text-center mt-4 mb-5">
                                         <div>
-                                            <p className="text-white pb-2 pt-4">
-                                                <strong>
+                                            <p className=" pb-2 pt-4">
+                                                <strong className="text-white">
                                                     <strong>Pioneering Bulk SMS Made Easy:</strong> Telesourcenow delivers the most innovative 
                                                     and comprehensive bulk SMS platform, designed for effortless use
                                                 </strong>
@@ -97,65 +65,93 @@ export default function SMS() {
                                     </div>
                                     <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                        <h5 className="h5-md text-white">Track Every Message with Real-Time Delivery Reports</h5>
-                                            <p className="h5-md text-white text-justify">
-                                                This focuses on the ability to monitor message delivery.
+                                        <h5 className="h5-md ">Track Every Message with Real-Time Delivery Reports</h5>
+                                            <p className="h5-md  text-justify">
+                                                Track every message with real-time delivery reports. Gain visibility into message 
+                                                status, ensure timely delivery, and optimize your SMS campaigns for maximum 
+                                                effectiveness with actionable insights at your fingertips.
                                             </p>
                                         </div>
                                     </div>
                                     <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                        <h5 className="h5-md text-white">Detailed Delivery Reports for Your Peace of Mind</h5>
-                                            <p className="h5-md text-white text-justify">
-                                                This emphasizes the reliability of the service.
+                                        <h5 className="h5-md ">Detailed Delivery Reports for Your Peace of Mind</h5>
+                                            <p className="h5-md  text-justify">
+                                                Ensure peace of mind with detailed delivery reports. Monitor message status in 
+                                                real-time, track delivery success rates, and troubleshoot any issues promptly, 
+                                                empowering you to optimize campaigns and maximize the effectiveness of your SMS 
+                                                <strong>marketing efforts</strong>.
                                             </p>
                                         </div>
                                     </div>
                                     <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                        <h5 className="h5-md text-white">Multilingual SMS Marketing: Reach a Wider Audience</h5>
-                                            <p className="h5-md text-white text-justify">
-                                                This emphasizes the ability to send messages in different languages.
+                                        <h5 className="h5-md ">Multilingual SMS Marketing: Reach a Wider Audience</h5>
+                                            <p className="h5-md  text-justify">
+                                                Expand your reach with multilingual SMS marketing. Connect with diverse audiences 
+                                                by sending messages in their preferred languages, fostering inclusivity, 
+                                                and maximizing engagement for a truly global marketing strategy.
                                             </p>
                                         </div>
                                     </div>
                                     <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                        <h5 className="h5-md text-white">Gain Valuable Insights with Real-Time Delivery and Click-Through Rates</h5>
-                                            <p className="h5-md text-white text-justify">
-                                                This highlights the specific data provided by the reports. 
+                                        <h5 className="h5-md ">Insights with Real-Time Delivery and Click-Through Rates</h5>
+                                            <p className="h5-md  text-justify">
+                                                Gain valuable insights with real-time delivery and click-through rates. Monitor 
+                                                message performance instantly, optimize campaigns on the fly, and make data-driven 
+                                                decisions to enhance engagement and drive results in your SMS marketing strategy.
                                             </p>
                                         </div>
                                     </div>
                                     <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                        <h5 className="h5-md text-white">Effortlessly Integrate SMS into Your Applications</h5>
-                                            <p className="h5-md text-white text-justify">
-                                                This focuses on the ease of setting up the API.
+                                        <h5 className="h5-md ">Effortlessly Integrate SMS into Your Applications</h5>
+                                            <p className="h5-md  text-justify">
+                                                Effortlessly integrate SMS into your applications using robust APIs and SDKs. 
+                                                Enhance user experience, streamline communication, and unlock new opportunities 
+                                                for engagement with seamless, real-time messaging capabilities.
                                             </p>
                                         </div>
                                     </div>
                                     <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                        <h5 className="h5-md text-white">Boost Engagement with Multimedia Messaging</h5>
-                                            <p className="h5-md text-white text-justify">
-                                                This highlights the ability to send more than just text.
+                                        <h5 className="h5-md ">Boost Engagement with Multimedia Messaging</h5>
+                                            <p className="h5-md  text-justify">
+                                                Enhance engagement with multimedia messaging. Incorporate images, videos, and gifs 
+                                                into your texts to captivate audiences, convey messages more effectively, and 
+                                                create memorable brand experiences that drive interaction and loyalty.
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-sm-12 col-lg-6">
+                                    <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                        <h5 className="h5-md text-white">Unlock the Potential of SMS Marketing</h5>
-                                            <p className="h5-md text-white text-justify">
-                                                This emphasizes the various use cases for SMS.
+                                        <h5 className="h5-md ">Unlock the Potential of SMS Marketing</h5>
+                                            <p className="h5-md  text-justify">
+                                                Unlock the potential of SMS marketing by leveraging its direct reach, high open rates, 
+                                                and instant delivery to engage customers effectively, drive sales, and build lasting 
+                                                relationships with personalized messages and timely offers.
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-sm-12 col-lg-6">
+                                    <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                        <h5 className="h5-md text-white">Drive Engagement with Interactive Mobile Marketing Tools</h5>
-                                            <p className="h5-md text-white text-justify">
-                                                This focuses on the interactive nature of the features
+                                        <h5 className="h5-md ">Drive Engagement with Interactive Marketing</h5>
+                                            <p className="h5-md  text-justify">
+                                                Boost engagement with interactive mobile marketing tools like polls, quizzes, and 
+                                                contests. Encourage participation, gather valuable insights, and foster a deeper 
+                                                connection with your audience for impactful campaigns and lasting brand loyalty.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-4">
+                                        <div className="sbox-2">
+                                        <h5 className="h5-md ">Effortless Engagement for Your Sales Team</h5>
+                                            <p className="h5-md  text-justify">
+                                                Telesourcenow's user-friendly platform empowers agents to schedule and approve 
+                                                personalized SMS campaigns, driving stronger customer connections. Telesourcenow 
+                                                prioritizes data security and compliance, ensuring your campaigns reach the right 
+                                                audience while adhering to industry regulations.
                                             </p>
                                         </div>
                                     </div>
@@ -164,9 +160,6 @@ export default function SMS() {
                             </div>  
                 </section>
 
-                    <Faqs1 />	{/* END FAQs-1 */}
-                    {/* CALL TO ACTION-4
-				============================================= */}
                     <PricingCommon />
                 </div>
 

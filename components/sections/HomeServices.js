@@ -4,7 +4,7 @@ import Link from "next/link"
 const HomeServices = () => {
   return (
     <div>
-      <section>
+        <section>
                 <div className="container">
                     {/* SECTION TITLE */}
                     <div className="row">
@@ -142,7 +142,7 @@ const HomeServices = () => {
                         </div> {/* End row */}
                     </div> {/* END SERVICE BOXES */}
                 </div> {/* End container */}
-            </section>
+        </section>
     </div>
   )
 }
