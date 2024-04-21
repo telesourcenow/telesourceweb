@@ -50,8 +50,8 @@ export default function SMS() {
                 </section>
 
                 <section style={{ background: '#6936f5'}}>
-                <div className="container mt-5 pt-5" style={{ background: '#6936f5'}}>
-                                <div className="row first-gen-ai-chatbot-row text-justify">
+                <div className="container mt-5 pt-5">
+                                <div className="row sms-service-row text-justify">
                                     
                                     <div className="col-sm-12 col-lg-12 text-center mt-4 mb-5">
                                         <div>

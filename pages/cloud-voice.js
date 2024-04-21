@@ -48,12 +48,12 @@ export default function CloudVoice() {
                         </div>    
                 </section>
 
-                <section  className="pt-80 pb-30 services-section division">
+                <section  className="pt-80 pb-30 services-section division"  style={{ background: '#6936f5'}}>
                         <div className="container">
                             <div className="row first-cloud-service-row">
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-white">Outbound Calling</h5>
+                                            <h5 className="h5-md ">Outbound Calling</h5>
                                             <p className="p-sm">
                                                 Our platform enables you to easily connect with customers and investors via outbound calls
                                                 keeping them updated on your releases and maintaining communication. Telesourcenow offers 
@@ -63,7 +63,7 @@ export default function CloudVoice() {
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-white">Toll Free Number</h5>
+                                            <h5 className="h5-md ">Toll Free Number</h5>
                                             <p className="p-sm">
                                                 Contact Telesourcenow to acquire toll numbers and be listed as 1800 in directories. 
                                                 Utilizing a toll number can expand your customer reach across sectors such, as retail, 
@@ -74,7 +74,7 @@ export default function CloudVoice() {
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-white">Intractive Voice Record</h5>
+                                            <h5 className="h5-md ">Intractive Voice Record</h5>
                                             <p className="p-sm">
                                                 Enhancing caller satisfaction can be achieved by incorporating cloud based IVR services 
                                                 that offer personalized experiences.
@@ -86,7 +86,7 @@ export default function CloudVoice() {
                                 <div className="row first-cloud-service-row">
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-white">Virtual Number</h5>
+                                            <h5 className="h5-md ">Virtual Number</h5>
                                             <p className="p-sm">
                                                 Using Virtual Number enables you to effortlessly stay connected, with your customers 
                                                 without requiring a team. Incorporating AI technology supports interactions. 
@@ -96,7 +96,7 @@ export default function CloudVoice() {
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-white">Click To Call</h5>
+                                            <h5 className="h5-md ">Click To Call</h5>
                                             <p className="p-sm">
                                                 Providing clients with the option to ask for a callback can lead to a notable boost, 
                                                 in return on investment potentially, up to 152%.
@@ -105,7 +105,7 @@ export default function CloudVoice() {
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-white">Campaigns Framing</h5>
+                                            <h5 className="h5-md ">Campaigns Framing</h5>
                                             <p className="p-sm">
                                                 Unlock the advantages of campaigns using Telesourcenow, which offers customer feedback 
                                                 cloud based phone services and automated OTP verification. Connect with us now to discover
@@ -119,7 +119,7 @@ export default function CloudVoice() {
                                 <div className="row first-cloud-service-row">
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-white">Deeper Insight Data</h5>
+                                            <h5 className="h5-md ">Deeper Insight Data</h5>
                                             <p className="p-sm">
                                             Telesourcenow's NLP software facilitates precise multi-level reporting by leveraging advanced algorithms to extract valuable insights from diverse data formats, empowering users with robust analysis capabilities regardless of complexity.
                                             </p>
@@ -127,7 +127,7 @@ export default function CloudVoice() {
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-white">Authentication services</h5>
+                                            <h5 className="h5-md ">Authentication services</h5>
                                             <p className="p-sm">
                                                 Telesourcenow provides a secure authentication solution via Auto Authentication and OTP through IVR technology, ensuring users access accounts and services confidently with a seamless, hassle-free experience.
                                             </p>                                        
@@ -135,7 +135,7 @@ export default function CloudVoice() {
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-white">API Integration</h5>
+                                            <h5 className="h5-md ">API Integration</h5>
                                             <p className="p-sm">
                                                 Telesourcenow's enable automated sending and receiving of calls through various platforms 
                                                 and access SMS APIs with sample codes in multiple programming languages for seamless 
@@ -151,7 +151,7 @@ export default function CloudVoice() {
 
                                     <div className="col-sm-12 col-lg-4">
                                             <div className="sbox-2">
-                                                <h5 className="text-white ">Progressive & Predictive Dialer</h5>
+                                                <h5 className=" ">Progressive & Predictive Dialer</h5>
                                                 <p className="">
                                                     Telesourcenow offers progressive and predictive dialers for outbound call 
                                                     centers. Progressive ensures efficiency by dialing automatically, while 
@@ -161,7 +161,7 @@ export default function CloudVoice() {
                                     </div>
                                     <div className="col-sm-12 col-lg-4">
                                             <div className="sbox-2">
-                                                <h5 className="h5-md text-white">IP Phone</h5>
+                                                <h5 className="h5-md ">IP Phone</h5>
                                                 <p className="p-sm">
                                                 Telesourcenow offers complimentary IP phones and a calling gateway, enhancing 
                                                 communication with advanced features like call routing and voicemail, boosting 
@@ -171,7 +171,7 @@ export default function CloudVoice() {
                                     </div>
                                     <div className="col-sm-12 col-lg-4">
                                             <div className="sbox-2">
-                                                <h5 className="h5-md text-white">Cloud Call Centre</h5>
+                                                <h5 className="h5-md ">Cloud Call Centre</h5>
                                                 <p className="p-sm">
                                                     Telesourcenow's cloud contact center solution enhances efficiency, customer 
                                                     service, scalability, and cost-effectiveness for businesses by centralizing 
@@ -187,10 +187,7 @@ export default function CloudVoice() {
                             </div>	  
                 </section>
 
-                    <CloudVoiceFaqs />	{/* END FAQs-1 */}
-                    {/* CALL TO ACTION-4
-				============================================= */}
-                    <PricingCommon />
+                <PricingCommon />
                 </div>
 
             </Layout>

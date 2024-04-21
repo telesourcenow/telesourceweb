@@ -53,12 +53,12 @@ export default function WhatsappAPI() {
                         </div>    
                 </section>
 
-                <section  className="pt-80 pb-30 services-section division">
+                <section  className="pt-80 pb-30 services-section division" style={{ background: '#6936f5'}}>
                         <div className="container">
-                            <div className="row first-cloud-service-row">
+                            <div className="row whatsapp-api-service-row">
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-white"> Instant Messaging </h5>
+                                            <h5 className="h5-md"> Instant Messaging </h5>
                                             <p className="p-sm">
                                                 WhatsApp's instant messaging enables businesses to interact with customers in 
                                                 real-time, ensuring quick responses to inquiries, support requests, and other 
@@ -68,7 +68,7 @@ export default function WhatsappAPI() {
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-white">Automation</h5>
+                                            <h5 className="h5-md">Automation</h5>
                                             <p className="p-sm">
                                                 Businesses leverage automation tools for seamless communication, automating order 
                                                 confirmations, delivery updates, appointment reminders, and more, ensuring timely 
@@ -78,7 +78,7 @@ export default function WhatsappAPI() {
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-white">High Deliverability</h5>
+                                            <h5 className="h5-md">High Deliverability</h5>
                                             <p className="p-sm">
                                                 WhatsApp Business API messages boast high deliverability rates, ensuring prompt 
                                                 delivery to intended recipients, enhancing communication efficiency, and improving 
@@ -86,12 +86,9 @@ export default function WhatsappAPI() {
                                             </p>
                                         </div>
                                 </div>
-                                </div>
-
-                                <div className="row first-cloud-service-row">
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-white">Rich Media Support</h5>
+                                            <h5 className="h5-md">Rich Media Support</h5>
                                             <p className="p-sm">
                                                 WhatsApp Business API supports rich media types like images, videos, documents, and 
                                                 interactive buttons, enabling businesses to craft engaging, visually appealing 
@@ -101,7 +98,7 @@ export default function WhatsappAPI() {
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-white"> Template Messages</h5>
+                                            <h5 className="h5-md"> Template Messages</h5>
                                             <p className="p-sm">
                                                 WhatsApp mandates businesses to utilize predefined message templates for specific 
                                                 interactions like account verification, appointment scheduling, and shipping 
@@ -112,7 +109,7 @@ export default function WhatsappAPI() {
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-white">Global Reach</h5>
+                                            <h5 className="h5-md">Global Reach</h5>
                                             <p className="p-sm">
                                                 WhatsApp mandates the use of predefined message templates for specific interactions 
                                                 like account verification, appointment scheduling, and shipping notifications to 
@@ -144,7 +141,7 @@ export default function WhatsappAPI() {
                         </div>    
 
                     <div className="container">
-                        <div className="row whatsapp-business">
+                        <div className="row whatsapp-api-service-row">
                             <div className="col-sm-12 col-lg-4">
                                 <div className="sbox-2">
                                     <h5 className="h5-md text-dark">Load Management</h5>

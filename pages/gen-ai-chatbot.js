@@ -88,7 +88,7 @@ export default function GenAIChatbot() {
                             <div className="row first-gen-ai-chatbot-row text-justify">
                                 <div className="col-sm-12 col-lg-6">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-white">Simplify Customer Conversations With Gen-AI Chatbot APIs</h5>
+                                            <h5 className="h5-md">Simplify Customer Conversations With Gen-AI Chatbot APIs</h5>
                                             <p className="p-sm text-justify">
                                                 Telesourcenow's simplifies customer conversations with conversational chatbot APIs, 
                                                 perfect for businesses of any size using Generation AI (Gen-AI) chatbot APIs. These 
@@ -99,7 +99,7 @@ export default function GenAIChatbot() {
                                 </div>
                                 <div className="col-sm-12 col-lg-6">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-white">Multi-Channel Campaigns</h5>
+                                            <h5 className="h5-md">Multi-Channel Campaigns</h5>
                                             <p className="p-sm text-justify">
                                                 Improve your customer satisfaction and increase your sales efficiency with 
                                                 Telesourcenow's
@@ -132,7 +132,7 @@ export default function GenAIChatbot() {
                                 <div className="row second-gen-ai-chatbot-row">
                                 <div className="col-sm-12 col-lg-3">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-dark">Customize Chatbot Workflows</h5>
+                                            <h5 className="h5-md">Customize Chatbot Workflows</h5>
                                             <p className="p-sm text-justify">
                                                 Tailor the chatbot workflows to match your specific lead qualification criteria and 
                                                 sales process. This ensures that the chatbot asks relevant questions and provides 
@@ -142,7 +142,7 @@ export default function GenAIChatbot() {
                                 </div>
                                 <div className="col-sm-12 col-lg-3">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-dark">Integrate with CRM Systems</h5>
+                                            <h5 className="h5-md">Integrate with CRM Systems</h5>
                                             <p className="p-sm text-justify">
                                                 Integrate the chatbot with your Customer Relationship Management (CRM) system to 
                                                 automatically capture and update lead information. This streamlines the lead 
@@ -153,7 +153,7 @@ export default function GenAIChatbot() {
                                 </div>
                                 <div className="col-sm-12 col-lg-3">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-dark">Implement Natural Language Processing (NLP)</h5>
+                                            <h5 className="h5-md">Implement Natural Language Processing (NLP)</h5>
                                             <p className="p-sm text-justify">
                                                 Leverage NLP capabilities to enable the chatbot to understand and respond to natural 
                                                 language queries from leads. This enhances the user experience and increases the 
@@ -163,7 +163,7 @@ export default function GenAIChatbot() {
                                 </div>
                                 <div className="col-sm-12 col-lg-3">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md text-dark">Offer Personalized Recommendations</h5>
+                                            <h5 className="h5-md">Offer Personalized Recommendations</h5>
                                             <p className="p-sm text-justify">
                                                 Use machine learning algorithms to analyze lead data and provide personalized product or 
                                                 service recommendations based on their preferences and needs. This helps to engage leads
@@ -277,7 +277,7 @@ export default function GenAIChatbot() {
                                     </div>
                                 </div>  
 
-                                <div className="row gen-ai-chatbot-row-detail text-justify">
+                                <div className="row gen-ai-chatbot-row-detail-first text-justify">
                                     <div className="col-sm-12 col-lg-12 text-center">
                                         <div>
                                             <h4 className="text-white pb-4 pt-4">Features of Gen-AI Chatbots</h4>
@@ -372,7 +372,7 @@ export default function GenAIChatbot() {
                                     </div>
                                 </div>  
 
-                                <div className="row first-gen-ai-chatbot-row text-justify">
+                                <div className="row gen-ai-chatbot-row-detail-second text-justify">
                                     <div className="col-sm-12 col-lg-12 text-center">
                                         <div>
                                             <h4 className="text-white text-capitalize pb-4 pt-4">
@@ -505,7 +505,7 @@ export default function GenAIChatbot() {
                                 </div>
                                  
 
-                                <div className="row first-gen-ai-chatbot-row text-justify">
+                                <div className="row gen-ai-chatbot-row-detail-third text-justify">
                                     <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
                                         <h5 className="h5-md">Task Management</h5>

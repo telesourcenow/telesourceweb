@@ -7,12 +7,11 @@
 }
 
 .first-cloud-service-row .sbox-2 {
-    background-color: #6936f5;
-    color: #FFF;
+    background-color: #FFF;
+    color: #000;
     display: flex;
     flex-direction: column;
     height: 250px;;
-    border-radius: 30px;
     padding: 0px 20px !important;
     text-align: left;
 }
@@ -27,8 +26,8 @@
 }
 
 .first-cloud-service-row .sbox-2:hover {
-  background-color: #ef3f54;
-  color: #FFF;
+  background-color: #FFF;
+  color: #000;
 }
 
 
@@ -59,21 +58,36 @@
     height: 250px; /* Example height for extra large screens */
   }
 }
-/* first-end */
 
-.whatsapp-business {
+/* cloud voice END */
+
+
+/* whatsApp start */
+
+.whatsapp-api-service-row {
   display: flex;
   flex-wrap: wrap;
 }
-.whatsapp-business .sbox-2 {
+.whatsapp-api-service-row .sbox-2 {
   background-color: #FFF;
   color: #000;
   display: flex;
   flex-direction: column;
-  height: 190px;
+  height: 270px;;
   padding: 0px 20px !important;
+  text-align: left;
 }
-.whatsapp-business .sbox-2:hover {
+
+.whatsapp-api-service-row .sbox-2 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.whatsapp-api-service-row .sbox-2 ul li {
+  text-align: left;
+}
+
+.whatsapp-api-service-row .sbox-2:hover {
   background-color: #FFF;
   color: #000;
 }
@@ -81,184 +95,349 @@
 
 /* Adjust styles for small screens (up to 576px) */
 @media (max-width: 576px) {
-  .whatsapp-business .sbox-2 {
+  .whatsapp-api-service-row .sbox-2 {
     height: auto; /* Reset height for smaller screens */
   }
 }
 
 /* Adjust styles for medium screens (576px - 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
-  .whatsapp-business .sbox-2 {
+  .whatsapp-api-service-row .sbox-2 {
     height: 250px; /* Example height for medium screens */
   }
 }
 
 /* Adjust styles for large screens (768px - 992px) */
 @media (min-width: 769px) and (max-width: 992px) {
-  .whatsapp-business .sbox-2 {
-    height: 190px; /* Example height for large screens */
+  .whatsapp-api-service-row .sbox-2 {
+    height: 270px; /* Example height for large screens */
   }
 }
 
 /* Adjust styles for extra large screens (992px and above) */
 @media (min-width: 993px) {
-  .whatsapp-business .sbox-2 {
-    height: 190px; /* Example height for extra large screens */
-  }
-}
-/* second end */
-
-
-.third-cloud-service-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.third-cloud-service-row .sbox-2 {
-  background-color: #6936f5;
-  color: #FFF;
-  display: flex;
-  flex-direction: column;
-  height: 350px;
-  border-radius: 30px;
-  padding: 0px 20px !important;
-}
-.third-cloud-service-row .sbox-2:hover {
-  background-color: #ef3f54;
-  color: #FFF;
-}
-
-/* Adjust styles for small screens (up to 576px) */
-@media (max-width: 576px) {
-  .third-cloud-service-row .sbox-2 {
-    height: auto; /* Reset height for smaller screens */
+  .whatsapp-api-service-row .sbox-2 {
+    height: 270px; /* Example height for extra large screens */
   }
 }
 
-/* Adjust styles for medium screens (576px - 768px) */
-@media (min-width: 577px) and (max-width: 768px) {
-  .third-cloud-service-row .sbox-2 {
-    height: 520px; /* Example height for medium screens */
-  }
-}
-
-/* Adjust styles for large screens (768px - 992px) */
-@media (min-width: 769px) and (max-width: 992px) {
-  .third-cloud-service-row .sbox-2 {
-    height: 350px; /* Example height for large screens */
-  }
-}
-
-/* Adjust styles for extra large screens (992px and above) */
-@media (min-width: 993px) {
-  .third-cloud-service-row .sbox-2 {
-    height: 350px; /* Example height for extra large screens */
-  }
-}
-/* third-end */
-
-.fourth-cloud-service-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-.fourth-cloud-service-row .sbox-2 {
-  background-color: #6936f5;
-  color: #FFF;
-  display: flex;
-  flex-direction: column;
-  height: 500px;
-  border-radius: 30px;
-  padding: 0px 20px !important;
-}
-.fourth-cloud-service-row .sbox-2:hover {
-  background-color: #ef3f54;
-  color: #FFF;
-}
-
-
-/* Adjust styles for small screens (up to 576px) */
-@media (max-width: 576px) {
-  .fourth-cloud-service-row .sbox-2 {
-    height: auto; /* Reset height for smaller screens */
-  }
-}
-
-/* Adjust styles for medium screens (576px - 768px) */
-@media (min-width: 577px) and (max-width: 768px) {
-  .fourth-cloud-service-row .sbox-2 {
-    height: 1350px; /* Example height for medium screens */
-  }
-}
-
-/* Adjust styles for large screens (768px - 992px) */
-@media (min-width: 769px) and (max-width: 992px) {
-  .fourth-cloud-service-row .sbox-2 {
-    height: 900px; /* Example height for large screens */
-  }
-}
-
-/* Adjust styles for extra large screens (992px and above) */
-@media (min-width: 993px) {
-  .fourth-cloud-service-row .sbox-2 {
-    height: 500px; /* Example height for extra large screens */
-  }
-}
-/* cloud voice end */
-
+/* whatsApp END */
 
 
 /* ###########################################################  */
 /* gen-ai-chatbot-start */
-.gen-ai-chatbot-row-detail {
+
+.first-gen-ai-chatbot-row {
   display: flex;
   flex-wrap: wrap;
   
 }
 
-.gen-ai-chatbot-row-detail .sbox-2 {
+.first-gen-ai-chatbot-row .sbox-2 {
   background-color: #FFF;
   color: #000;
   display: flex;
   flex-direction: column;
-  height: 300px;
+  height: 250px;;
+  padding: 0px 20px !important;
+  text-align: left;
 }
 
-.gen-ai-chatbot-row-detail .sbox-2:hover {
-  background-color: #ef3f54;
-  color: #FFF !important;
+.first-gen-ai-chatbot-row .sbox-2 ul {
+list-style-type: none;
+padding: 0;
+}
+
+.first-gen-ai-chatbot-row .sbox-2 ul li {
+text-align: left;
+}
+
+.first-gen-ai-chatbot-row .sbox-2:hover {
+  background-color: #FFF;
+  color: #000 !important;
 }
 
 
 /* Adjust styles for small screens (up to 576px) */
 @media (max-width: 576px) {
-.gen-ai-chatbot-row-detail .sbox-2 {
+.first-gen-ai-chatbot-row .sbox-2 {
     height: auto; /* Reset height for smaller screens */
   }
 }
 
 /* Adjust styles for medium screens (576px - 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
-.gen-ai-chatbot-row-detail .sbox-2 {
+.first-gen-ai-chatbot-row .sbox-2 {
     height: 340px; /* Example height for medium screens */
   }
 }
 
 /* Adjust styles for large screens (768px - 992px) */
 @media (min-width: 769px) and (max-width: 992px) {
-.gen-ai-chatbot-row-detail .sbox-2 {
-    height: 300px; /* Example height for large screens */
+.first-gen-ai-chatbot-row .sbox-2 {
+    height: 260px; /* Example height for large screens */
   }
 }
 
 /* Adjust styles for extra large screens (992px and above) */
 @media (min-width: 993px) {
-.gen-ai-chatbot-row-detail .sbox-2 {
-    height: 300px; /* Example height for extra large screens */
+.first-gen-ai-chatbot-row .sbox-2 {
+    height: 260px; /* Example height for extra large screens */
   }
 }
-/* end-first */
+
+/* first-end */
+
+
+/* second start */
+
+.second-gen-ai-chatbot-row {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.second-gen-ai-chatbot-row .sbox-2 {
+  background-color: #FFF;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  height: 350px;;
+  padding: 0px 20px !important;
+  text-align: left;
+}
+
+.second-gen-ai-chatbot-row .sbox-2 ul {
+list-style-type: none;
+padding: 0;
+}
+
+.second-gen-ai-chatbot-row .sbox-2 ul li {
+text-align: left;
+}
+
+.second-gen-ai-chatbot-row .sbox-2:hover {
+  background-color: #FFF;
+  color: #000 !important;
+}
+
+
+/* Adjust styles for small screens (up to 576px) */
+@media (max-width: 576px) {
+.second-gen-ai-chatbot-row .sbox-2 {
+    height: auto; /* Reset height for smaller screens */
+  }
+}
+
+/* Adjust styles for medium screens (576px - 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+.second-gen-ai-chatbot-row .sbox-2 {
+    height: 360px; /* Example height for medium screens */
+  }
+}
+
+/* Adjust styles for large screens (768px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+.second-gen-ai-chatbot-row .sbox-2 {
+    height: 350px; /* Example height for large screens */
+  }
+}
+
+/* Adjust styles for extra large screens (992px and above) */
+@media (min-width: 993px) {
+.second-gen-ai-chatbot-row .sbox-2 {
+    height: 350px; /* Example height for extra large screens */
+  }
+}
+
+/* second end */
+
+/* en-ai-chatbot-row-detail  */
+
+.gen-ai-chatbot-row-detail-first {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.gen-ai-chatbot-row-detail-first .sbox-2 {
+  background-color: #FFF;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  height: 230px;;
+  padding: 0px 20px !important;
+  text-align: left;
+}
+
+.en-ai-chatbot-row-detail-first .sbox-2 ul {
+  list-style-type: none;
+  padding: 0;
+  }
+  
+  .en-ai-chatbot-row-detail-first .sbox-2 ul li {
+  text-align: left;
+  }
+
+.gen-ai-chatbot-row-detail-first .sbox-2:hover {
+  background-color: #FFF;
+  color: #000 !important;
+}
+
+
+/* Adjust styles for small screens (up to 576px) */
+@media (max-width: 576px) {
+.gen-ai-chatbot-row-detail-first .sbox-2 {
+    height: auto; /* Reset height for smaller screens */
+  }
+}
+
+/* Adjust styles for medium screens (576px - 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+.gen-ai-chatbot-row-detail-first .sbox-2 {
+    height: 340px; /* Example height for medium screens */
+  }
+}
+
+/* Adjust styles for large screens (768px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+.gen-ai-chatbot-row-detail-first .sbox-2 {
+    height: 230px; /* Example height for large screens */
+  }
+}
+
+/* Adjust styles for extra large screens (992px and above) */
+@media (min-width: 993px) {
+.gen-ai-chatbot-row-detail-first .sbox-2 {
+    height: 230px; /* Example height for extra large screens */
+  }
+}
+
+/* second */
+.gen-ai-chatbot-row-detail-second {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.gen-ai-chatbot-row-detail-second .sbox-2 {
+  background-color: #FFF;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  height: 280px;;
+  padding: 0px 20px !important;
+  text-align: left;
+}
+
+.en-ai-chatbot-row-detail-second .sbox-2 ul {
+  list-style-type: none;
+  padding: 0;
+  }
+  
+  .en-ai-chatbot-row-detail-second .sbox-2 ul li {
+  text-align: left;
+  }
+
+.gen-ai-chatbot-row-detail-second .sbox-2:hover {
+  background-color: #FFF;
+  color: #000 !important;
+}
+
+
+/* Adjust styles for small screens (up to 576px) */
+@media (max-width: 576px) {
+.gen-ai-chatbot-row-detail-second .sbox-2 {
+    height: auto; /* Reset height for smaller screens */
+  }
+}
+
+/* Adjust styles for medium screens (576px - 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+.gen-ai-chatbot-row-detail-second .sbox-2 {
+    height: 340px; /* Example height for medium screens */
+  }
+}
+
+/* Adjust styles for large screens (768px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+.gen-ai-chatbot-row-detail-second .sbox-2 {
+    height: 280px; /* Example height for large screens */
+  }
+}
+
+/* Adjust styles for extra large screens (992px and above) */
+@media (min-width: 993px) {
+.gen-ai-chatbot-row-detail-second .sbox-2 {
+    height: 280px; /* Example height for extra large screens */
+  }
+}
+
+/* third */
+
+.gen-ai-chatbot-row-detail-third {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.gen-ai-chatbot-row-detail-third .sbox-2 {
+  background-color: #FFF;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  height: 310px;;
+  padding: 0px 20px !important;
+  text-align: left;
+}
+
+.en-ai-chatbot-row-detail-third .sbox-2 ul {
+  list-style-type: none;
+  padding: 0;
+  }
+  
+  .en-ai-chatbot-row-detail-third .sbox-2 ul li {
+  text-align: left;
+  }
+
+.gen-ai-chatbot-row-detail-third .sbox-2:hover {
+  background-color: #FFF;
+  color: #000 !important;
+}
+
+
+/* Adjust styles for small screens (up to 576px) */
+@media (max-width: 576px) {
+.gen-ai-chatbot-row-detail-third .sbox-2 {
+    height: auto; /* Reset height for smaller screens */
+  }
+}
+
+/* Adjust styles for medium screens (576px - 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+.gen-ai-chatbot-row-detail-third .sbox-2 {
+    height: 360px; /* Example height for medium screens */
+  }
+}
+
+/* Adjust styles for large screens (768px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+.gen-ai-chatbot-row-detail-third .sbox-2 {
+    height: 310px; /* Example height for large screens */
+  }
+}
+
+/* Adjust styles for extra large screens (992px and above) */
+@media (min-width: 993px) {
+.gen-ai-chatbot-row-detail-third .sbox-2 {
+    height: 310px; /* Example height for extra large screens */
+  }
+}
+
+/* gen-ai-chatbot-row-detail END */
 
 /* gen-ai-chatbot-end */
+
 
 
  /* Style for the caret icon */
@@ -274,7 +453,68 @@
 
 
 
+/* SMS start */
 
+.sms-service-row {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.sms-service-row .sbox-2 {
+  background-color: #FFF;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  height: 310px;;
+  padding: 0px 20px !important;
+  text-align: left;
+}
+
+.sms-service-row .sbox-2 ul {
+list-style-type: none;
+padding: 0;
+}
+
+.sms-service-row .sbox-2 ul li {
+text-align: left;
+}
+
+.sms-service-row .sbox-2:hover {
+background-color: #FFF;
+color: #000;
+}
+
+
+/* Adjust styles for small screens (up to 576px) */
+@media (max-width: 576px) {
+.sms-service-row .sbox-2 {
+  height: auto; /* Reset height for smaller screens */
+}
+}
+
+/* Adjust styles for medium screens (576px - 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+.sms-service-row .sbox-2 {
+  height: 370px; /* Example height for medium screens */
+}
+}
+
+/* Adjust styles for large screens (768px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+.sms-service-row .sbox-2 {
+  height: 370px; /* Example height for large screens */
+}
+}
+
+/* Adjust styles for extra large screens (992px and above) */
+@media (min-width: 993px) {
+.sms-service-row .sbox-2 {
+  height: 310px; /* Example height for extra large screens */
+}
+}
+
+/* SMS END */
 
 /* CRM start */
 
