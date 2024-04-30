@@ -7,23 +7,102 @@ export default function Automotive() {
         <>
             <Layout headerStyle={1} footerStyle={2} headerCls="white-menu navbar-dark" breadcrumbTitle={"Automotive"}>
                 <div>
-                    <section  className="pt-80 pb-30 services-section division">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-sm-12 col-lg-12">
-                                        <div className="sbox-2">
-                                            <h5 className="h5-md">Automotive</h5>
-                                            <p className="p-sm grey-color">
-                                                Will be updated soon.....
-                                            </p>
+                    <section  className="pt-30 pb-30 services-section division">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-sm-12 col-lg-6">
+                                        <div>
+                                            <div class="card">
+                                                <div class="content">
+                                                    <svg
+                                                    fill="currentColor"
+                                                    viewBox="0 0 24 24"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                    <path
+                                                        d="M20 9V5H4V9H20ZM20 11H4V19H20V11ZM3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM5 12H8V17H5V12ZM5 6H7V8H5V6ZM9 6H11V8H9V6Z"
+                                                    ></path>
+                                                    </svg>
+                                                    <h4 className="text-white">Personalized Guidance</h4>
+                                                    <p class="para">
+                                                        AI assistants answer basic car questions, suggest models, and schedule test drives, while 
+                                                        agents handle complex inquiries and build rapport.
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-6">
+                                        <div>
+                                            <div class="card">
+                                                <div class="content">
+                                                    <svg
+                                                    fill="currentColor"
+                                                    viewBox="0 0 24 24"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                    <path
+                                                        d="M20 9V5H4V9H20ZM20 11H4V19H20V11ZM3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM5 12H8V17H5V12ZM5 6H7V8H5V6ZM9 6H11V8H9V6Z"
+                                                    ></path>
+                                                    </svg>
+                                                    <h4 className="text-white">24/7 Support</h4>
+                                                    <p class="para">
+                                                        Chatbots are always available for roadside assistance, service booking, and general inquiries.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-6">
+                                        <div>
+                                            <div class="card">
+                                                <div class="content">
+                                                    <svg
+                                                    fill="currentColor"
+                                                    viewBox="0 0 24 24"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                    <path
+                                                        d="M20 9V5H4V9H20ZM20 11H4V19H20V11ZM3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM5 12H8V17H5V12ZM5 6H7V8H5V6ZM9 6H11V8H9V6Z"
+                                                    ></path>
+                                                    </svg>
+                                                    <h4 className="text-white">Streamlined Services</h4>
+                                                    <p class="para">
+                                                        AI automates tasks like service reminders and appointment scheduling, boosting efficiency.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-6">
+                                        <div>
+                                            <div class="card">
+                                                <div class="content">
+                                                    <svg
+                                                    fill="currentColor"
+                                                    viewBox="0 0 24 24"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                    <path
+                                                        d="M20 9V5H4V9H20ZM20 11H4V19H20V11ZM3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM5 12H8V17H5V12ZM5 6H7V8H5V6ZM9 6H11V8H9V6Z"
+                                                    ></path>
+                                                    </svg>
+                                                    <h4 className="text-white">AI Ethics & Privacy</h4>
+                                                    <p class="para">
+                                                        Ethical considerations and data privacy remain key along with ongoing AI development.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>	  
-                        </div>	   
-                    </section>	
+                    </section>
                     <PricingCommon />
                 </div>
             </Layout>
         </>
     )
 }
+
+
