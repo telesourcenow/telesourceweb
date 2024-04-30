@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/real-estate-infrastructure": [
+    "/technology-careers": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/real-estate-infrastructure.js"
+      "static/chunks/pages/technology-careers.js"
     ]
   },
   "ampFirstPages": []
