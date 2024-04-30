@@ -2,8 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/crm-solutions": "pages/crm-solutions.js",
-  "/gen-ai-chatbot": "pages/gen-ai-chatbot.js",
-  "/sms": "pages/sms.js",
-  "/": "pages/index.js"
+  "/join-team": "pages/join-team.js"
 }

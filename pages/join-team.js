@@ -7,19 +7,73 @@ export default function JoinTeam() {
         <>
             <Layout headerStyle={1} footerStyle={2} headerCls="white-menu navbar-dark" breadcrumbTitle={"JoinTeam"}>
                 <div>
-                    <section  className="pt-80 pb-30 services-section division">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-sm-12 col-lg-12">
-                                        <div className="sbox-2">
-                                            <h5 className="h5-md">Join Team</h5>
-                                            <p className="p-sm grey-color">
-                                                Will be updated soon.....
-                                            </p>
-                                        </div>
+                    <section  className="pt-20 pb-80">
+                    <div className="container mt-5">
+                            <div className="row align-items-center">
+                                <div className="col-md-12">
+                                    <h4>Open Positions</h4>
                                 </div>
-                            </div>	  
-                        </div>	   
+                            </div>
+                        </div>
+                        <div className="container mt-5">
+                            <div className="row align-items-center">
+                                <div className="col-md-6">
+                                    <h6> <strong>Role: </strong>Business Development</h6>
+                                    <h6> <strong>Location:</strong> Pune</h6>
+                                    <h6> <strong>Salary:</strong> Depends on interview</h6>
+                                </div>
+                                <div className="col-md-6 text-md-end mt-3 mt-md-0">
+                                    <button className="btn btn-primary">
+                                        <a href="mailto:sales@telesourcenow.com" className="text-white"> Apply</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div className="container mt-5">
+                            <div className="row align-items-center">
+                                <div className="col-md-6">
+                                    <h6> <strong>Role:</strong> Frontend Developer</h6>
+                                    <h6> <strong>Location:</strong> Pune</h6>
+                                    <h6> <strong>Salary:</strong> Depends on interview</h6>
+                                </div>
+                                <div className="col-md-6 text-md-end mt-3 mt-md-0">
+                                    <button className="btn btn-primary">
+                                        <a href="mailto:sales@telesourcenow.com" className="text-white"> Apply</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>  
+                        <hr />
+                        <div className="container mt-5">
+                            <div className="row align-items-center">
+                                <div className="col-md-6">
+                                    <h6> <strong>Role:</strong> Backend Developer</h6>
+                                    <h6> <strong>Location:</strong> Pune</h6>
+                                    <h6> <strong>Salary:</strong> Depends on interview</h6>
+                                </div>
+                                <div className="col-md-6 text-md-end mt-3 mt-md-0">
+                                    <button className="btn btn-primary">
+                                        <a href="mailto:sales@telesourcenow.com" className="text-white"> Apply</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div> 
+                        <hr />
+                        <div className="container mt-5">
+                            <div className="row align-items-center">
+                                <div className="col-md-6">
+                                    <h6> <strong>Role:</strong> Full Stack Developer</h6>
+                                    <h6> <strong>Location:</strong> Pune</h6>
+                                    <h6> <strong>Salary:</strong> Depends on interview</h6>
+                                </div>
+                                <div className="col-md-6 text-md-end mt-3 mt-md-0">
+                                    <button className="btn btn-primary">
+                                        <a href="mailto:sales@telesourcenow.com" className="text-white"> Apply</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div> 
                     </section>	
                     <PricingCommon />
                 </div>
