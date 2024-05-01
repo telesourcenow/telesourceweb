@@ -82,7 +82,7 @@ export default function Menu({ seoBtn }) {
                                         <Link href="/integrated-marketing-solutions">Integrated Marketing <br /> Solutions</Link>
                                     </li>
                                     <li>
-                                        <Link href="/retail-merchandising-audit">Ecommerce-PlugIn Content</Link>
+                                        <Link href="/ecommerce-plugin-content">Ecommerce-PlugIn Content</Link>
                                     </li>
                                 </ul>
                                 {/* Links */}

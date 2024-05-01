@@ -802,4 +802,30 @@ color: #000;
   z-index: 3;
 }
 
+.resource-augmentation-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/resource-augmentation.jpg');
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+
+.ecommerce-plugin-content-bg{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/ecommerce-plugin-content.jpg');
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+
 /* services-end */

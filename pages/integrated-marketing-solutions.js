@@ -50,63 +50,207 @@ export default function IntegratedMarketingSolutions() {
                         <div className="row d-flex align-items-center justify-content-center">
                               <div className="col-md-offset-7 col-md-7 col-sm-12 text-center">
                                     <div className="txt-block">
-                                        <h4 className="h4-xl pt-2 pb-2 text-white">Elevate Your Brand Experience and Drive Sales</h4>
+                                        <h4 className="h4-xl pt-2 pb-2 text-white">Comprehensive Solutions Tailored to Your Needs</h4>
+                                    </div>
+                              </div>
+                            </div>
+                            <div className="row first-cloud-service-row">
+                                <div className="col-sm-12 col-lg-3">
+                                        <div className="sbox-2">
+                                            <h5 className="h5-md ">Experiential Marketing</h5>
+                                            <p className="p-sm">
+                                                Create pop-up events or contests to engage your audience with your 
+                                                brand in a fun and memorable way.
+                                            </p>
+                                        </div>
+                                </div>
+                                <div className="col-sm-12 col-lg-3">
+                                        <div className="sbox-2">
+                                            <h5 className="h5-md ">Customer Advocacy Programs</h5>
+                                            <p className="p-sm">
+                                                Turn happy customers into brand champions by encouraging positive 
+                                                online reviews and testimonials.
+                                            </p>
+                                        </div>
+                                </div>
+                                <div className="col-sm-12 col-lg-3">
+                                        <div className="sbox-2">
+                                            <h5 className="h5-md ">Offline Marketing Integration</h5>
+                                            <p className="p-sm">
+                                                Blend online & traditional channels (print ads, brochures) for a 
+                                                cohesive brand experience across touchpoints.
+                                            </p>
+                                        </div>
+                                </div>
+                                <div className="col-sm-12 col-lg-3">
+                                        <div className="sbox-2">
+                                            <h5 className="h5-md ">Personalization & Segmentation</h5>
+                                            <p className="p-sm">
+                                                Tailor your marketing messages based on who your customers are and what they 
+                                                like for better engagement.
+                                            </p>
+                                        </div>
+                                </div>
+                                <div className="col-sm-12 col-lg-4">
+                                        <div className="sbox-2">
+                                            <h5 className="h5-md ">Internal Alignment</h5>
+                                            <p className="p-sm">
+                                                Ensure all departments (marketing, sales, customer service) work together 
+                                                towards the same marketing goals.
+                                            </p>
+                                        </div>
+                                </div>
+                                <div className="col-sm-12 col-lg-4">
+                                        <div className="sbox-2">
+                                            <h5 className="h5-md ">Omnichannel Marketing</h5>
+                                            <p className="p-sm">
+                                                Provide a smooth customer journey across all channels (online, store, mobile app)
+                                                for a seamless brand experience.
+                                            </p>
+                                        </div>
+                                </div>
+                                <div className="col-sm-12 col-lg-4">
+                                        <div className="sbox-2">
+                                            <h5 className="h5-md ">Public Relations (PR)</h5>
+                                            <p className="p-sm">
+                                                Develop strategic PR campaigns to get positive media coverage and build brand 
+                                                trust through press releases and media events.
+                                            </p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>	  
+                </section>
+
+                <section  className="pt-2 pb-30 services-section division mt-40"  style={{ background: '#6936f5'}}>
+                        <div className="container">
+                        <div className="row d-flex align-items-center justify-content-center">
+                              <div className="col-md-offset-7 col-md-7 col-sm-12 text-center">
+                                    <div className="txt-block">
+                                        <h4 className="h4-xl pt-2 pb-2 text-white">Unlocking Marketing Solutions by Telesourcenow</h4>
                                     </div>
                               </div>
                             </div>
                             <div className="row first-cloud-service-row">
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md ">Strategic Plan Development</h5>
-                                            <p className="p-sm">
-                                                We collaborate with you to develop a customized merchandising strategy aligned 
-                                                with your brand identity and target audience.
-                                            </p>
+                                            <h5 className="h5-md ">Advertisement & Communication</h5>
+                                            <ul style={{ listStyleType: 'disc', paddingLeft: '5px'}}>
+                                            <li> 
+                                                Qualitative & Quantitative Research
+                                            </li>
+                                            <li>
+                                                Stakeholder & Relationship Management 
+                                            </li>
+                                            <li>
+                                                Community Relations
+                                            </li>
+                                            <li>
+                                                Competition Analysis
+                                            </li>
+                                        </ul>
                                         </div>
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md ">Product Placement & Assortment Optimization</h5>
-                                            <p className="p-sm">
-                                                Our experts ensure optimal product placement and curate enticing product 
-                                                assortments that entice customers and maximize sales opportunities.
-                                            </p>
+                                            <h5 className="h5-md ">Influencer Marketing</h5>
+                                            <ul style={{ listStyleType: 'disc', paddingLeft: '5px'}}>
+                                            <li> 
+                                                Promotion Strategies
+                                            </li>
+                                            <li>
+                                                Media & Public Relations
+                                            </li>
+                                            <li>
+                                                Event Management Services
+                                            </li>
+                                        </ul>
                                         </div>
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md ">Visually Appealing Displays</h5>
-                                            <p className="p-sm">
-                                                We design and implement visually captivating displays that showcase your 
-                                                products, enhance brand storytelling, and encourage customer engagement.
-                                            </p>
+                                            <h5 className="h5-md ">Content Management Services</h5>
+                                            <ul style={{ listStyleType: 'disc', paddingLeft: '5px'}}>
+                                            <li> 
+                                                Strategic Communication Plan 
+                                            </li>
+                                            <li>
+                                                Copywriting & Content creation 
+                                            </li>
+                                            <li>
+                                                Scriptwriting; Graphic Design
+                                            </li>
+                                            <li>
+                                                Videography & Photography
+                                            </li>
+                                        </ul>
                                         </div>
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md ">Inventory Management & Compliance</h5>
-                                            <p className="p-sm">
-                                                Our services ensure accurate inventory levels and compliance with brand guidelines, 
-                                                maximizing operational efficiency and minimizing stockouts.
-                                            </p>
+                                            <h5 className="h5-md ">Digital Marketing Services</h5>
+                                            <ul style={{ listStyleType: 'disc', paddingLeft: '5px'}}>
+                                            <li> 
+                                                Growth Marketing Consulting (Full Funnel Analysis, Campaign Performance, etc.)
+                                            </li>
+                                            <li>
+                                                B2B Marketing Services (Account-based marketing, Lead Generation, etc.)
+                                            </li>
+                                            <li>
+                                                SEO Campaigns & Ranking
+                                            </li>
+                                        </ul>
                                         </div>
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md ">Comprehensive Retail Audits</h5>
-                                            <p className="p-sm">
-                                                Regular audits conducted by our trained professionals identify areas for improvement 
-                                                and provide actionable insights to optimize your merchandising strategies.
-                                            </p>
+                                            <h5 className="h5-md ">Digital Media & Analytics</h5>
+                                            <ul style={{ listStyleType: 'disc', paddingLeft: '5px'}}>
+                                            <li> 
+                                                Market and Buyer Analysis
+                                            </li>
+                                            <li>
+                                                Integrated spend Monitoring • Media Planning
+                                            </li>
+                                            <li>
+                                                Go-To-Market Strategizing
+                                            </li>
+                                                
+                                            <li>
+                                                Social Media Marketing
+                                            </li>
+                                            <li>
+                                                Email Marketing
+                                            </li>
+                                            <li> 
+                                                WhatsApp Marketing
+                                            </li>
+                                        </ul>
                                         </div>
                                 </div>
                                 <div className="col-sm-12 col-lg-4">
                                         <div className="sbox-2">
-                                            <h5 className="h5-md ">Retail Merchandising</h5>
-                                            <p className="p-sm">
-                                                Optimize product presentation and maximize sales potential with strategic retail 
-                                                merchandising solutions tailored to enhance customer engagement and drive profitability.
-                                            </p>
+                                            <h5 className="h5-md ">BTL Marketing</h5>
+                                            <ul style={{ listStyleType: 'disc', paddingLeft: '5px'}}>
+                                            <li> 
+                                                Outdoor Branding
+                                            </li>
+                                            <li>
+                                                Mass Media Advertising
+                                            </li>
+                                            <li>
+                                                FOS Promotion
+                                            </li>
+                                            <li> 
+                                                Events/ Workshops
+                                            </li>
+                                            <li>
+                                                Programmatic Marketing
+                                            </li>
+                                            <li>
+                                                Turnkey Projects
+                                            </li>
+                                        </ul>
                                         </div>
                                 </div>
                             </div>

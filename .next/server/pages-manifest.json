@@ -2,5 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/resource-augmentation": "pages/resource-augmentation.js",
+  "/ecommerce-plugin-content": "pages/ecommerce-plugin-content.js"
 }
