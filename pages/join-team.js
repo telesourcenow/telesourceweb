@@ -37,11 +37,11 @@ export default function JoinTeam() {
                                 <div className="row text-justify">
                                 <div className="col-sm-12 col-lg-1"></div>
                                     <div className="col-sm-6 col-xs-6 col-lg-2">
-                                        <Link href="/technology-careers">
+                                        <Link href="/technologies-careers">
                                             <div className="sbox-2">
                                                 <img className="img-fluid" style={{ borderRadius: '40px', width: '60px'}} src="/images/technology.png" alt="about-image" />
                                                 <h5 className="h5-md">Technology</h5>
-                                                <Link href="/technology-careers">View Jobs &#8594;</Link>
+                                                <Link href="/technologies-careers">View Jobs &#8594;</Link>
                                             </div>
                                         </Link>
                                     </div>
@@ -49,7 +49,7 @@ export default function JoinTeam() {
                                         <Link href="">
                                             <div className="sbox-2">
                                                 <img className="img-fluid" style={{ borderRadius: '40px', width: '60px'}} src="/images/sales-job.png" alt="about-image" />
-                                                <h5 className="h5-md">Sales</h5>
+                                                <h5 className="h5-md">Sales & Marketing</h5>
                                                 <Link href="">View Jobs &#8594;</Link>
                                             </div>
                                         </Link>
@@ -66,8 +66,8 @@ export default function JoinTeam() {
                                     <div className="col-sm-6 col-xs-6 col-lg-2">
                                         <Link href="">
                                             <div className="sbox-2">
-                                                <img className="img-fluid" style={{ borderRadius: '40px', width: '60px'}} src="/images/marketing-job.png" alt="about-image" />
-                                                <h5 className="h5-md">Marketing</h5>
+                                                <img className="img-fluid" style={{ borderRadius: '40px', width: '60px'}} src="/images/finance-job.png" alt="about-image" />
+                                                <h5 className="h5-md">Finance</h5>
                                                 <Link href="">View Jobs &#8594;</Link>
                                             </div>
                                         </Link>

@@ -740,3 +740,23 @@ color: #000;
 }
 
 /* BUSINESS PAGE END */
+
+
+
+/* service start */
+
+.telecalling-bg {
+  /* background-image: url(../images/tele-calling-solutions-bg.webp); */
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/tele-calling-solutions-bg.webp');
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+
+/* services-end */
