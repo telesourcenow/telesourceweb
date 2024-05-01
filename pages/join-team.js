@@ -17,7 +17,7 @@ export default function JoinTeam() {
                                     <div className="txt-block">
                                         {/* Title */}
                                         <h4 className="h4-xl pt-4 text-dark">
-                                            Join Our Team
+                                            Join Team
                                         </h4>
                                         {/* Text */}
                                         <p className="text-dark">

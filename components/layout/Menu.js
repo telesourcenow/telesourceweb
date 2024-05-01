@@ -79,7 +79,7 @@ export default function Menu({ seoBtn }) {
                                         <Link href="/tele-calling-solutions">Tele-Calling Solutions</Link>
                                     </li>
                                     <li>
-                                        <Link href="/ecommerce-plugin">Integrated Marketing <br /> Solutions</Link>
+                                        <Link href="/integrated-marketing-solutions">Integrated Marketing <br /> Solutions</Link>
                                     </li>
                                     <li>
                                         <Link href="/retail-merchandising-audit">Ecommerce-PlugIn Content</Link>
@@ -92,10 +92,10 @@ export default function Menu({ seoBtn }) {
                                     </li>
                                     
                                     <li>
-                                        <Link href="/resource-augmentation">Retail Merchandising <br /> & Audit</Link>
+                                        <Link href="/retail-merchandising-audit">Retail Merchandising <br /> & Audit</Link>
                                     </li>
                                     <li>
-                                        <Link href="/cloud-transformation">Resource Augmentation</Link>
+                                        <Link href="/resource-augmentation">Resource Augmentation</Link>
                                     </li>
                                 </ul>
                             </div>
