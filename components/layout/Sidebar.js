@@ -58,9 +58,6 @@ export default function Sidebar() {
                                     <li>
                                         <Link href="/crm-solutions">CRM solutions</Link>
                                     </li>
-                                    <li>
-                                        <Link href="/erp">ERP</Link>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -83,16 +80,16 @@ export default function Sidebar() {
                                         <Link href="/managed-sales-process">Managed Sales Process</Link>
                                     </li>
                                     <li>
-                                        <Link href="/ecommerce-plugin">Ecommerce-PlugIn</Link>
+                                        <Link href="/integrated-marketing-solutions">Integrated Marketing <br /> Solutions</Link>
                                     </li>
                                     <li>
-                                        <Link href="/retail-merchandising-audit">Retail Merchandising & Audit </Link>
+                                        <Link href="/retail-merchandising-audit">Retail Merchandising <br /> & Audit</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/ecommerce-plugin-content">Ecommerce-PlugIn Content</Link>
                                     </li>
                                     <li>
                                         <Link href="/resource-augmentation">Resource Augmentation</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/cloud-transformation">Cloud Transformation</Link>
                                     </li>
                                 </ul>
                             </div>

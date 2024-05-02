@@ -1,7 +1,7 @@
 import Link from "next/link"
-
 import Menu from "../Menu"
 import Sidebar from "../Sidebar"
+
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, headerCls,seoBtn }) {
     return (
         <>
@@ -13,7 +13,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
                         <span className="smllogo smllogo-black"><img src="/images/logo.png" width={180} height={50} alt="mobile-logo" /></span>
                         <span className="smllogo smllogo-white"><img src="/images/logo-white.png" width={180} height={50} alt="mobile-logo" /></span>
 
-                        <Link href="tel:+918080876443" className="callusbtn"><i className="fas fa-phone" /></Link>
+                        {/* <Link href="tel:+918080876443" className="callusbtn"><i className="fas fa-phone" /></Link> */}
                     </div>
                     {/* NAVIGATION MENU */}
                     <div className={`wsmainfull menu clearfix ${scroll ? "scroll" : ""}`}>
