@@ -95,7 +95,7 @@ export default function Footer2() {
                         <div className="col-md-3 col-lg-3 col-xl-3">
                             <div className="footer-links mb-40">
                                 {/* Title */}
-                                <h5 className="h5-sm hide"><br /></h5>
+                                <h5 className="h5-sm d-node d-md-block"><br class="d-none d-md-block"/></h5>
                                 {/* Footer Links */}
                                 <ul className="foo-links clearfix">
                                     <li>
