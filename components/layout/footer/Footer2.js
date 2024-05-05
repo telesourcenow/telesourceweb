@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function Footer2() {
     return (
@@ -7,27 +8,58 @@ export default function Footer2() {
                     {/* FOOTER CONTENT */}
                     <div className="row">
                         {/* FOOTER INFO */}
-                        <div className="col-md-10 col-lg-4">
-                            {/* CONTACT FORM */}
-                            <div className="col-lg-5">
-                                    <div className="form-holder mb-40 pc-25">
-                                       
-                                    </div>
-                                </div>	
-                                {/* END CONTACT FORM */}
-                        </div>
-                        {/* FOOTER PRODUCTS LINKS */}
-                        <div className="col-md-3 col-lg-2 col-xl-2">
+                        <div className="col-md-3 col-lg-3 col-xl-3">
                             <div className="footer-links mb-40">
                                 {/* Title */}
-                                <h5 className="h5-sm">Quick Links</h5>
+                                <h5 className="h5-sm">Products</h5>
                                 {/* Footer Links */}
                                 <ul className="foo-links clearfix">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Case Studies</a></li>
-                                    <li><a href="#">Lawyer SEO</a></li>
-                                    <li><a href="#">Testimonials</a></li>
-                                    <li><a href="#">From the Blog</a></li>
+                                    <li>
+                                        <Link href="/cloud-voice">Cloud Voice</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/gen-ai-chatbot">Gen-AI Chatbot</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/whatsapp-api">Whatsapp API</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/web-mail">Web Mail </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/sms">SMS</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/crm-solutions">CRM solutions</Link>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        {/* FOOTER PRODUCTS LINKS */}
+                        <div className="col-md-3 col-lg-2 col-xl-3">
+                            <div className="footer-links mb-40">
+                                {/* Title */}
+                                <h5 className="h5-sm">Services</h5>
+                                {/* Footer Links */}
+                                <ul className="foo-links clearfix">
+                                    <li>
+                                        <Link href="/tele-calling-solutions">Tele-Calling Solutions</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/managed-sales-process">Managed Sales Process</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/integrated-marketing-solutions">Integrated Marketing Solutions</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/retail-merchandising-audit">Retail Merchandising & Audit</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/ecommerce-plugin-content">Ecommerce-PlugIn Content</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/resource-augmentation">Resource Augmentation</Link>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -35,29 +67,55 @@ export default function Footer2() {
                         <div className="col-md-4 col-lg-3 col-xl-3">
                             <div className="footer-links mb-40">
                                 {/* Title */}
-                                <h5 className="h5-sm">Featured Services</h5>
+                                <h5 className="h5-sm">Businesses</h5>
                                 {/* Footer Links */}
                                 <ul className="clearfix">
-                                    <li><a href="#">Local SEO</a></li>
-                                    <li><a href="#">Social Media Marketing</a></li>
-                                    <li><a href="#">Pay Per Click Management</a></li>
-                                    <li><a href="#">Search Engine Optimization</a></li>
-                                    <li><a href="#">Free SEO Analysis</a></li>
+                                    <li>
+                                        <Link href="/ecommerce">E-Commerce </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/insurance">Insurance</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/travel-hospitality">Travel & Hospitality</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/healthcare">Healthcare</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/financial-services">Financial Services</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/media">Media</Link>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                         {/* FOOTER NEWSLETTER FORM */}
-                        <div className="col-md-3 col-lg-2 col-xl-2">
+                        <div className="col-md-3 col-lg-3 col-xl-3">
                             <div className="footer-links mb-40">
                                 {/* Title */}
-                                <h5 className="h5-sm">Quick Links</h5>
+                                <h5 className="h5-sm hide"><br /></h5>
                                 {/* Footer Links */}
                                 <ul className="foo-links clearfix">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Case Studies</a></li>
-                                    <li><a href="#">Lawyer SEO</a></li>
-                                    <li><a href="#">Testimonials</a></li>
-                                    <li><a href="#">From the Blog</a></li>
+                                    <li>
+                                        <Link href="/telecommunication">Telecommunication</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/technologies">Technologies</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/automotive">Automotive</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/renewable-power">Renewable Power</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/government">Government</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/real-estate-infrastructure">Real Estate & Infrastructure</Link>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -87,8 +145,9 @@ export default function Footer2() {
                                 <ul className="foo-socials text-center clearfix">
                                     <li><a href="#" className="ico-facebook"><i className="fab fa-facebook-f" /></a></li>
                                     <li><a href="#" className="ico-twitter"><i className="fab fa-twitter" /></a></li>
-                                    <li><a href="#" className="ico-google-plus"><i className="fab fa-google-plus-g" /></a></li>
+                                    {/* <li><a href="#" className="ico-google-plus"><i className="fab fa-google-plus-g" /></a></li> */}
                                     <li><a href="#" className="ico-tumblr"><i className="fab fa-tumblr" /></a></li>
+                                    <li><a href="#" className="ico-tumblr"><i className="fab fa-linkedin" /></a></li>
                                     {/*
 									<li><a href="#" class="ico-behance"><i class="fab fa-behance"></i></a></li>	
 									<li><a href="#" class="ico-dribbble"><i class="fab fa-dribbble"></i></a></li>									
@@ -103,8 +162,8 @@ export default function Footer2() {
                                 </ul>
                             </div>
                         </div>
-                    </div> {/* END BOTTOM FOOTER */}
-                </div> {/* End container */}
+                    </div> 
+                </div> 
             </footer>
 
         </>
