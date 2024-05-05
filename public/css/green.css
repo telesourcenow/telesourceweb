@@ -5137,7 +5137,7 @@ a.share-ico {
 /*  Contact Form Textarea
 /*------------------------------------------*/
 
-.contact-form textarea { min-height: 200px; }
+.contact-form textarea { min-height: 80px; }
 .contact-form textarea.form-control { 
   padding: 20px;
 }
