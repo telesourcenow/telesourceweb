@@ -739,6 +739,165 @@ color: #000;
   height: 100%;
 }
 
+
+/* Business breadcrumbs */
+
+.business-page-hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/business-ecommerce.webp');
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+
+.insurance-page-hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/business-insurance.webp');
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+
+.travel-page-hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/business-travel-hospitality.webp');
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+
+
+.healthcare-page-hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/business-healthcare.webp');
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+
+.financial-page-hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/business-financial-services.webp');
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+
+.media-page-hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/business-media.webp');
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+
+.telecommunication-page-hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/business-telecommunication.webp');
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+
+.technologies-page-hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/businesss-technologies.webp');
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+
+.automotive-page-hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/business-automotive.webp');
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+
+.renewable-power-page-hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/business-renewable-power.webp');
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+
+.government-page-hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/business-government.webp');
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+
+.real-estate-infrastructure-page-hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/business-real-estate-infrastructure.webp');
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
 /* BUSINESS PAGE END */
 
 
@@ -828,4 +987,113 @@ color: #000;
   z-index: 3;
 }
 
+
+.ecommerce-plugin-content-bg-99{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/ecommerce-plugin-content.jpg');
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
 /* services-end */
+
+
+
+.y-us-section {
+  padding: 82px 0 82px;
+}
+.y-us-head {
+  text-align: center;
+  margin: 0 0 91px;
+}
+.y-us-title h2 {
+  color: #000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.y-us-title > p {
+  color: #777777;
+  line-height: 22px;
+}
+.y-us-title-border {
+  background: #6936f5 none repeat scroll 0 0;
+  border-radius: 2px;
+  display: inline-block;
+  height: 3px;
+  position: relative;
+  width: 50px;
+}
+.service-3 .service-box {
+  margin-bottom: 18px;
+}
+.service-3 .service-box .iconset {
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+.service-3 .service-box .iconset i {
+  color: #000;
+  font-size: 44px;
+}
+.service-3 .service-box .y-us-content {
+  float: left;
+  width: 75%;
+}
+service-3 .service-box .y-us-content h4 {
+  color: #3a3a3a;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin: 14px 0 12px;
+  text-transform: uppercase;
+}
+.service-3 .service-box .y-us-content p {
+  color: #777777;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.icon {
+  color : #6936f5;
+  padding:0px;
+  font-size:40px;
+  border: 1px solid #6936f5;
+  border-radius: 100px;
+  color: #6936f5;
+  font-size: 28px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  width: 70px;
+}
+
+.icon img {
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.why-container {
+  width: 100%;
+  height: 100%;
+  background-color: #111111;
+  background-image: linear-gradient(
+    32deg,
+    rgba(8, 8, 8, 0.74) 30px,
+    transparent
+  );
+  background-size: 60px 60px;
+  background-position: -5px -5px;
+}
+
+
+
+/* swiper */
