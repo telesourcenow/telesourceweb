@@ -6,33 +6,29 @@ const HomeServices = () => {
     <div>
         <section>
                 <div className="container">
-                    {/* SECTION TITLE */}
                     <div className="row">
-                        <div className="col-lg-10 offset-lg-1 section-title">
-                            {/* Section SubTitle */}
-                            <span className="section-subtitle bluestone-color">Explore Our Services</span>
-                            {/* Title 	*/}
-                            <h3 className="h3-lg">SEO Management  Strategy Services</h3>
-                            {/* Text */}
-                            <p className="p-lg">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero
-                                tempus, blandit posuere and ligula varius magna a porta elementum massa risus
+                        <div className="col-lg-12 section-title">
+                            <h3 className="h3-lg pt-4">Our Services</h3>
+                            <p className="p-lg text-dark">
+                                A Telesourcenow offers a diverse array of services aimed at enhancing various aspects of business 
+                                operations. services is aimed at addressing specific needs and challenges faced by businesses 
+                                across various industries. By leveraging Telesourcenow's expertise and resources, businesses 
+                                can streamline their operations, improve efficiency, and achieve their business objectives 
+                                more effectively.
                             </p>
                         </div>
                     </div>
                     {/* SERVICE BOXES */}
                     <div className="services-boxes">
                         <div className="row">
-                            {/* SERVICE BOX #1 */}
                             <div className="col-md-6">
                             <Link href="/tele-calling-solutions">
                             <div className="sbox-4 icon-md">
-                                    {/* Icon */}
-                                    <img className="img-65" src="/images/icons/analytics-2.png" alt="feature-icon" />
-                                    {/* Text */}
+                                    <img className="img-65" src="/images/tele-calling-solutions-icon.webp" alt="feature-icon" />
                                     <div className="sbox-4-txt">
-                                        {/* Title */}
+                                       
                                         <h5 className="h5-lg">Tele-Calling Solutions</h5>
-                                        {/* Text */}
+
                                         <p className="grey-color">
                                         Amplify your Business - "Scale Sales, Engage Faster With ROI-Driven"
                                         </p>
@@ -41,19 +37,15 @@ const HomeServices = () => {
                                     
                                 </div>
                             </Link>
-                            
                             </div>
-                            {/* SERVICE BOX #2 */}
                             <div className="col-md-6">
                             <Link href="/managed-sales-process">
                             <div className="sbox-4 icon-md">
-                                    {/* Icon */}
-                                    <img className="img-65" src="/images/icons/email-1.png" alt="feature-icon" />
-                                    {/* Text */}
+                                    <img className="img-65" src="/images/managed-sales-process-icon.webp" alt="feature-icon" />
                                     <div className="sbox-4-txt">
-                                        {/* Title */}
+                                       
                                         <h5 className="h5-lg">Managed Sales Process</h5>
-                                        {/* Text */}
+
                                         <p className="grey-color">
                                         Amplify Your Sales Team, with Telesourcenows Ready Made Teams.
                                         </p>
@@ -62,37 +54,30 @@ const HomeServices = () => {
                                 </div>
                             </Link>
                             </div>
-                            {/* SERVICE BOX #3 */}
                             <div className="col-md-6">
-                            <Link href="/ecommerce-plugin">
+                            <Link href="/integrated-marketing-solutions">
                             <div className="sbox-4 icon-md">
-                                    {/* Icon */}
-                                    <img className="img-65" src="/images/icons/video-player-1.png" alt="feature-icon" />
-                                    {/* Text */}
+                                    <img className="img-65" src="/images/integrated-marketing-solution-icon.webp" alt="feature-icon" />
                                     <div className="sbox-4-txt">
-                                        {/* Title */}
-                                        <h5 className="h5-lg">Ecommerce-PlugIn</h5>
-                                        {/* Text */}
+                                       
+                                        <h5 className="h5-lg">Integrated Marketing <br /> Solutions</h5>
+
                                         <p className="grey-color">
-                                        Our experts are skilled with developing first e-commerce store or modifying an 
-                                        existing website for our clients.
+                                            Comprehensive Solutions Tailored to Your Needs
                                         </p>
-                                        <Link href="/ecommerce-plugin" style={{ color: 'purple'}}> Read More...</Link>
+                                        <Link href="/integrated-marketing-solutions" style={{ color: 'purple'}}> Read More...</Link>
                                     </div>
                                 </div>
                             </Link>
                             </div>
-                            {/* SERVICE BOX #4 */}
                             <div className="col-md-6">
                             <Link href="/retail-merchandising-audit">
                             <div className="sbox-4 icon-md">
-                                    {/* Icon */}
-                                    <img className="img-65" src="/images/icons/price-tag.png" alt="feature-icon" />
-                                    {/* Text */}
+                                    <img className="img-65" src="/images/retail-merchandising-audit-icon.webp" alt="feature-icon" />
                                     <div className="sbox-4-txt">
-                                        {/* Title */}
+                                       
                                         <h5 className="h5-lg">Retail Merchandising & Audit</h5>
-                                        {/* Text */}
+
                                         <p className="grey-color">
                                         Unleash the Power of Retail Merchandising & Audits with Telesourcenow
                                         </p>
@@ -101,17 +86,31 @@ const HomeServices = () => {
                                 </div>
                             </Link>
                             </div>
-                            {/* SERVICE BOX #5 */}
+                            <div className="col-md-6">
+                            <Link href="/ecommerce-plugin-content">
+                            <div className="sbox-4 icon-md">
+                                    <img className="img-65" src="/images/ecommerce-plugin-content-icon.webp" alt="feature-icon" />
+                                    <div className="sbox-4-txt">
+                                       
+                                        <h5 className="h5-lg">Ecommerce-PlugIn Content</h5>
+
+                                        <p className="grey-color">
+                                        Our experts are skilled with developing first e-commerce store or modifying an 
+                                        existing website for our clients.
+                                        </p>
+                                        <Link href="/ecommerce-plugin-content" style={{ color: 'purple'}}> Read More...</Link>
+                                    </div>
+                                </div>
+                            </Link>
+                            </div>
                             <div className="col-md-6">
                             <Link href="/resource-augmentation">
                             <div className="sbox-4 icon-md">
-                                    {/* Icon */}
-                                    <img className="img-65" src="/images/icons/pay-per-click-3.png" alt="feature-icon" />
-                                    {/* Text */}
+                                    <img className="img-65" src="/images/resource-augmentation-icon.webp" alt="feature-icon" />
                                     <div className="sbox-4-txt">
-                                        {/* Title */}
+                                       
                                         <h5 className="h5-lg">Resource Augmentation</h5>
-                                        {/* Text */}
+
                                         <p className="grey-color">
                                         Boost Agility and Expertise with Resource Augmentation by Telesourcenow
                                         </p>
@@ -120,28 +119,9 @@ const HomeServices = () => {
                                 </div>
                             </Link>
                             </div>
-                            {/* SERVICE BOX #6 */}
-                            <div className="col-md-6">
-                            <Link href="/cloud-transformation">
-                            <div className="sbox-4 icon-md">
-                                    {/* Icon */}
-                                    <img className="img-65" src="/images/icons/chat.png" alt="feature-icon" />
-                                    {/* Text */}
-                                    <div className="sbox-4-txt">
-                                        {/* Title */}
-                                        <h5 className="h5-lg">Cloud Transformation</h5>
-                                        {/* Text */}
-                                        <p className="grey-color">
-                                        Cloud is the bedrock on which digital innovation is taking flight.    
-                                        </p>
-                                        <Link href="/cloud-transformation" style={{ color: 'purple'}}> Read More...</Link>
-                                    </div>
-                                </div>
-                            </Link>
-                            </div>
-                        </div> {/* End row */}
-                    </div> {/* END SERVICE BOXES */}
-                </div> {/* End container */}
+                        </div> 
+                    </div> 
+                </div> 
         </section>
     </div>
   )
