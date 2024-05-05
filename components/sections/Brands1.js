@@ -60,7 +60,7 @@ export default function Brands1({ cls,style }) {
                         <div className="col text-center">
                             {/* Title */}
                             <h3 className="text-white mb-5">
-                                Trusted by the best in the Industries
+                                Brands Fueled by Our Expertise
                             </h3>
                             <Swiper {...swiperOptions} className="brands-carousel">
 
