@@ -1,5 +1,7 @@
 import Layout from "@/components/layout/Layout"
-import PricingCommon from "@/components/sections/PricingCommon"
+import BrandSlider from "@/components/sections/BrandSlider"
+import Brands1 from "@/components/sections/Brands1"
+import WhyTSN from "@/components/sections/WhyTsn"
 
 export default function AboutUs() {
 
@@ -32,7 +34,15 @@ export default function AboutUs() {
                             </div>    
                         </div>	  
                     </section>	
+
+                    {/* <Brands1 cls={"bg-purple bg-pattern "} style={2} /> */}
+
+                    {/* <BrandSlider /> */}
+
+                    <WhyTSN />
+                    
                    
+                    <section>
                     <div id="brands-2" className="brands-section division">
                         <div className="container">
                             <div className="row">
@@ -70,7 +80,9 @@ export default function AboutUs() {
                                 </div>
                             </div>     
                         </div>	   
-                    </div>	
+                    </div>
+                    </section>
+
                     <section id="cta-4" className="bg-06 cta-section division">
                         <div className="container">
                             <div className="row d-flex align-items-center">
@@ -94,7 +106,7 @@ export default function AboutUs() {
                             </div>	
                         </div>	   
                     </section>	
-                    {/* <PricingCommon /> */}
+                    
                 </div>	
             </Layout>
         </>
