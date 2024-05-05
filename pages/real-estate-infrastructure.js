@@ -5,8 +5,25 @@ export default function RealEstateInfrastructure() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={2} headerCls="white-menu navbar-dark" breadcrumbTitle={"Real Estate & Infrastructure"}>
+            <Layout headerStyle={1} footerStyle={2} headerCls="white-menu navbar-dark">
                 <div>
+                <section className="real-estate-infrastructure-page-hero-section">
+                            <div className="container-fluid pt-5">
+                                <div className="row d-flex align-items-center">
+                                <div className="col-md-12 col-lg-12 col-sm-12 text-center pt-4">
+                                        <div className="txt-block pc-25 mb-40">
+                                            <h4 className="h4-xl pt-2 text-white">Real Estate & Infrastructure</h4>
+                                            <p className="text-white text-bolder"> 
+                                            <br /> <br />
+                                            </p>
+                                            <p className="text-white text-bolder">
+                                                <br /> <br />
+                                            </p>
+                                        </div>
+                                </div>
+                                </div>  
+                            </div>    
+                    </section>
                     <section  className="pt-30 pb-30 services-section division">
                             <div className="container">
                                 <div className="row">
