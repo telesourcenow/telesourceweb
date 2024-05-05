@@ -10,7 +10,7 @@ const WhyTSN = () => {
                     <div class="y-us-head">
                         <div class="y-us-title">
                             <h2 className="text-white">WHY TSN</h2>
-                            <p  className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
+                            {/* <p  className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p> */}
                             <span class="y-us-title-border"></span>
                         </div>
                     </div>
