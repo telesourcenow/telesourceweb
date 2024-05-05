@@ -54,10 +54,11 @@ export default function Home1() {
                 {/* <Pricing1 /> */}
                 <Content4 cls={"bg-primary bg-map pt-100"} />
                 <Reviews3 />
-                <Content4 cls={"bg-primary bg-map pt-100"} />
+                {/* <Content4 cls={"bg-primary bg-map pt-100"} /> */}
                 {/* <Faqs1 /> */}
                 {/* <Cta6 cls={"bg-purple bg-pattern "} /> */}
-                <PricingCommon />
+                {/* <PricingCommon /> */}
+                <Brands1 cls={"bg-purple bg-pattern "} style={1} />
             </Layout>
         </>
     )

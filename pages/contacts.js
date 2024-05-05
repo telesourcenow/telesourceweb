@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Layout from '@/components/layout/Layout';
 import PricingCommon from '@/components/sections/PricingCommon';
+import Brands1 from '@/components/sections/Brands1';
 
 
 // const SERVICE_ID = 'service_s6r3ubx';
@@ -113,7 +114,8 @@ export default function Contacts() {
                             </div>	  {/* End row */}
                         </div>	   {/* End container */}
                     </section>	{/* END CONTACTS-1 */}
-                    <PricingCommon />
+                    {/* <PricingCommon /> */}
+                    <Brands1 cls={"bg-purple bg-pattern "} style={1} />
                 </div>
             </Layout>
         </>

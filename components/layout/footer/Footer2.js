@@ -11,6 +11,30 @@ export default function Footer2() {
                         <div className="col-md-3 col-lg-3 col-xl-3">
                             <div className="footer-links mb-40">
                                 {/* Title */}
+                                <h5 className="h5-sm">Quick Links</h5>
+                                {/* Footer Links */}
+                                <ul className="foo-links clearfix">
+                                    <li>
+                                        <Link href="/">Home</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/about-us">About Us</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/insights">Insights</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/join-team">Join Team</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/contacts">Contact Us</Link>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-lg-3 col-xl-3">
+                            <div className="footer-links mb-40">
+                                {/* Title */}
                                 <h5 className="h5-sm">Products</h5>
                                 {/* Footer Links */}
                                 <ul className="foo-links clearfix">
@@ -88,16 +112,6 @@ export default function Footer2() {
                                     <li>
                                         <Link href="/media">Media</Link>
                                     </li>
-                                </ul>
-                            </div>
-                        </div>
-                        {/* FOOTER NEWSLETTER FORM */}
-                        <div className="col-md-3 col-lg-3 col-xl-3">
-                            <div className="footer-links mb-40">
-                                {/* Title */}
-                                <h5 className="h5-sm d-node d-md-block"><br class="d-none d-md-block"/></h5>
-                                {/* Footer Links */}
-                                <ul className="foo-links clearfix">
                                     <li>
                                         <Link href="/telecommunication">Telecommunication</Link>
                                     </li>
@@ -119,9 +133,8 @@ export default function Footer2() {
                                 </ul>
                             </div>
                         </div>
-                        {/* END FOOTER NEWSLETTER FORM */}
-                    </div> {/* END FOOTER CONTENT */}
-                    {/* BOTTOM FOOTER */}
+                        
+                    </div> 
                     <div className="bottom-footer">
                         <div className="row">
                             {/* FOOTER COPYRIGHT */}
