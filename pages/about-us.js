@@ -2,6 +2,7 @@ import Layout from "@/components/layout/Layout"
 import BrandSlider from "@/components/sections/BrandSlider"
 import Brands1 from "@/components/sections/Brands1"
 import WhyTSN from "@/components/sections/WhyTsn"
+import Brands2 from "@/components/sections/Brands2"
 
 export default function AboutUs() {
 
@@ -106,6 +107,8 @@ export default function AboutUs() {
                             </div>	
                         </div>	   
                     </section>	
+
+                    <Brands1 cls={"bg-purple bg-pattern "} style={1} />
                     
                 </div>	
             </Layout>

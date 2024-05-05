@@ -59,47 +59,48 @@ export default function Brands1({ cls,style }) {
                     <div className="row">
                         <div className="col text-center">
                             {/* Title */}
-                            <p className="p-lg lightgrey-color">Used by startups, e-stores, web designers, and teams including:
-                            </p>
+                            <h3 className="text-white mb-5">
+                                Trusted by the best in the Industries
+                            </h3>
                             <Swiper {...swiperOptions} className="brands-carousel">
 
                                 {style === 1 &&
                                     <>
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" src="/images/whatsapp-api.webp" alt="brand-logo" />
+                                            <img className="img-fluid" width="150px" src="/images/client-1.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" src="/images/whatsapp-api.webp" alt="brand-logo" />
+                                            <img className="img-fluid" width="150px" src="/images/client-2.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" src="/images/whatsapp-api.webp" alt="brand-logo" />
+                                            <img className="img-fluid" width="150px" src="/images/client-3.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" src="/images/whatsapp-api.webp" alt="brand-logo" />
+                                            <img className="img-fluid" width="150px" src="/images/client-4.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" src="/images/whatsapp-api.webp" alt="brand-logo" />
+                                            <img className="img-fluid" width="150px" src="/images/client-5.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" src="/images/whatsapp-api.webp" alt="brand-logo" />
+                                            <img className="img-fluid" width="150px" src="/images/client-6.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" src="/images/whatsapp-api.webp" alt="brand-logo" />
+                                            <img className="img-fluid" width="150px" src="/images/client-7.webp" alt="brand-logo" />
+                                        </SwiperSlide>
+
+                                        {/* <SwiperSlide className="brand-logo">
+                                            <img className="img-fluid" width="150px" src="/images/client-1.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" src="/images/whatsapp-api.webp" alt="brand-logo" />
-                                        </SwiperSlide>
-
-                                        <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" src="/images/whatsapp-api.webp" alt="brand-logo" />
-                                        </SwiperSlide>
+                                            <img className="img-fluid" width="150px" src="/images/client-1.webp" alt="brand-logo" />
+                                        </SwiperSlide> */}
                                     </>
                                 }
                                 {style === 2 && <>
