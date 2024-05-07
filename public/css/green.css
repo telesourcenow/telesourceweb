@@ -4295,26 +4295,26 @@ ul.features li.disabled-option {
 
 #brands-1.bg-map .brand-logo img,
 #brands-1.bg-pattern .brand-logo img {
-  opacity: .75;
+  opacity: 1;
 } 
 
 #brands-1.bg-02 .brand-logo img,
 #brands-1.bg-05 .brand-logo img,
 #brands-1.bg-06 .brand-logo img {
-  opacity: .65;
+  opacity: 1;
 } 
 
 #brands-2 .brand-logo img {
-  opacity: .85;
+  opacity: 1;
 } 
 
 #brands-3 .brand-logo img {
-  opacity: .65;
+  opacity: 1;
   padding: 0 2px;
 }
 
 #brands-5 .brand-logo img {
-  opacity: .65;
+  opacity: 1;
   padding: 0 30px;
 }
 

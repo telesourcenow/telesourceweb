@@ -6,7 +6,7 @@ const swiperOptions = {
     slidesPerView: 5,
     spaceBetween: 30,
     autoplay: {
-        delay: 2500,
+        delay: 1000,
         disableOnInteraction: false,
     },
     loop: true,
@@ -22,6 +22,9 @@ const swiperOptions = {
         el: '.swiper-pagination',
         clickable: true,
     },
+
+    // Enable grab cursor for smooth scrolling
+    grabCursor: true, 
 
     breakpoints: {
         320: {
@@ -51,11 +54,13 @@ const swiperOptions = {
     }
 }
 
+
+// style={{ background: '#6936f5'}}
 export default function Brands1({ cls,style }) {
     return (
         <>
             <div id="brands-1" className={`brands-section division ${cls ? cls : ""}`}>
-                <div className="container">
+                <div className="container" >
                     <div className="row">
                         <div className="col text-center">
                             {/* Title */}
