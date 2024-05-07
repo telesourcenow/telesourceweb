@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Layout from "@/components/layout/Layout"
 import PricingCommon from "@/components/sections/PricingCommon"
+import Brands1 from '@/components/sections/Brands1';
 
 
 export default function TechnologyCareers() {
@@ -205,6 +206,7 @@ export default function TechnologyCareers() {
                     </div>
                 )}
 
+                <Brands1 cls={"bg-purple bg-pattern "} style={1} />
             </Layout>
         </>
     )
