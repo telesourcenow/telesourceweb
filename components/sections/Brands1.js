@@ -94,13 +94,17 @@ export default function Brands1({ cls,style }) {
                                             <img className="img-fluid" width="150px" src="/images/client-4.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
-                                        {/* <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" width="150px" src="/images/client-1.webp" alt="brand-logo" />
+                                        <SwiperSlide className="brand-logo">
+                                            <img className="img-fluid" width="150px" src="/images/client-10.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" width="150px" src="/images/client-1.webp" alt="brand-logo" />
-                                        </SwiperSlide> */}
+                                            <img className="img-fluid" width="150px" src="/images/client-8.webp" alt="brand-logo" />
+                                        </SwiperSlide>
+
+                                        <SwiperSlide className="brand-logo">
+                                            <img className="img-fluid" width="150px" src="/images/client-9.webp" alt="brand-logo" />
+                                        </SwiperSlide>
                                     </>
                                 }
                                 {style === 2 && <>
