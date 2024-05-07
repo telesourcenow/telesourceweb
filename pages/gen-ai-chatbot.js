@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout"
+import Brands1 from "@/components/sections/Brands1"
 import PricingCommon from "@/components/sections/PricingCommon"
 import Link from "next/link"
 
@@ -597,7 +598,7 @@ export default function GenAIChatbot() {
 
                     {/* CALL TO ACTION-4
 				============================================= */}
-                    <PricingCommon />
+                    <Brands1 cls={"bg-purple bg-pattern "} style={1} />
                 </div>
 
             </Layout>

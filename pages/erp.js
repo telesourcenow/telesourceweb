@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout"
+import Brands1 from "@/components/sections/Brands1"
 import Faqs1 from "@/components/sections/Faqs1"
 import PricingCommon from "@/components/sections/PricingCommon"
 
@@ -93,7 +94,7 @@ export default function ERP() {
                     <Faqs1 />	{/* END FAQs-1 */}
                     {/* CALL TO ACTION-4
 				============================================= */}
-                    <PricingCommon />
+                    <Brands1 cls={"bg-purple bg-pattern "} style={1} />
                 </div>
 
             </Layout>

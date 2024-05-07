@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout"
+import Brands1 from "@/components/sections/Brands1"
 import PricingCommon from "@/components/sections/PricingCommon"
 
 export default function FinancialServices() {
@@ -118,7 +119,7 @@ export default function FinancialServices() {
                                 </div>
                             </div>	  
                     </section>
-                    <PricingCommon />
+                    <Brands1 cls={"bg-purple bg-pattern "} style={1} />
                 </div>
             </Layout>
         </>

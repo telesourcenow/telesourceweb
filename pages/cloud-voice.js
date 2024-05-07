@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout"
+import Brands1 from "@/components/sections/Brands1"
 import PricingCommon from "@/components/sections/PricingCommon"
 import CloudVoiceFaqs from "@/components/sections/cloud-voice-faqs"
 
@@ -187,7 +188,7 @@ export default function CloudVoice() {
                             </div>	  
                 </section>
 
-                <PricingCommon />
+                <Brands1 cls={"bg-purple bg-pattern "} style={1} />
                 </div>
 
             </Layout>

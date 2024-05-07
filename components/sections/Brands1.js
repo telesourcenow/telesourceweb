@@ -71,18 +71,6 @@ export default function Brands1({ cls,style }) {
                                         </SwiperSlide>
 
                                         <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" width="150px" src="/images/client-2.webp" alt="brand-logo" />
-                                        </SwiperSlide>
-
-                                        <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" width="150px" src="/images/client-3.webp" alt="brand-logo" />
-                                        </SwiperSlide>
-
-                                        <SwiperSlide className="brand-logo">
-                                            <img className="img-fluid" width="150px" src="/images/client-4.webp" alt="brand-logo" />
-                                        </SwiperSlide>
-
-                                        <SwiperSlide className="brand-logo">
                                             <img className="img-fluid" width="150px" src="/images/client-5.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
@@ -91,7 +79,19 @@ export default function Brands1({ cls,style }) {
                                         </SwiperSlide>
 
                                         <SwiperSlide className="brand-logo">
+                                            <img className="img-fluid" width="150px" src="/images/client-3.webp" alt="brand-logo" />
+                                        </SwiperSlide>
+
+                                        <SwiperSlide className="brand-logo">
                                             <img className="img-fluid" width="150px" src="/images/client-7.webp" alt="brand-logo" />
+                                        </SwiperSlide>
+
+                                        <SwiperSlide className="brand-logo">
+                                            <img className="img-fluid" width="150px" src="/images/client-2.webp" alt="brand-logo" />
+                                        </SwiperSlide>
+
+                                        <SwiperSlide className="brand-logo">
+                                            <img className="img-fluid" width="150px" src="/images/client-4.webp" alt="brand-logo" />
                                         </SwiperSlide>
 
                                         {/* <SwiperSlide className="brand-logo">
