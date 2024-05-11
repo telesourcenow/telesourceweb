@@ -57,8 +57,8 @@ export default function Contacts() {
                                         </div>
                                         <div className="contact-box">
                                             <h5 className="h5-sm">Gurugram Address:</h5>
-                                            <p className="grey-color">Office no.201, New Office Bajghera Road, Ward No.7, Rajendra Park, 
-                                            Palam Vihar, Gurugram, Haryana 122006</p>
+                                            <p className="grey-color">Office no.201, New Office Bajghera Road, 
+                                                Palam Vihar, Gurugram, Haryana 122006</p>
                                         </div>
                                         {/* Email */}
                                         <div className="contact-box">
