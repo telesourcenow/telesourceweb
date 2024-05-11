@@ -53,12 +53,12 @@ export default function Contacts() {
                                         <div className="contact-box">
                                             <h5 className="h5-sm">Bangalore Address:</h5>
                                             <p className="grey-color">Office no. 404A Arvind Shambabhin Devrachikenhalli Sennappa 
-                                            Layout Bommanahalli Bangalore - 560068</p>
+                                            Layout Bommanahalli, Bangalore - 560068</p>
                                         </div>
                                         <div className="contact-box">
                                             <h5 className="h5-sm">Gurugram Address:</h5>
                                             <p className="grey-color">Office no.201, New Office Bajghera Road, 
-                                                Palam Vihar, Gurugram, Haryana 122006</p>
+                                                Palam Vihar, Gurugram, Haryana - 122006</p>
                                         </div>
                                         {/* Email */}
                                         <div className="contact-box">
