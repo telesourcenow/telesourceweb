@@ -1,31 +1,32 @@
 import Layout from "@/components/layout/Layout"
 import Brands1 from "@/components/sections/Brands1"
-import { useEffect } from 'react';
-
-const lazyLoadBackground = () => {
-    const bgImage = document.querySelector('.business-page-hero-section');
-    if (bgImage) {
-        const imageUrl = bgImage.getAttribute('data-bg-image');
-        if (imageUrl) {
-            bgImage.style.backgroundImage = `url('${imageUrl}')`;
-        }
-    }
-};
-
+import Image from 'next/image';
+import heroBackground from '../public/images/business-ecommerce.webp';
 
 export default function ECommerce() {
 
-    useEffect(() => {
-        lazyLoadBackground();
-    }, []);
+    
 
     return (
         <>
             <Layout headerStyle={1} footerStyle={2} headerCls="white-menu navbar-dark">
                 <div>
 
-                <section className="business-page-hero-section" data-bg-image="../images/business-ecommerce.webp">
-                    <div className="overlay"></div> 
+                <section 
+                    style={{
+                        background:
+                          'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(\'../images/business-ecommerce.webp\')',
+                            backgroundColor: '#f8f9fb',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center',
+                            paddingTop: '100px',
+                            paddingBottom: '200px',
+                            position: 'relative',
+                            height: '100%',
+                            zIndex: 3
+                      }}
+                    >
                         <div className="container-fluid pt-5">
                             <div className="row d-flex align-items-center">
                               <div className="col-md-12 col-lg-12 col-sm-12 text-center pt-4">
@@ -42,6 +43,7 @@ export default function ECommerce() {
                             </div>  
                         </div>    
                 </section>
+
 
                     <section  className="pt-30 pb-30 services-section division">
                             <div className="container">
