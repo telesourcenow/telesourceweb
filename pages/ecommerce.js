@@ -12,21 +12,7 @@ export default function ECommerce() {
             <Layout headerStyle={1} footerStyle={2} headerCls="white-menu navbar-dark">
                 <div>
 
-                <section 
-                    style={{
-                        background:
-                          'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(\'../images/business-ecommerce.webp\')',
-                            backgroundColor: '#f8f9fb',
-                            backgroundRepeat: 'no-repeat',
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center',
-                            paddingTop: '100px',
-                            paddingBottom: '200px',
-                            position: 'relative',
-                            height: '100%',
-                            zIndex: 3
-                      }}
-                    >
+                <section className="business-page-hero-section">
                         <div className="container-fluid pt-5">
                             <div className="row d-flex align-items-center">
                               <div className="col-md-12 col-lg-12 col-sm-12 text-center pt-4">
