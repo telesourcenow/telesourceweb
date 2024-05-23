@@ -2,32 +2,68 @@ import Layout from "@/components/layout/Layout"
 import Brands1 from "@/components/sections/Brands1"
 import Image from 'next/image';
 import heroBackground from '../public/images/business-ecommerce.webp';
+import { useEffect, useRef, useState } from 'react';
+
 
 export default function ECommerce() {
 
-    
+    const heroSectionRef = useRef(null);
+  const [isIntersecting, setIsIntersecting] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setIsIntersecting(true);
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    if (heroSectionRef.current) {
+      observer.observe(heroSectionRef.current);
+    }
+
+    return () => {
+      if (heroSectionRef.current) {
+        observer.unobserve(heroSectionRef.current);
+      }
+    };
+  }, []);
+
 
     return (
         <>
             <Layout headerStyle={1} footerStyle={2} headerCls="white-menu navbar-dark">
                 <div>
 
-                <section className="business-page-hero-section">
-                        <div className="container-fluid pt-5">
-                            <div className="row d-flex align-items-center">
-                              <div className="col-md-12 col-lg-12 col-sm-12 text-center pt-4">
-                                    <div className="txt-block pc-25 mb-40">
-                                        <h4 className="h4-xl pt-2 text-white">E-Commerce</h4>
-                                        <p className="text-white text-bolder"> 
-                                           <br /> <br />
-                                        </p>
-                                        <p className="text-white text-bolder">
-                                            <br /> <br />
-                                        </p>
-                                    </div>
-                              </div>
-                            </div>  
-                        </div>    
+                <section
+                    className="business-page-hero-section"
+                    ref={heroSectionRef}
+                    style={{
+                        backgroundImage: isIntersecting
+                        ? "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/business-ecommerce.webp')"
+                        : "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/placeholder-image.webp')",
+                    }}
+                    >
+                    <div className="container-fluid pt-5">
+                        <div className="row d-flex align-items-center">
+                        <div className="col-md-12 col-lg-12 col-sm-12 text-center pt-4">
+                            <div className="txt-block pc-25 mb-40">
+                            <h4 className="h4-xl pt-2 text-white">E-Commerce</h4>
+                            <p className="text-white text-bolder">
+                                <br /> <br />
+                            </p>
+                            <p className="text-white text-bolder">
+                                <br /> <br />
+                            </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
                 </section>
 
 

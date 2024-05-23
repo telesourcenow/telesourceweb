@@ -742,7 +742,7 @@ color: #000;
 
 /* Business breadcrumbs */
 
-.business-page-hero-section {
+/* .business-page-hero-section {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/business-ecommerce.webp');
   background-color: #f8f9fb;
   background-repeat: no-repeat;
@@ -753,7 +753,22 @@ color: #000;
   position: relative;
   height: 100%;
   z-index: 3;
+} */
+
+.business-page-hero-section {
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+  transition: background-image 0.5s ease-in-out;
 }
+
+
 
 
 .insurance-page-hero-section {
