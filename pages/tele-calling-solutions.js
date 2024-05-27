@@ -64,7 +64,7 @@ export default function TeleCallingSolutions() {
                                 <div className="col-md-4 col-sm-12 text-center">
                                       <div className="txt-block pc-25 mb-40">
                                           <img className="img-fluid" style={{ width: '60px'}} src="/images/scalibility.webp" alt="about-image" />
-                                          <h4 className="h4-xl pt-2" style={{ color: '#6936f5'}}>Scaleability</h4>
+                                          <h4 className="h4-xl pt-2" style={{ color: '#6936f5'}}>Scalability</h4>
                                           <p className="text-dark text-bolder">Scale from 100 to 1000 in 2 weeks.</p>
                                       </div>
                                 </div>
