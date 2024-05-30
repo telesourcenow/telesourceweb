@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Layout from "@/components/layout/Layout"
-import PricingCommon from "@/components/sections/PricingCommon"
 import Brands1 from '@/components/sections/Brands1';
 
 
@@ -15,28 +14,62 @@ export default function TechnologyCareers() {
         setShowModal(false);
     };
 
+    // Form purpose
+
+    const [formData, setFormData] = useState({
+        fullName: '',
+        totalExp: '',
+        mobileNumber: '',
+        relevantExp: '',
+        email: '',
+        currentLocation: '',
+        jobTitle: 'Junior UI/UX Designer',
+        resume: null,
+      });
+    
+      const handleChange = (e) => {
+        const { name, value, files } = e.target;
+        setFormData({
+          ...formData,
+          [name]: files ? files[0] : value,
+        });
+      };
+    
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+    
+        const formDataToSend = new FormData();
+        formDataToSend.append('fullName', formData.fullName);
+        formDataToSend.append('totalExp', formData.totalExp);
+        formDataToSend.append('mobileNumber', formData.mobileNumber);
+        formDataToSend.append('relevantExp', formData.relevantExp);
+        formDataToSend.append('email', formData.email);
+        formDataToSend.append('currentLocation', formData.currentLocation);
+        formDataToSend.append('jobTitle', formData.jobTitle);
+        formDataToSend.append('resume', formData.resume);
+    
+        const res = await fetch('https://formsubmit.co/hr@telesourcenow.com', {
+          method: 'POST',
+          body: formDataToSend,
+        });
+    
+        if (res.ok) {
+          alert('Message sent successfully!');
+        } else {
+          alert('Failed to send message.');
+        }
+      };
+   
+    // END FORM PURPOSE
+
     return (
         <>
             <Layout headerStyle={1} footerStyle={2} headerCls="white-menu navbar-dark" breadcrumbTitle={"Technologies Careers"}>
+                
                 <div>
-
-                {/* <section>
-                        <div className="container-fluid">
-                            <div className="row d-flex align-items-center justify-content-center">
-                              <div className="col-md-offset-7 col-md-7 col-sm-12 text-center">
-                                    <div className="txt-block">
-                                        <h4 className="h4-xl pt-4 text-dark">
-                                            Join Our Team
-                                        </h4>
-                                    </div>
-                              </div>
-                            </div>	  
-                        </div>    
-                </section> */}
-
                 <section>
                     <div className="container mt-5 pt-5 pb-3">
-                                <div className="row text-justify">
+                                <div className="row text-justify pl-2 pr-2">
                                     <div className="col-sm-6 col-lg-6 mb-4">
                                         <h5> UI/UX Designer Job Description:</h5>
                                         <h6><strong>Job Title:</strong> Junior UI/UX Designer</h6>
@@ -139,12 +172,10 @@ export default function TechnologyCareers() {
                                         </button>
                                     </div>
                                 </div> 
-                            </div>  
+                    </div>  
                 </section>
-
-                <PricingCommon />
-
                 </div>
+
                 {showModal && (
                     <div className="modal" tabIndex="-1" role="dialog" style={{ display: 'block' }}>
                         <div className="modal-dialog modal-lg" role="document">
@@ -155,52 +186,116 @@ export default function TechnologyCareers() {
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <div className="modal-body" style={{ background: '#eee'}}>
+                                <form onSubmit={handleSubmit}>
+                                <div className="modal-body" style={{ background: '#eee' }}>
                                     <div className="row">
-                                        {/* Left Column */}
-                                        <div className="col-md-6">
-                                            <div className="form-group">
-                                                <label htmlFor="fullName">Full Name*</label>
-                                                <input type="text" className="form-control" id="fullName" required />
-                                            </div>
-                                            <div className="form-group">
-                                                <label htmlFor="totalExp">Total Years Of Exp*</label>
-                                                <input type="number" className="form-control" id="totalExp" required />
-                                            </div>
-                                            <div className="form-group">
-                                                <label htmlFor="mobileNumber">Mobile Number*</label>
-                                                <input type="tel" className="form-control" id="mobileNumber" required />
-                                            </div>
-                                            <div className="form-group">
-                                                <label htmlFor="relevantExp">Relevant Exp*</label>
-                                                <input type="text" className="form-control" id="relevantExp" required />
-                                            </div>
+                                    {/* Left Column */}
+                                    <div className="col-md-6">
+                                        <div className="form-group">
+                                        <label htmlFor="fullName">Full Name*</label>
+                                        <input
+                                            type="text"
+                                            className="form-control"
+                                            id="fullName"
+                                            name="fullName"
+                                            value={formData.fullName}
+                                            onChange={handleChange}
+                                            required
+                                        />
                                         </div>
-                                        {/* Right Column */}
-                                        <div className="col-md-6">
-                                            <div className="form-group">
-                                                <label htmlFor="email">Email*</label>
-                                                <input type="email" className="form-control" id="email" required />
-                                            </div>
-                                            <div className="form-group">
-                                                <label htmlFor="currentLocation">Current Location*</label>
-                                                <input type="text" className="form-control" id="currentLocation" required />
-                                            </div>
-                                            <div className="form-group">
-                                                <label htmlFor="jobTitle">Job Title*</label>
-                                                <select className="form-control" id="jobTitle" required>
-                                                    <option value="Junior UI/UX Designer">Junior UI/UX Designer</option>
-                                                    <option value="Senior UI/UX Designer">Senior UI/UX Designer</option>
-                                                </select>
-                                            </div>
-                                            <div className="form-group">
-                                                <label htmlFor="resume">Choose File</label>
-                                                <input type="file" className="form-control-file" id="resume" />
-                                            </div>
+                                        <div className="form-group">
+                                        <label htmlFor="totalExp">Total Years Of Exp*</label>
+                                        <input
+                                            type="number"
+                                            className="form-control"
+                                            id="totalExp"
+                                            name="totalExp"
+                                            value={formData.totalExp}
+                                            onChange={handleChange}
+                                            required
+                                        />
+                                        </div>
+                                        <div className="form-group">
+                                        <label htmlFor="mobileNumber">Mobile Number*</label>
+                                        <input
+                                            type="tel"
+                                            className="form-control"
+                                            id="mobileNumber"
+                                            name="mobileNumber"
+                                            value={formData.mobileNumber}
+                                            onChange={handleChange}
+                                            required
+                                        />
+                                        </div>
+                                        <div className="form-group">
+                                        <label htmlFor="relevantExp">Relevant Exp*</label>
+                                        <input
+                                            type="text"
+                                            className="form-control"
+                                            id="relevantExp"
+                                            name="relevantExp"
+                                            value={formData.relevantExp}
+                                            onChange={handleChange}
+                                            required
+                                        />
                                         </div>
                                     </div>
-                                    <button type="button" className="btn btn-primary">Submit</button>
+                                    {/* Right Column */}
+                                    <div className="col-md-6">
+                                        <div className="form-group">
+                                        <label htmlFor="email">Email*</label>
+                                        <input
+                                            type="email"
+                                            className="form-control"
+                                            id="email"
+                                            name="email"
+                                            value={formData.email}
+                                            onChange={handleChange}
+                                            required
+                                        />
+                                        </div>
+                                        <div className="form-group">
+                                        <label htmlFor="currentLocation">Current Location*</label>
+                                        <input
+                                            type="text"
+                                            className="form-control"
+                                            id="currentLocation"
+                                            name="currentLocation"
+                                            value={formData.currentLocation}
+                                            onChange={handleChange}
+                                            required
+                                        />
+                                        </div>
+                                        <div className="form-group">
+                                        <label htmlFor="jobTitle">Job Title*</label>
+                                        <select
+                                            className="form-control"
+                                            id="jobTitle"
+                                            name="jobTitle"
+                                            value={formData.jobTitle}
+                                            onChange={handleChange}
+                                            required
+                                        >
+                                            <option value="Junior UI/UX Designer">Junior UI/UX Designer</option>
+                                            <option value="Senior UI/UX Designer">Senior UI/UX Designer</option>
+                                        </select>
+                                        </div>
+                                        <div className="form-group">
+                                        <label htmlFor="resume">Choose File</label>
+                                        <input
+                                            type="file"
+                                            className="form-control-file"
+                                            id="resume"
+                                            name="resume"
+                                            onChange={handleChange}
+                                            required
+                                        />
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <button type="submit" className="btn btn-primary">Submit</button>
                                 </div>
+                                </form>
                             </div>
                         </div>
                     </div>
