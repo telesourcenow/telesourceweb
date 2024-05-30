@@ -160,7 +160,14 @@ export default function Footer2() {
                                     <li><a href="#" className="ico-twitter"><i className="fab fa-twitter" /></a></li>
                                     {/* <li><a href="#" className="ico-google-plus"><i className="fab fa-google-plus-g" /></a></li> */}
                                     <li><a href="#" className="ico-tumblr"><i className="fab fa-tumblr" /></a></li>
-                                    <li><a href="#" className="ico-tumblr"><i className="fab fa-linkedin" /></a></li>
+                                    <li>
+                                        <a 
+                                            href="https://www.linkedin.com/company/telesourcenow/?viewAsMember=true" 
+                                            target="_blank"
+                                            className="ico-tumblr">
+                                            <i className="fab fa-linkedin" />
+                                        </a>
+                                    </li>
                                     {/*
 									<li><a href="#" class="ico-behance"><i class="fab fa-behance"></i></a></li>	
 									<li><a href="#" class="ico-dribbble"><i class="fab fa-dribbble"></i></a></li>									

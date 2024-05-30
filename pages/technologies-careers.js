@@ -15,7 +15,6 @@ export default function TechnologyCareers() {
     };
 
     // Form purpose
-
     const [formData, setFormData] = useState({
         fullName: '',
         totalExp: '',
@@ -26,6 +25,8 @@ export default function TechnologyCareers() {
         jobTitle: 'Junior UI/UX Designer',
         resume: null,
       });
+    
+      const [successMessage, setSuccessMessage] = useState('');
     
       const handleChange = (e) => {
         const { name, value, files } = e.target;
@@ -54,12 +55,21 @@ export default function TechnologyCareers() {
         });
     
         if (res.ok) {
-          alert('Message sent successfully!');
+          setSuccessMessage('Message sent successfully!');
+          setFormData({
+            fullName: '',
+            totalExp: '',
+            mobileNumber: '',
+            relevantExp: '',
+            email: '',
+            currentLocation: '',
+            jobTitle: 'Junior UI/UX Designer',
+            resume: null,
+          });
         } else {
-          alert('Failed to send message.');
+          setSuccessMessage('Failed to send message.');
         }
       };
-   
     // END FORM PURPOSE
 
     return (
@@ -186,14 +196,14 @@ export default function TechnologyCareers() {
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <form onSubmit={handleSubmit}>
-                                <div className="modal-body" style={{ background: '#eee' }}>
+                                <form onSubmit={handleSubmit} encType="multipart/form-data">
+                                    <div className="modal-body" style={{ background: '#eee' }}>
                                     <div className="row">
-                                    {/* Left Column */}
-                                    <div className="col-md-6">
+                                        {/* Left Column */}
+                                        <div className="col-md-6">
                                         <div className="form-group">
-                                        <label htmlFor="fullName">Full Name*</label>
-                                        <input
+                                            <label htmlFor="fullName">Full Name*</label>
+                                            <input
                                             type="text"
                                             className="form-control"
                                             id="fullName"
@@ -201,11 +211,11 @@ export default function TechnologyCareers() {
                                             value={formData.fullName}
                                             onChange={handleChange}
                                             required
-                                        />
+                                            />
                                         </div>
                                         <div className="form-group">
-                                        <label htmlFor="totalExp">Total Years Of Exp*</label>
-                                        <input
+                                            <label htmlFor="totalExp">Total Years Of Exp*</label>
+                                            <input
                                             type="number"
                                             className="form-control"
                                             id="totalExp"
@@ -213,11 +223,11 @@ export default function TechnologyCareers() {
                                             value={formData.totalExp}
                                             onChange={handleChange}
                                             required
-                                        />
+                                            />
                                         </div>
                                         <div className="form-group">
-                                        <label htmlFor="mobileNumber">Mobile Number*</label>
-                                        <input
+                                            <label htmlFor="mobileNumber">Mobile Number*</label>
+                                            <input
                                             type="tel"
                                             className="form-control"
                                             id="mobileNumber"
@@ -225,11 +235,11 @@ export default function TechnologyCareers() {
                                             value={formData.mobileNumber}
                                             onChange={handleChange}
                                             required
-                                        />
+                                            />
                                         </div>
                                         <div className="form-group">
-                                        <label htmlFor="relevantExp">Relevant Exp*</label>
-                                        <input
+                                            <label htmlFor="relevantExp">Relevant Exp*</label>
+                                            <input
                                             type="text"
                                             className="form-control"
                                             id="relevantExp"
@@ -237,14 +247,14 @@ export default function TechnologyCareers() {
                                             value={formData.relevantExp}
                                             onChange={handleChange}
                                             required
-                                        />
+                                            />
                                         </div>
-                                    </div>
-                                    {/* Right Column */}
-                                    <div className="col-md-6">
+                                        </div>
+                                        {/* Right Column */}
+                                        <div className="col-md-6">
                                         <div className="form-group">
-                                        <label htmlFor="email">Email*</label>
-                                        <input
+                                            <label htmlFor="email">Email*</label>
+                                            <input
                                             type="email"
                                             className="form-control"
                                             id="email"
@@ -252,11 +262,11 @@ export default function TechnologyCareers() {
                                             value={formData.email}
                                             onChange={handleChange}
                                             required
-                                        />
+                                            />
                                         </div>
                                         <div className="form-group">
-                                        <label htmlFor="currentLocation">Current Location*</label>
-                                        <input
+                                            <label htmlFor="currentLocation">Current Location*</label>
+                                            <input
                                             type="text"
                                             className="form-control"
                                             id="currentLocation"
@@ -264,38 +274,39 @@ export default function TechnologyCareers() {
                                             value={formData.currentLocation}
                                             onChange={handleChange}
                                             required
-                                        />
+                                            />
                                         </div>
                                         <div className="form-group">
-                                        <label htmlFor="jobTitle">Job Title*</label>
-                                        <select
+                                            <label htmlFor="jobTitle">Job Title*</label>
+                                            <select
                                             className="form-control"
                                             id="jobTitle"
                                             name="jobTitle"
                                             value={formData.jobTitle}
                                             onChange={handleChange}
                                             required
-                                        >
+                                            >
                                             <option value="Junior UI/UX Designer">Junior UI/UX Designer</option>
                                             <option value="Senior UI/UX Designer">Senior UI/UX Designer</option>
-                                        </select>
+                                            </select>
                                         </div>
                                         <div className="form-group">
-                                        <label htmlFor="resume">Choose File</label>
-                                        <input
+                                            <label htmlFor="resume">Choose File</label>
+                                            <input
                                             type="file"
                                             className="form-control-file"
                                             id="resume"
                                             name="resume"
                                             onChange={handleChange}
                                             required
-                                        />
+                                            />
+                                        </div>
                                         </div>
                                     </div>
-                                    </div>
                                     <button type="submit" className="btn btn-primary">Submit</button>
-                                </div>
+                                    </div>
                                 </form>
+                                {successMessage && <div className="alert alert-success mt-3">{successMessage}</div>}
                             </div>
                         </div>
                     </div>
