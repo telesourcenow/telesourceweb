@@ -205,7 +205,13 @@ export default function TechnologyCareers() {
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <form onSubmit={handleSubmit} encType="multipart/form-data">
+                                <form 
+                                    onSubmit={handleSubmit}
+                                    action="https://formsubmit.co/42dc898fda0d78b77fffa739d1d980a1" 
+                                    method="POST" 
+                                    encType="multipart/form-data"
+                                >
+
                                     <div className="modal-body" style={{ background: '#eee' }}>
                                     <div className="row">
                                         {/* Left Column */}
