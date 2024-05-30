@@ -27,6 +27,7 @@ export default function TechnologyCareers() {
       });
     
       const [successMessage, setSuccessMessage] = useState('');
+      const [loading, setLoading] = useState(false);
     
       const handleChange = (e) => {
         const { name, value, files } = e.target;
@@ -38,36 +39,44 @@ export default function TechnologyCareers() {
     
       const handleSubmit = async (e) => {
         e.preventDefault();
+        setLoading(true);
     
         const formDataToSend = new FormData();
-        formDataToSend.append('fullName', formData.fullName);
-        formDataToSend.append('totalExp', formData.totalExp);
-        formDataToSend.append('mobileNumber', formData.mobileNumber);
-        formDataToSend.append('relevantExp', formData.relevantExp);
-        formDataToSend.append('email', formData.email);
-        formDataToSend.append('currentLocation', formData.currentLocation);
-        formDataToSend.append('jobTitle', formData.jobTitle);
-        formDataToSend.append('resume', formData.resume);
+        formDataToSend.append('Full Name', formData.fullName);
+        formDataToSend.append('Total Years Exp', formData.totalExp);
+        formDataToSend.append('Mobile Number', formData.mobileNumber);
+        formDataToSend.append('Relevant Years tExp', formData.relevantExp);
+        formDataToSend.append('Email', formData.email);
+        formDataToSend.append('Current Location', formData.currentLocation);
+        formDataToSend.append('Job Title', formData.jobTitle);
+        formDataToSend.append('Resume', formData.resume);
     
-        const res = await fetch('https://formsubmit.co/hr@telesourcenow.com', {
-          method: 'POST',
-          body: formDataToSend,
-        });
-    
-        if (res.ok) {
-          setSuccessMessage('Message sent successfully!');
-          setFormData({
-            fullName: '',
-            totalExp: '',
-            mobileNumber: '',
-            relevantExp: '',
-            email: '',
-            currentLocation: '',
-            jobTitle: 'Junior UI/UX Designer',
-            resume: null,
+        try {
+          const res = await fetch('https://formsubmit.co/hr@telesourcenow.com', {
+            method: 'POST',
+            body: formDataToSend,
           });
-        } else {
+    
+          if (res.ok) {
+            setSuccessMessage('Message sent successfully!');
+            setFormData({
+              fullName: '',
+              totalExp: '',
+              mobileNumber: '',
+              relevantExp: '',
+              email: '',
+              currentLocation: '',
+              jobTitle: 'Junior UI/UX Designer',
+              resume: null,
+            });
+          } else {
+            setSuccessMessage('Failed to send message.');
+          }
+        } catch (error) {
+          console.error('Error submitting form:', error);
           setSuccessMessage('Failed to send message.');
+        } finally {
+          setLoading(false);
         }
       };
     // END FORM PURPOSE
@@ -303,7 +312,9 @@ export default function TechnologyCareers() {
                                         </div>
                                         </div>
                                     </div>
-                                    <button type="submit" className="btn btn-primary">Submit</button>
+                                    <button type="submit" className="btn btn-primary" disabled={loading}>
+                                        {loading ? 'Submitting...' : 'Submit'}
+                                    </button>
                                     </div>
                                 </form>
                                 {successMessage && <div className="alert alert-success mt-3">{successMessage}</div>}
