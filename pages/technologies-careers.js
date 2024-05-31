@@ -42,17 +42,17 @@ export default function TechnologyCareers() {
         setLoading(true);
     
         const formDataToSend = new FormData();
-        formDataToSend.append('Full Name', formData.fullName);
-        formDataToSend.append('Total Years Exp', formData.totalExp);
-        formDataToSend.append('Mobile Number', formData.mobileNumber);
-        formDataToSend.append('Relevant Years tExp', formData.relevantExp);
-        formDataToSend.append('Email', formData.email);
-        formDataToSend.append('Current Location', formData.currentLocation);
-        formDataToSend.append('Job Title', formData.jobTitle);
-        formDataToSend.append('Resume', formData.resume);
+        formDataToSend.append('fullName', formData.fullName);
+        formDataToSend.append('totalExp', formData.totalExp);
+        formDataToSend.append('mobileNumber', formData.mobileNumber);
+        formDataToSend.append('relevantExp', formData.relevantExp);
+        formDataToSend.append('email', formData.email);
+        formDataToSend.append('currentLocation', formData.currentLocation);
+        formDataToSend.append('jobTitle', formData.jobTitle);
+        formDataToSend.append('resume', formData.resume);
     
         try {
-          const res = await fetch('https://formsubmit.co/hr@telesourcenow.com', {
+          const res = await fetch('https://formsubmit.co/42dc898fda0d78b77fffa739d1d980a1', {
             method: 'POST',
             body: formDataToSend,
           });
@@ -205,13 +205,7 @@ export default function TechnologyCareers() {
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <form 
-                                    onSubmit={handleSubmit}
-                                    action="https://formsubmit.co/42dc898fda0d78b77fffa739d1d980a1" 
-                                    method="POST" 
-                                    encType="multipart/form-data"
-                                >
-
+                                <form onSubmit={handleSubmit} encType="multipart/form-data">
                                     <div className="modal-body" style={{ background: '#eee' }}>
                                     <div className="row">
                                         {/* Left Column */}
