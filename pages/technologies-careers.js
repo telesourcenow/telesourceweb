@@ -52,7 +52,7 @@ export default function TechnologyCareers() {
         formDataToSend.append('resume', formData.resume);
     
         try {
-          const res = await fetch('https://formsubmit.co/42dc898fda0d78b77fffa739d1d980a1', {
+          const res = await fetch('https://formsubmit.co/hr@telesourcenow.com', {
             method: 'POST',
             body: formDataToSend,
           });
@@ -196,7 +196,7 @@ export default function TechnologyCareers() {
                 </div>
 
                 {showModal && (
-                    <div className="modal" tabIndex="-1" role="dialog" style={{ display: 'block' }}>
+                    <div className="modal" tabIndex="-1" role="dialog" style={{ display: 'block', overflowY: 'auto'}}>
                         <div className="modal-dialog modal-lg" role="document">
                             <div className="modal-content">
                                 <div className="modal-header">
