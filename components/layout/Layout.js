@@ -67,6 +67,7 @@ import Footer2 from './footer/Footer2';
 import Header1 from "./header/Header1";
 import Header2 from './header/Header2';
 import Footer3 from "./footer/Footer3";
+import WhatsApp from "../sections/WhatsApp";
 
 export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, headerCls, seoBtn }) {
     const [scroll, setScroll] = useState(0);
@@ -135,6 +136,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
                 {footerStyle === 3 && <Footer3 />}
             </div>
             <BackToTop />
+            <WhatsApp />
         </>
     );
 }

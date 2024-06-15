@@ -168,6 +168,14 @@ export default function Footer2() {
                                             <i className="fab fa-linkedin" />
                                         </a>
                                     </li>
+                                    <li>
+                                        <a 
+                                            href="https://wa.me/+918080876443?text=I'm%20interested%20in%20Mark%20Consultant.%20Please%20Share%20me%20more%20details." 
+                                            target="_blank"
+                                            className="ico-tumblr">
+                                            <i className="fab fa-whatsapp" />
+                                        </a>
+                                    </li>
                                     {/*
 									<li><a href="#" class="ico-behance"><i class="fab fa-behance"></i></a></li>	
 									<li><a href="#" class="ico-dribbble"><i class="fab fa-dribbble"></i></a></li>									
