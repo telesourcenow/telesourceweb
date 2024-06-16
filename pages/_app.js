@@ -20,21 +20,39 @@ import "/public/assests/css/style.css"
 import "/public/css/responsive.css"
 
 function MyApp({ Component, pageProps }) {
-
-    const [loading, setLoading] = useState(true)
+    const [loading, setLoading] = useState(true);
+  
     useEffect(() => {
-        setTimeout(() => {
-            setLoading(false)
-        }, 1000)
-
-    }, [])
-    return (<>
+      // Preloader logic
+      const timer = setTimeout(() => {
+        setLoading(false);
+      }, 1000);
+  
+      // Tawk.to script
+      var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/666f18939a809f19fb3e6c06/1i0gvg06f';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+  
+      // Cleanup the timer on component unmount
+      return () => clearTimeout(timer);
+    }, []);
+  
+    return (
+      <>
         {!loading ? (
-            <Component {...pageProps} />
+          <Component {...pageProps} />
         ) : (
-            <Preloader />
+          <Preloader />
         )}
-    </>)
-}
-
-export default MyApp
+      </>
+    );
+  }
+  
+  export default MyApp;
+  
