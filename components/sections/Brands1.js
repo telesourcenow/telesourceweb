@@ -106,7 +106,9 @@ export default function Brands1({ cls,style }) {
                                         <SwiperSlide className="brand-logo">
                                             <img className="img-fluid" width="150px" src="/images/client-8.webp" alt="brand-logo" />
                                         </SwiperSlide>
-
+                                        <SwiperSlide className="brand-logo">
+                                            <img className="img-fluid" width="150px" src="/images/mpocket.webp" alt="brand-logo" />
+                                        </SwiperSlide>
                                         <SwiperSlide className="brand-logo">
                                             <img className="img-fluid" width="150px" src="/images/sns.webp" alt="brand-logo" />
                                         </SwiperSlide>
