@@ -28,16 +28,16 @@ function MyApp({ Component, pageProps }) {
         setLoading(false);
       }, 1000);
   
-      // Tawk.to script
-      var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-      (function () {
-        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = 'https://embed.tawk.to/666f18939a809f19fb3e6c06/1i0gvg06f';
-        s1.charset = 'UTF-8';
-        s1.setAttribute('crossorigin', '*');
-        s0.parentNode.insertBefore(s1, s0);
-      })();
+      // // Tawk.to script
+      // var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+      // (function () {
+      //   var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+      //   s1.async = true;
+      //   s1.src = 'https://embed.tawk.to/666f18939a809f19fb3e6c06/1i0gvg06f';
+      //   s1.charset = 'UTF-8';
+      //   s1.setAttribute('crossorigin', '*');
+      //   s0.parentNode.insertBefore(s1, s0);
+      // })();
   
       // Cleanup the timer on component unmount
       return () => clearTimeout(timer);

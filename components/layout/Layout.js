@@ -136,7 +136,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
                 {footerStyle === 3 && <Footer3 />}
             </div>
             <BackToTop />
-            <WhatsApp />
+            {/* <WhatsApp /> */}
         </>
     );
 }
