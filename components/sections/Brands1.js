@@ -112,6 +112,12 @@ export default function Brands1({ cls,style }) {
                                         <SwiperSlide className="brand-logo">
                                             <img className="img-fluid" width="150px" src="/images/sns.webp" alt="brand-logo" />
                                         </SwiperSlide>
+                                        <SwiperSlide className="brand-logo">
+                                            <img className="img-fluid" width="150px" src="/images/aon.webp" alt="brand-logo" />
+                                        </SwiperSlide>
+                                        <SwiperSlide className="brand-logo">
+                                            <img className="img-fluid" width="150px" src="/images/classplus.webp" alt="brand-logo" />
+                                        </SwiperSlide>
                                     </>
                                 }
                                 {style === 2 && <>
