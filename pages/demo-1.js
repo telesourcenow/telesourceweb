@@ -40,20 +40,20 @@ export default function Home1() {
                 <HomeServices />
                 {/* <Projects1 /> */}
                 <Content4 cls={"bg-primary bg-map pt-100"} />
-                <HomeBusiness />
-                <Content4 cls={"bg-primary bg-map pt-100"} />
-                <HomeInsight/>
+                {/* <HomeBusiness /> */}
+                {/* <Content4 cls={"bg-primary bg-map pt-100"} /> */}
+                {/* <HomeInsight/> */}
                 {/* <Content2 cls={"bg-lightgrey wide-60"} /> */}
                 {/* <Statistic3 /> */}
-                <Content4 cls={"bg-primary bg-map pt-100"} />
+                {/* <Content4 cls={"bg-primary bg-map pt-100"} /> */}
                 <HomeCounter />
                 {/* <Brands1 cls={"bg-purple bg-pattern "} style={1} /> */}
                 {/* <Content5  style={1}/> */}
                 {/* <Content6 style={1}/> */}
                 {/* <Video3 cls={"bg-lightdark"}/> */}
                 {/* <Pricing1 /> */}
-                <Content4 cls={"bg-primary bg-map pt-100"} />
-                <Reviews3 />
+                {/* <Content4 cls={"bg-primary bg-map pt-100"} /> */}
+                {/* <Reviews3 /> */}
                 {/* <Content4 cls={"bg-primary bg-map pt-100"} /> */}
                 {/* <Faqs1 /> */}
                 {/* <Cta6 cls={"bg-purple bg-pattern "} /> */}
