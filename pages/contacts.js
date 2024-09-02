@@ -52,7 +52,7 @@ export default function Contacts() {
                                         </div>
                                         <div className="contact-box">
                                             <h5 className="h5-sm">Bangalore Address:</h5>
-                                            <p className="grey-color">Office no. 404A Arvind Shambabhin Devrachikenhalli Sennappa 
+                                            <p className="grey-color">Office no. 404A Devrachikenhalli Sennappa 
                                             Layout Bommanahalli, Bangalore - 560068</p>
                                         </div>
                                         <div className="contact-box">
