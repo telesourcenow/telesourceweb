@@ -27,7 +27,9 @@ export default function HomeCounter () {
                                     <div className="statistic-block bg-gray">
                                         {/* Statistic Digit */}
                                         <h3 className="primary-color font-weight-bold">Industry</h3>
-                                        <h2 className="statistic-number primary-secondary"><span className="count-element"><CounterUp count={12} time={1} />+</span>
+                                        <h2 className="statistic-number primary-secondary">
+                                            {/* <span className="count-element"><CounterUp count={12} time={1} />+</span> */}
+                                            <span className="count-element">12+</span>
                                         </h2>
                                         {/* Text */}
                                     </div>
@@ -37,7 +39,9 @@ export default function HomeCounter () {
                                     <div className="statistic-block">
                                         {/* Statistic Digit */}
                                         <h3 className="primary-color font-weight-bold">Brands</h3>
-                                        <h2 className="statistic-number primary-secondary"><span className="count-element"><CounterUp count={100} time={1} />+</span>
+                                        {/* <h2 className="statistic-number primary-secondary"><span className="count-element"><CounterUp count={100} time={1} />+</span> */}
+                                        <h2 className="statistic-number primary-secondary">
+                                            <span className="count-element">100+</span>
                                         </h2>
                                         {/* Text */}
                                     </div>
@@ -47,8 +51,8 @@ export default function HomeCounter () {
                                     <div className="statistic-block">
                                         {/* Statistic Digit */}
                                         <h3 className="primary-color font-weight-bold">Cities Covered </h3>
-                                        <h2 className="statistic-number primary-secondary"><span className="count-element"><CounterUp count={2000} time={1} />+</span>
-                                        </h2>
+                                        {/* <h2 className="statistic-number primary-secondary"><span className="count-element"><CounterUp count={2000} time={1} />+</span> */}
+                                        <h2 className="statistic-number primary-secondary">2000+</h2>
                                         {/* Text */}
                                     </div>
                                 </div>
@@ -57,8 +61,9 @@ export default function HomeCounter () {
                                     <div className="statistic-block">
                                         {/* Statistic Digit */}
                                         <h3 className="primary-color font-weight-bold">Workforce</h3>
-                                        <h2 className="statistic-number primary-secondary"><span className="count-element"><CounterUp count={1} time={1} />Million +</span>
-                                        </h2>
+                                        {/* <h2 className="statistic-number primary-secondary"><span className="count-element"><CounterUp count={1} time={1} />Million +</span>
+                                        </h2> */}
+                                        <h2 className="statistic-number primary-secondary">1Million+</h2>
                                         {/* Text */}
                                     </div>
                                 </div>
@@ -67,8 +72,9 @@ export default function HomeCounter () {
                                     <div className="statistic-block">
                                         {/* Statistic Digit */}
                                         <h3 className="primary-color font-weight-bold">Partners</h3>
-                                        <h2 className="statistic-number primary-secondary"><span className="count-element"><CounterUp count={50} time={1} />+</span>
-                                        </h2>
+                                        {/* <h2 className="statistic-number primary-secondary"><span className="count-element"><CounterUp count={50} time={1} />+</span>
+                                        </h2> */}
+                                        <h2 className="statistic-number primary-secondary">50+</h2>
                                         {/* Text */}
                                     </div>
                                 </div>
@@ -77,8 +83,9 @@ export default function HomeCounter () {
                                     <div className="statistic-block">
                                         {/* Statistic Digit */}
                                         <h3 className="primary-color font-weight-bold">IT Consultants</h3>
-                                        <h2 className="statistic-number primary-secondary"><span className="count-element"><CounterUp count={20} time={1} />+</span>
-                                        </h2>
+                                        {/* <h2 className="statistic-number primary-secondary"><span className="count-element"><CounterUp count={20} time={1} />+</span>
+                                        </h2> */}
+                                        <h2 className="statistic-number primary-secondary">20+</h2>
                                         {/* Text */}
                                     </div>
                                 </div>
